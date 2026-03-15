@@ -1,0 +1,53 @@
+file,page,entity,label,confidence
+Process Management dataset.docx,1,Java,OTHER,0.9879
+Process Management dataset.docx,4,MINIX,OTHER,0.9445
+Process Management dataset.docx,5,Windows,CONCEPT,0.8907
+Process Management dataset.docx,5,UNIX,CONCEPT,0.8611
+Process Management dataset.docx,5,UNIX,CONCEPT,0.9425
+Process Management dataset.docx,7,Windows,OTHER,0.9409
+Process Management dataset.docx,8,UNIX,CONCEPT,0.8998
+Process Management dataset.docx,10,Bach,METHOD,0.9995
+Process Management dataset.docx,10,UNIX,METHOD,0.9774
+Process Management dataset.docx,13,Windows,CONCEPT,0.9177
+Process Management dataset.docx,13,UNIX,CONCEPT,0.8788
+Process Management dataset.docx,15,MINIX,METHOD,0.8719
+Process Management dataset.docx,17,UNIX,OTHER,0.9723
+Process Management dataset.docx,18,UNIX,METHOD,0.9969
+Process Management dataset.docx,20,Free,METHOD,0.8681
+Process Management dataset.docx,20,UNIX,METHOD,0.9579
+Context Switching.docx,5,Deitel,OTHER,0.9568
+Context Switching.docx,7,Linux,OTHER,0.9148
+Context Switching.docx,8,UNIX,OTHER,0.962
+Context Switching.docx,10,Operating System Concepts,OTHER,0.9673
+Context Switching.docx,11,Dhamdhere,METHOD,0.9833
+Context Switching.docx,12,Deitel,OTHER,0.9867
+Context Switching.docx,15,UNIX,OTHER,0.948
+Context Switching.docx,15,UNIX,OTHER,0.9495
+Context Switching.docx,16,Milenkovic,OTHER,0.8653
+DeadLock.docx,5,Coffman,CONCEPT,0.9554
+DeadLock.docx,6,Holt,CONCEPT,0.9989
+DeadLock.docx,6,Holt,OTHER,0.9981
+DeadLock.docx,15,s Al,METHOD,0.9246
+DeadLock.docx,15,Dijkstra,METHOD,0.9819
+DeadLock.docx,16,Coffman,OTHER,0.9543
+DeadLock.docx,16,Havender,OTHER,0.9802
+DeadLock.docx,16,Coffman,CONCEPT,0.9431
+CPU scheduling.docx,7,FCFS,METHOD,0.9004
+CPU scheduling.docx,16,MacOS,METHOD,0.9945
+CPU scheduling.docx,16,UNIX,METHOD,0.9968
+CPU scheduling.docx,26,Waldspurger,METHOD,0.9755
+CPU scheduling.docx,26,Weihl,METHOD,0.9901
+Memory Management.docx,3,Corbet,CONCEPT,0.9555
+Memory Management.docx,6,Microsoft Common Language Runtime,OTHER,0.9189
+Memory Management.docx,7,Linux OS,OTHER,0.9495
+Memory Management.docx,9,Memory Protection Unit,CONCEPT,0.9693
+Memory Management.docx,12,Pentium,OTHER,0.8654
+Memory Management.docx,12,Intel,OTHER,0.9974
+Memory Management.docx,12,Memory Management Unit,OTHER,0.9753
+Memory Management.docx,14,Linux,OTHER,0.9464
+Memory Management.docx,16,Microsoft,CONCEPT,0.9987
+Memory Management.docx,16,SATA,OTHER,0.8868
+Memory Management.docx,18,Linux,CONCEPT,0.9342
+Memory Management.docx,18,Linux,CONCEPT,0.955
+Memory Management.docx,19,Alpha,CONCEPT,0.9131
+Memory Management.docx,20,Microsoft,CONCEPT,0.9981

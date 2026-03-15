@@ -1,0 +1,225 @@
+file,entity,label,confidence
+Process Management dataset.docx,POS,MISC,0.9424999952316284
+Process Management dataset.docx,##IX,ORG,0.5063999891281128
+Process Management dataset.docx,E,MISC,0.5861999988555908
+Process Management dataset.docx,##LF,ORG,0.5245000123977661
+Process Management dataset.docx,Java,MISC,0.9879000186920166
+Process Management dataset.docx,Firefox,MISC,0.9735000133514404
+Process Management dataset.docx,##oc,ORG,0.5874000191688538
+Process Management dataset.docx,Block,MISC,0.49410000443458557
+Process Management dataset.docx,OS,ORG,0.9269000291824341
+Process Management dataset.docx,OS,ORG,0.9528999924659729
+Process Management dataset.docx,Tanenbaum,PER,0.8465999960899353
+Process Management dataset.docx,OS,ORG,0.5619000196456909
+Process Management dataset.docx,MINIX,MISC,0.909500002861023
+Process Management dataset.docx,OS,ORG,0.885699987411499
+Process Management dataset.docx,OS,ORG,0.7961999773979187
+Process Management dataset.docx,Stallings,PER,0.9106000065803528
+Process Management dataset.docx,Windows,MISC,0.911300003528595
+Process Management dataset.docx,UNIX,MISC,0.930400013923645
+Process Management dataset.docx,UNIX,MISC,0.9345999956130981
+Process Management dataset.docx,UNIX,MISC,0.7867000102996826
+Process Management dataset.docx,UNIX,MISC,0.6679999828338623
+Process Management dataset.docx,Linux,MISC,0.9330000281333923
+Process Management dataset.docx,Linux,MISC,0.5085999965667725
+Process Management dataset.docx,Windows,MISC,0.675000011920929
+Process Management dataset.docx,Windows,MISC,0.5307999849319458
+Process Management dataset.docx,Windows,MISC,0.8310999870300293
+Process Management dataset.docx,UNIX,MISC,0.9110999703407288
+Process Management dataset.docx,OS,ORG,0.4307999908924103
+Process Management dataset.docx,UNIX,MISC,0.8909000158309937
+Process Management dataset.docx,Bach,PER,0.9991000294685364
+Process Management dataset.docx,UNIX,MISC,0.9085000157356262
+Process Management dataset.docx,Windows,MISC,0.9376999735832214
+Process Management dataset.docx,UNIX,MISC,0.9168999791145325
+Process Management dataset.docx,Block,MISC,0.5062000155448914
+Process Management dataset.docx,PC,ORG,0.4578999876976013
+Process Management dataset.docx,OS,ORG,0.9297000169754028
+Process Management dataset.docx,OS,ORG,0.7609999775886536
+Process Management dataset.docx,MINIX,MISC,0.9366999864578247
+Process Management dataset.docx,OS,ORG,0.7578999996185303
+Process Management dataset.docx,Stallings,PER,0.9437999725341797
+Process Management dataset.docx,Linux,MISC,0.7674999833106995
+Process Management dataset.docx,Linux,MISC,0.5591999888420105
+Process Management dataset.docx,UNIX,MISC,0.9717000126838684
+Process Management dataset.docx,UNIX,MISC,0.8131999969482422
+Process Management dataset.docx,UNIX - based,MISC,0.8066999912261963
+Process Management dataset.docx,OS,ORG,0.9850999712944031
+Process Management dataset.docx,OS,ORG,0.9610999822616577
+Process Management dataset.docx,OS,MISC,0.5090000033378601
+Process Management dataset.docx,OS,ORG,0.9801999926567078
+Process Management dataset.docx,x86,MISC,0.7717000246047974
+Process Management dataset.docx,OS,ORG,0.6031000018119812
+Process Management dataset.docx,Free,MISC,0.8938999772071838
+Process Management dataset.docx,##BSD,ORG,0.5611000061035156
+Process Management dataset.docx,UNIX,MISC,0.9706000089645386
+Process Management dataset.docx,OS,ORG,0.8686000108718872
+Process Management dataset.docx,OS,ORG,0.9492999911308289
+Context Switching.docx,Block,MISC,0.6351000070571899
+Context Switching.docx,Tanenbaum,PER,0.8726000189781189
+Context Switching.docx,Stall,PER,0.7857999801635742
+Context Switching.docx,##ings,ORG,0.5594000220298767
+Context Switching.docx,OS,ORG,0.7332000136375427
+Context Switching.docx,Stall,PER,0.5888000130653381
+Context Switching.docx,##ings,ORG,0.7739999890327454
+Context Switching.docx,OS,ORG,0.5561000108718872
+Context Switching.docx,Deitel,PER,0.9610000252723694
+Context Switching.docx,Linux,MISC,0.8203999996185303
+Context Switching.docx,UNIX,MISC,0.9678000211715698
+Context Switching.docx,Linux,MISC,0.8860999941825867
+Context Switching.docx,Operating System Concepts,MISC,0.9836999773979187
+Context Switching.docx,OS,ORG,0.824400007724762
+Context Switching.docx,Dhamdhere,PER,0.9810000061988831
+Context Switching.docx,Advanced Operating Systems,ORG,0.810699999332428
+Context Switching.docx,Deitel,PER,0.9886999726295471
+Context Switching.docx,UNIX,MISC,0.9711999893188477
+Context Switching.docx,UNIX,MISC,0.8823000192642212
+Context Switching.docx,UNIX,MISC,0.8424000144004822
+Context Switching.docx,Milenkovic,PER,0.894599974155426
+Context Switching.docx,OS,ORG,0.5932000279426575
+DeadLock.docx,Blu,MISC,0.7803000211715698
+DeadLock.docx,Blu,MISC,0.8464999794960022
+DeadLock.docx,Coffman,PER,0.9686999917030334
+DeadLock.docx,Holt,PER,0.9973000288009644
+DeadLock.docx,Holt,PER,0.9968000054359436
+DeadLock.docx,ALG,ORG,0.5580999851226807
+DeadLock.docx,B,MISC,0.6978999972343445
+DeadLock.docx,Blu,MISC,0.6776000261306763
+DeadLock.docx,s Al,MISC,0.9549000263214111
+DeadLock.docx,##m,MISC,0.6204000115394592
+DeadLock.docx,A,MISC,0.8554999828338623
+DeadLock.docx,Dijkstra,PER,0.9810000061988831
+DeadLock.docx,##L,MISC,0.515999972820282
+DeadLock.docx,Coffman,PER,0.9560999870300293
+DeadLock.docx,Havender,PER,0.9855999946594238
+DeadLock.docx,Coffman,PER,0.9527999758720398
+DeadLock.docx,B,ORG,0.6793000102043152
+DeadLock.docx,Blu,MISC,0.6678000092506409
+CPU scheduling.docx,orith,ORG,0.6966000199317932
+CPU scheduling.docx,OS,ORG,0.6865000128746033
+CPU scheduling.docx,FC,MISC,0.9682999849319458
+CPU scheduling.docx,FCFS,MISC,0.7372999787330627
+CPU scheduling.docx,F,MISC,0.8108999729156494
+CPU scheduling.docx,FCFS,MISC,0.7390000224113464
+CPU scheduling.docx,FCFS,MISC,0.6730999946594238
+CPU scheduling.docx,SJ,MISC,0.6021000146865845
+CPU scheduling.docx,FCFS,MISC,0.73580002784729
+CPU scheduling.docx,S,MISC,0.7669000029563904
+CPU scheduling.docx,R,MISC,0.6517999768257141
+CPU scheduling.docx,FCFS,MISC,0.6169999837875366
+CPU scheduling.docx,F,MISC,0.8898000121116638
+CPU scheduling.docx,R,ORG,0.6624000072479248
+CPU scheduling.docx,FCFS,ORG,0.7175999879837036
+CPU scheduling.docx,OS,ORG,0.47279998660087585
+CPU scheduling.docx,OS,ORG,0.6327999830245972
+CPU scheduling.docx,OS,ORG,0.7099000215530396
+CPU scheduling.docx,MacOS,MISC,0.9918000102043152
+CPU scheduling.docx,UNIX,MISC,0.9959999918937683
+CPU scheduling.docx,OS,ORG,0.5195000171661377
+CPU scheduling.docx,OS,ORG,0.4970000088214874
+CPU scheduling.docx,OS,MISC,0.5916000008583069
+CPU scheduling.docx,Windows,MISC,0.871999979019165
+CPU scheduling.docx,Linux,MISC,0.7876999974250793
+CPU scheduling.docx,UNIX,MISC,0.8264999985694885
+CPU scheduling.docx,MacOS,MISC,0.6865000128746033
+CPU scheduling.docx,FCFS,ORG,0.6001999974250793
+CPU scheduling.docx,FIF,MISC,0.6215999722480774
+CPU scheduling.docx,SJ,MISC,0.7023000121116638
+CPU scheduling.docx,FC,MISC,0.8396999835968018
+CPU scheduling.docx,##est Job First,MISC,0.6898999810218811
+CPU scheduling.docx,S,MISC,0.6524999737739563
+CPU scheduling.docx,##J,ORG,0.36239999532699585
+CPU scheduling.docx,Waldspurger,PER,0.979200005531311
+CPU scheduling.docx,Weihl,PER,0.9876000285148621
+Memory Management.docx,C,MISC,0.9843999743461609
+Memory Management.docx,OS,ORG,0.5273000001907349
+Memory Management.docx,Physics,MISC,0.8399999737739563
+Memory Management.docx,OS,ORG,0.5005999803543091
+Memory Management.docx,M,ORG,0.5925999879837036
+Memory Management.docx,M,ORG,0.8185999989509583
+Memory Management.docx,Corbet,PER,0.9383000135421753
+Memory Management.docx,Linux,ORG,0.5133000016212463
+Memory Management.docx,RAM,LOC,0.5954999923706055
+Memory Management.docx,Only,MISC,0.5873000025749207
+Memory Management.docx,MS - DOS,MISC,0.9840999841690063
+Memory Management.docx,In,MISC,0.5985000133514404
+Memory Management.docx,Microsoft Common Language Runtime,MISC,0.8709999918937683
+Memory Management.docx,Google,ORG,0.995199978351593
+Memory Management.docx,Native Client,MISC,0.8086000084877014
+Memory Management.docx,OS,ORG,0.628000020980835
+Memory Management.docx,OS,ORG,0.6348999738693237
+Memory Management.docx,OS,ORG,0.9038000106811523
+Memory Management.docx,OS,ORG,0.7932000160217285
+Memory Management.docx,Memory Protection Unit,ORG,0.7864000201225281
+Memory Management.docx,Cortex - M3,MISC,0.9668999910354614
+Memory Management.docx,Memory Management Unit,ORG,0.8396000266075134
+Memory Management.docx,M,MISC,0.5631999969482422
+Memory Management.docx,Cortex - A53,MISC,0.9689000248908997
+Memory Management.docx,Arm,ORG,0.6951000094413757
+Memory Management.docx,Linux OS,MISC,0.7753000259399414
+Memory Management.docx,JPL,ORG,0.8942999839782715
+Memory Management.docx,Cortex - M3,MISC,0.9761000275611877
+Memory Management.docx,Co,ORG,0.5241000056266785
+Memory Management.docx,##rtex - M,MISC,0.8464000225067139
+Memory Management.docx,##3 Memory Protection Unit,ORG,0.8671000003814697
+Memory Management.docx,MPU,ORG,0.9402999877929688
+Memory Management.docx,MP,ORG,0.9592999815940857
+Memory Management.docx,X,MISC,0.41269999742507935
+Memory Management.docx,RISC -,MISC,0.819100022315979
+Memory Management.docx,V,ORG,0.6550999879837036
+Memory Management.docx,RISC -,MISC,0.6676999926567078
+Memory Management.docx,V,ORG,0.8758000135421753
+Memory Management.docx,RISC - V,MISC,0.8549000024795532
+Memory Management.docx,X,MISC,0.8149999976158142
+Memory Management.docx,S,MISC,0.8690000176429749
+Memory Management.docx,RISC - V,MISC,0.7437000274658203
+Memory Management.docx,S,MISC,0.9771000146865845
+Memory Management.docx,RISC - V,MISC,0.9332000017166138
+Memory Management.docx,RISC - V,MISC,0.8762999773025513
+Memory Management.docx,RISC - V,MISC,0.7990999817848206
+Memory Management.docx,RISC - V,MISC,0.9686999917030334
+Memory Management.docx,SC,ORG,0.7797999978065491
+Memory Management.docx,V,ORG,0.9157000184059143
+Memory Management.docx,S,MISC,0.805899977684021
+Memory Management.docx,Pi,ORG,0.7817000150680542
+Memory Management.docx,##nto,MISC,0.5773000121116638
+Memory Management.docx,##s,ORG,0.5220000147819519
+Memory Management.docx,D,MISC,0.5787000060081482
+Memory Management.docx,Pentium,MISC,0.9021999835968018
+Memory Management.docx,Intel,MISC,0.9968000054359436
+Memory Management.docx,Memory Management Unit,ORG,0.9900000095367432
+Memory Management.docx,MMU,ORG,0.9722999930381775
+Memory Management.docx,M,ORG,0.8773000240325928
+Memory Management.docx,MMU,ORG,0.9800999760627747
+Memory Management.docx,IS,ORG,0.6563000082969666
+Memory Management.docx,Linux,MISC,0.9423999786376953
+Memory Management.docx,OS,ORG,0.5870000123977661
+Memory Management.docx,OS,ORG,0.5102999806404114
+Memory Management.docx,VAX,MISC,0.728600025177002
+Memory Management.docx,Microsoft,ORG,0.9983000159263611
+Memory Management.docx,Windows 8,MISC,0.9939000010490417
+Memory Management.docx,SATA,MISC,0.7724000215530396
+Memory Management.docx,Fotheringham,PER,0.8101000189781189
+Memory Management.docx,Linux,MISC,0.9587000012397766
+Memory Management.docx,Unix,MISC,0.8507999777793884
+Memory Management.docx,Linux,MISC,0.9811000227928162
+Memory Management.docx,C,MISC,0.6492000222206116
+Memory Management.docx,C,MISC,0.9887999892234802
+Memory Management.docx,C,MISC,0.967199981212616
+Memory Management.docx,Linux,ORG,0.49480000138282776
+Memory Management.docx,N,MISC,0.8978999853134155
+Memory Management.docx,Alpha,MISC,0.9275000095367432
+Memory Management.docx,MIPS,MISC,0.7186999917030334
+Memory Management.docx,Linux 2,MISC,0.9800000190734863
+Memory Management.docx,6,MISC,0.9747999906539917
+Memory Management.docx,Non,MISC,0.5210000276565552
+Memory Management.docx,N,MISC,0.9327999949455261
+Memory Management.docx,C,MISC,0.9287999868392944
+Memory Management.docx,FreeRTOS,MISC,0.7628999948501587
+Memory Management.docx,FreeRTOS,MISC,0.7526999711990356
+Memory Management.docx,VAX,MISC,0.7440000176429749
+Memory Management.docx,Microsoft,ORG,0.9986000061035156
+Memory Management.docx,Windows 8,MISC,0.9937999844551086
+Memory Management.docx,IBM 360,MISC,0.8910999894142151
+Memory Management.docx,Web,MISC,0.9466000199317932
+Memory Management.docx,AL,ORG,0.35019999742507935

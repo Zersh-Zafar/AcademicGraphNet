@@ -1,0 +1,1346 @@
+[
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "POS",
+        "label": "MISC",
+        "confidence": 0.9424999952316284
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "##IX",
+        "label": "ORG",
+        "confidence": 0.5063999891281128
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "E",
+        "label": "MISC",
+        "confidence": 0.5861999988555908
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "##LF",
+        "label": "ORG",
+        "confidence": 0.5245000123977661
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Java",
+        "label": "MISC",
+        "confidence": 0.9879000186920166
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Firefox",
+        "label": "MISC",
+        "confidence": 0.9735000133514404
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "##oc",
+        "label": "ORG",
+        "confidence": 0.5874000191688538
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Block",
+        "label": "MISC",
+        "confidence": 0.49410000443458557
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9269000291824341
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9528999924659729
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Tanenbaum",
+        "label": "PER",
+        "confidence": 0.8465999960899353
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5619000196456909
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "MINIX",
+        "label": "MISC",
+        "confidence": 0.909500002861023
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.885699987411499
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7961999773979187
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Stallings",
+        "label": "PER",
+        "confidence": 0.9106000065803528
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.911300003528595
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.930400013923645
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9345999956130981
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.7867000102996826
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.6679999828338623
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.9330000281333923
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.5085999965667725
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.675000011920929
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.5307999849319458
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.8310999870300293
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9110999703407288
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.4307999908924103
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.8909000158309937
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Bach",
+        "label": "PER",
+        "confidence": 0.9991000294685364
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9085000157356262
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.9376999735832214
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9168999791145325
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Block",
+        "label": "MISC",
+        "confidence": 0.5062000155448914
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "PC",
+        "label": "ORG",
+        "confidence": 0.4578999876976013
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9297000169754028
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7609999775886536
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "MINIX",
+        "label": "MISC",
+        "confidence": 0.9366999864578247
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7578999996185303
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Stallings",
+        "label": "PER",
+        "confidence": 0.9437999725341797
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.7674999833106995
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.5591999888420105
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9717000126838684
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.8131999969482422
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX - based",
+        "label": "MISC",
+        "confidence": 0.8066999912261963
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9850999712944031
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9610999822616577
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "MISC",
+        "confidence": 0.5090000033378601
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9801999926567078
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "x86",
+        "label": "MISC",
+        "confidence": 0.7717000246047974
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.6031000018119812
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "Free",
+        "label": "MISC",
+        "confidence": 0.8938999772071838
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "##BSD",
+        "label": "ORG",
+        "confidence": 0.5611000061035156
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9706000089645386
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.8686000108718872
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9492999911308289
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Block",
+        "label": "MISC",
+        "confidence": 0.6351000070571899
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Tanenbaum",
+        "label": "PER",
+        "confidence": 0.8726000189781189
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Stall",
+        "label": "PER",
+        "confidence": 0.7857999801635742
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "##ings",
+        "label": "ORG",
+        "confidence": 0.5594000220298767
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7332000136375427
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Stall",
+        "label": "PER",
+        "confidence": 0.5888000130653381
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "##ings",
+        "label": "ORG",
+        "confidence": 0.7739999890327454
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5561000108718872
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Deitel",
+        "label": "PER",
+        "confidence": 0.9610000252723694
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.8203999996185303
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9678000211715698
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.8860999941825867
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Operating System Concepts",
+        "label": "MISC",
+        "confidence": 0.9836999773979187
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.824400007724762
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Dhamdhere",
+        "label": "PER",
+        "confidence": 0.9810000061988831
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Advanced Operating Systems",
+        "label": "ORG",
+        "confidence": 0.810699999332428
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Deitel",
+        "label": "PER",
+        "confidence": 0.9886999726295471
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9711999893188477
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.8823000192642212
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.8424000144004822
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "Milenkovic",
+        "label": "PER",
+        "confidence": 0.894599974155426
+    },
+    {
+        "file": "Context Switching.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5932000279426575
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Blu",
+        "label": "MISC",
+        "confidence": 0.7803000211715698
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Blu",
+        "label": "MISC",
+        "confidence": 0.8464999794960022
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Coffman",
+        "label": "PER",
+        "confidence": 0.9686999917030334
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Holt",
+        "label": "PER",
+        "confidence": 0.9973000288009644
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Holt",
+        "label": "PER",
+        "confidence": 0.9968000054359436
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "ALG",
+        "label": "ORG",
+        "confidence": 0.5580999851226807
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "B",
+        "label": "MISC",
+        "confidence": 0.6978999972343445
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Blu",
+        "label": "MISC",
+        "confidence": 0.6776000261306763
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "s Al",
+        "label": "MISC",
+        "confidence": 0.9549000263214111
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "##m",
+        "label": "MISC",
+        "confidence": 0.6204000115394592
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "A",
+        "label": "MISC",
+        "confidence": 0.8554999828338623
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Dijkstra",
+        "label": "PER",
+        "confidence": 0.9810000061988831
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "##L",
+        "label": "MISC",
+        "confidence": 0.515999972820282
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Coffman",
+        "label": "PER",
+        "confidence": 0.9560999870300293
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Havender",
+        "label": "PER",
+        "confidence": 0.9855999946594238
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Coffman",
+        "label": "PER",
+        "confidence": 0.9527999758720398
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "B",
+        "label": "ORG",
+        "confidence": 0.6793000102043152
+    },
+    {
+        "file": "DeadLock.docx",
+        "entity": "Blu",
+        "label": "MISC",
+        "confidence": 0.6678000092506409
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "orith",
+        "label": "ORG",
+        "confidence": 0.6966000199317932
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.6865000128746033
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FC",
+        "label": "MISC",
+        "confidence": 0.9682999849319458
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "MISC",
+        "confidence": 0.7372999787330627
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "F",
+        "label": "MISC",
+        "confidence": 0.8108999729156494
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "MISC",
+        "confidence": 0.7390000224113464
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "MISC",
+        "confidence": 0.6730999946594238
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "SJ",
+        "label": "MISC",
+        "confidence": 0.6021000146865845
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "MISC",
+        "confidence": 0.73580002784729
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "S",
+        "label": "MISC",
+        "confidence": 0.7669000029563904
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "R",
+        "label": "MISC",
+        "confidence": 0.6517999768257141
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "MISC",
+        "confidence": 0.6169999837875366
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "F",
+        "label": "MISC",
+        "confidence": 0.8898000121116638
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "R",
+        "label": "ORG",
+        "confidence": 0.6624000072479248
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "ORG",
+        "confidence": 0.7175999879837036
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.47279998660087585
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.6327999830245972
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7099000215530396
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "MacOS",
+        "label": "MISC",
+        "confidence": 0.9918000102043152
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.9959999918937683
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5195000171661377
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.4970000088214874
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "OS",
+        "label": "MISC",
+        "confidence": 0.5916000008583069
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "Windows",
+        "label": "MISC",
+        "confidence": 0.871999979019165
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.7876999974250793
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "UNIX",
+        "label": "MISC",
+        "confidence": 0.8264999985694885
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "MacOS",
+        "label": "MISC",
+        "confidence": 0.6865000128746033
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FCFS",
+        "label": "ORG",
+        "confidence": 0.6001999974250793
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FIF",
+        "label": "MISC",
+        "confidence": 0.6215999722480774
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "SJ",
+        "label": "MISC",
+        "confidence": 0.7023000121116638
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "FC",
+        "label": "MISC",
+        "confidence": 0.8396999835968018
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "##est Job First",
+        "label": "MISC",
+        "confidence": 0.6898999810218811
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "S",
+        "label": "MISC",
+        "confidence": 0.6524999737739563
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "##J",
+        "label": "ORG",
+        "confidence": 0.36239999532699585
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "Waldspurger",
+        "label": "PER",
+        "confidence": 0.979200005531311
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "entity": "Weihl",
+        "label": "PER",
+        "confidence": 0.9876000285148621
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "C",
+        "label": "MISC",
+        "confidence": 0.9843999743461609
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5273000001907349
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Physics",
+        "label": "MISC",
+        "confidence": 0.8399999737739563
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5005999803543091
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "M",
+        "label": "ORG",
+        "confidence": 0.5925999879837036
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "M",
+        "label": "ORG",
+        "confidence": 0.8185999989509583
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Corbet",
+        "label": "PER",
+        "confidence": 0.9383000135421753
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux",
+        "label": "ORG",
+        "confidence": 0.5133000016212463
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RAM",
+        "label": "LOC",
+        "confidence": 0.5954999923706055
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Only",
+        "label": "MISC",
+        "confidence": 0.5873000025749207
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MS - DOS",
+        "label": "MISC",
+        "confidence": 0.9840999841690063
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "In",
+        "label": "MISC",
+        "confidence": 0.5985000133514404
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Microsoft Common Language Runtime",
+        "label": "MISC",
+        "confidence": 0.8709999918937683
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Google",
+        "label": "ORG",
+        "confidence": 0.995199978351593
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Native Client",
+        "label": "MISC",
+        "confidence": 0.8086000084877014
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.628000020980835
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.6348999738693237
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.9038000106811523
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.7932000160217285
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Memory Protection Unit",
+        "label": "ORG",
+        "confidence": 0.7864000201225281
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Cortex - M3",
+        "label": "MISC",
+        "confidence": 0.9668999910354614
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Memory Management Unit",
+        "label": "ORG",
+        "confidence": 0.8396000266075134
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "M",
+        "label": "MISC",
+        "confidence": 0.5631999969482422
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Cortex - A53",
+        "label": "MISC",
+        "confidence": 0.9689000248908997
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Arm",
+        "label": "ORG",
+        "confidence": 0.6951000094413757
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux OS",
+        "label": "MISC",
+        "confidence": 0.7753000259399414
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "JPL",
+        "label": "ORG",
+        "confidence": 0.8942999839782715
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Cortex - M3",
+        "label": "MISC",
+        "confidence": 0.9761000275611877
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Co",
+        "label": "ORG",
+        "confidence": 0.5241000056266785
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "##rtex - M",
+        "label": "MISC",
+        "confidence": 0.8464000225067139
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "##3 Memory Protection Unit",
+        "label": "ORG",
+        "confidence": 0.8671000003814697
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MPU",
+        "label": "ORG",
+        "confidence": 0.9402999877929688
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MP",
+        "label": "ORG",
+        "confidence": 0.9592999815940857
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "X",
+        "label": "MISC",
+        "confidence": 0.41269999742507935
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC -",
+        "label": "MISC",
+        "confidence": 0.819100022315979
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "V",
+        "label": "ORG",
+        "confidence": 0.6550999879837036
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC -",
+        "label": "MISC",
+        "confidence": 0.6676999926567078
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "V",
+        "label": "ORG",
+        "confidence": 0.8758000135421753
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.8549000024795532
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "X",
+        "label": "MISC",
+        "confidence": 0.8149999976158142
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "S",
+        "label": "MISC",
+        "confidence": 0.8690000176429749
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.7437000274658203
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "S",
+        "label": "MISC",
+        "confidence": 0.9771000146865845
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.9332000017166138
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.8762999773025513
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.7990999817848206
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "RISC - V",
+        "label": "MISC",
+        "confidence": 0.9686999917030334
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "SC",
+        "label": "ORG",
+        "confidence": 0.7797999978065491
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "V",
+        "label": "ORG",
+        "confidence": 0.9157000184059143
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "S",
+        "label": "MISC",
+        "confidence": 0.805899977684021
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Pi",
+        "label": "ORG",
+        "confidence": 0.7817000150680542
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "##nto",
+        "label": "MISC",
+        "confidence": 0.5773000121116638
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "##s",
+        "label": "ORG",
+        "confidence": 0.5220000147819519
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "D",
+        "label": "MISC",
+        "confidence": 0.5787000060081482
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Pentium",
+        "label": "MISC",
+        "confidence": 0.9021999835968018
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Intel",
+        "label": "MISC",
+        "confidence": 0.9968000054359436
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Memory Management Unit",
+        "label": "ORG",
+        "confidence": 0.9900000095367432
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MMU",
+        "label": "ORG",
+        "confidence": 0.9722999930381775
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "M",
+        "label": "ORG",
+        "confidence": 0.8773000240325928
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MMU",
+        "label": "ORG",
+        "confidence": 0.9800999760627747
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "IS",
+        "label": "ORG",
+        "confidence": 0.6563000082969666
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.9423999786376953
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5870000123977661
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "OS",
+        "label": "ORG",
+        "confidence": 0.5102999806404114
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "VAX",
+        "label": "MISC",
+        "confidence": 0.728600025177002
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Microsoft",
+        "label": "ORG",
+        "confidence": 0.9983000159263611
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Windows 8",
+        "label": "MISC",
+        "confidence": 0.9939000010490417
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "SATA",
+        "label": "MISC",
+        "confidence": 0.7724000215530396
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Fotheringham",
+        "label": "PER",
+        "confidence": 0.8101000189781189
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.9587000012397766
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Unix",
+        "label": "MISC",
+        "confidence": 0.8507999777793884
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux",
+        "label": "MISC",
+        "confidence": 0.9811000227928162
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "C",
+        "label": "MISC",
+        "confidence": 0.6492000222206116
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "C",
+        "label": "MISC",
+        "confidence": 0.9887999892234802
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "C",
+        "label": "MISC",
+        "confidence": 0.967199981212616
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux",
+        "label": "ORG",
+        "confidence": 0.49480000138282776
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "N",
+        "label": "MISC",
+        "confidence": 0.8978999853134155
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Alpha",
+        "label": "MISC",
+        "confidence": 0.9275000095367432
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "MIPS",
+        "label": "MISC",
+        "confidence": 0.7186999917030334
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Linux 2",
+        "label": "MISC",
+        "confidence": 0.9800000190734863
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "6",
+        "label": "MISC",
+        "confidence": 0.9747999906539917
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Non",
+        "label": "MISC",
+        "confidence": 0.5210000276565552
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "N",
+        "label": "MISC",
+        "confidence": 0.9327999949455261
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "C",
+        "label": "MISC",
+        "confidence": 0.9287999868392944
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "FreeRTOS",
+        "label": "MISC",
+        "confidence": 0.7628999948501587
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "FreeRTOS",
+        "label": "MISC",
+        "confidence": 0.7526999711990356
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "VAX",
+        "label": "MISC",
+        "confidence": 0.7440000176429749
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Microsoft",
+        "label": "ORG",
+        "confidence": 0.9986000061035156
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Windows 8",
+        "label": "MISC",
+        "confidence": 0.9937999844551086
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "IBM 360",
+        "label": "MISC",
+        "confidence": 0.8910999894142151
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "Web",
+        "label": "MISC",
+        "confidence": 0.9466000199317932
+    },
+    {
+        "file": "Memory Management.docx",
+        "entity": "AL",
+        "label": "ORG",
+        "confidence": 0.35019999742507935
+    }
+]

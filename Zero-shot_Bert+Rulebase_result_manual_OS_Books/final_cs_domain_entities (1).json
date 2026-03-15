@@ -1,0 +1,366 @@
+[
+    {
+        "file": "Process Management dataset.docx",
+        "page": 1,
+        "entity": "Java",
+        "label": "OTHER",
+        "confidence": 0.9879
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 4,
+        "entity": "MINIX",
+        "label": "OTHER",
+        "confidence": 0.9445
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 5,
+        "entity": "Windows",
+        "label": "CONCEPT",
+        "confidence": 0.8907
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 5,
+        "entity": "UNIX",
+        "label": "CONCEPT",
+        "confidence": 0.8611
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 5,
+        "entity": "UNIX",
+        "label": "CONCEPT",
+        "confidence": 0.9425
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 7,
+        "entity": "Windows",
+        "label": "OTHER",
+        "confidence": 0.9409
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 8,
+        "entity": "UNIX",
+        "label": "CONCEPT",
+        "confidence": 0.8998
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 10,
+        "entity": "Bach",
+        "label": "METHOD",
+        "confidence": 0.9995
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 10,
+        "entity": "UNIX",
+        "label": "METHOD",
+        "confidence": 0.9774
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 13,
+        "entity": "Windows",
+        "label": "CONCEPT",
+        "confidence": 0.9177
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 13,
+        "entity": "UNIX",
+        "label": "CONCEPT",
+        "confidence": 0.8788
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 15,
+        "entity": "MINIX",
+        "label": "METHOD",
+        "confidence": 0.8719
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 17,
+        "entity": "UNIX",
+        "label": "OTHER",
+        "confidence": 0.9723
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 18,
+        "entity": "UNIX",
+        "label": "METHOD",
+        "confidence": 0.9969
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 20,
+        "entity": "Free",
+        "label": "METHOD",
+        "confidence": 0.8681
+    },
+    {
+        "file": "Process Management dataset.docx",
+        "page": 20,
+        "entity": "UNIX",
+        "label": "METHOD",
+        "confidence": 0.9579
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 5,
+        "entity": "Deitel",
+        "label": "OTHER",
+        "confidence": 0.9568
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 7,
+        "entity": "Linux",
+        "label": "OTHER",
+        "confidence": 0.9148
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 8,
+        "entity": "UNIX",
+        "label": "OTHER",
+        "confidence": 0.962
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 10,
+        "entity": "Operating System Concepts",
+        "label": "OTHER",
+        "confidence": 0.9673
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 11,
+        "entity": "Dhamdhere",
+        "label": "METHOD",
+        "confidence": 0.9833
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 12,
+        "entity": "Deitel",
+        "label": "OTHER",
+        "confidence": 0.9867
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 15,
+        "entity": "UNIX",
+        "label": "OTHER",
+        "confidence": 0.948
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 15,
+        "entity": "UNIX",
+        "label": "OTHER",
+        "confidence": 0.9495
+    },
+    {
+        "file": "Context Switching.docx",
+        "page": 16,
+        "entity": "Milenkovic",
+        "label": "OTHER",
+        "confidence": 0.8653
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 5,
+        "entity": "Coffman",
+        "label": "CONCEPT",
+        "confidence": 0.9554
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 6,
+        "entity": "Holt",
+        "label": "CONCEPT",
+        "confidence": 0.9989
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 6,
+        "entity": "Holt",
+        "label": "OTHER",
+        "confidence": 0.9981
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 15,
+        "entity": "s Al",
+        "label": "METHOD",
+        "confidence": 0.9246
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 15,
+        "entity": "Dijkstra",
+        "label": "METHOD",
+        "confidence": 0.9819
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 16,
+        "entity": "Coffman",
+        "label": "OTHER",
+        "confidence": 0.9543
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 16,
+        "entity": "Havender",
+        "label": "OTHER",
+        "confidence": 0.9802
+    },
+    {
+        "file": "DeadLock.docx",
+        "page": 16,
+        "entity": "Coffman",
+        "label": "CONCEPT",
+        "confidence": 0.9431
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "page": 7,
+        "entity": "FCFS",
+        "label": "METHOD",
+        "confidence": 0.9004
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "page": 16,
+        "entity": "MacOS",
+        "label": "METHOD",
+        "confidence": 0.9945
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "page": 16,
+        "entity": "UNIX",
+        "label": "METHOD",
+        "confidence": 0.9968
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "page": 26,
+        "entity": "Waldspurger",
+        "label": "METHOD",
+        "confidence": 0.9755
+    },
+    {
+        "file": "CPU scheduling.docx",
+        "page": 26,
+        "entity": "Weihl",
+        "label": "METHOD",
+        "confidence": 0.9901
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 3,
+        "entity": "Corbet",
+        "label": "CONCEPT",
+        "confidence": 0.9555
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 6,
+        "entity": "Microsoft Common Language Runtime",
+        "label": "OTHER",
+        "confidence": 0.9189
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 7,
+        "entity": "Linux OS",
+        "label": "OTHER",
+        "confidence": 0.9495
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 9,
+        "entity": "Memory Protection Unit",
+        "label": "CONCEPT",
+        "confidence": 0.9693
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 12,
+        "entity": "Pentium",
+        "label": "OTHER",
+        "confidence": 0.8654
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 12,
+        "entity": "Intel",
+        "label": "OTHER",
+        "confidence": 0.9974
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 12,
+        "entity": "Memory Management Unit",
+        "label": "OTHER",
+        "confidence": 0.9753
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 14,
+        "entity": "Linux",
+        "label": "OTHER",
+        "confidence": 0.9464
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 16,
+        "entity": "Microsoft",
+        "label": "CONCEPT",
+        "confidence": 0.9987
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 16,
+        "entity": "SATA",
+        "label": "OTHER",
+        "confidence": 0.8868
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 18,
+        "entity": "Linux",
+        "label": "CONCEPT",
+        "confidence": 0.9342
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 18,
+        "entity": "Linux",
+        "label": "CONCEPT",
+        "confidence": 0.955
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 19,
+        "entity": "Alpha",
+        "label": "CONCEPT",
+        "confidence": 0.9131
+    },
+    {
+        "file": "Memory Management.docx",
+        "page": 20,
+        "entity": "Microsoft",
+        "label": "CONCEPT",
+        "confidence": 0.9981
+    }
+]
