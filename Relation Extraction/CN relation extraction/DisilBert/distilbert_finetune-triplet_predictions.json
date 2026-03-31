@@ -303,7 +303,7 @@
     {
         "entity1": "https",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -373,7 +373,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "network security",
         "entity2_type": "TOPIC"
     },
@@ -394,7 +394,7 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -618,7 +618,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -660,7 +660,7 @@
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -891,14 +891,14 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "encryption",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
@@ -982,7 +982,7 @@
     {
         "entity1": "encryption",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -1003,7 +1003,7 @@
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -1038,7 +1038,7 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1136,7 +1136,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1290,7 +1290,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1430,7 +1430,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1528,7 +1528,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1556,14 +1556,14 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1591,7 +1591,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1619,7 +1619,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1682,21 +1682,21 @@
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1752,7 +1752,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -1780,7 +1780,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "bandwidth",
         "entity2_type": "CONCEPT"
     },
@@ -1829,49 +1829,49 @@
     {
         "entity1": "network management",
         "entity1_type": "TOPIC",
-        "relation": "improves",
+        "relation": "no_relation",
         "entity2": "snmp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "smtp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -1913,14 +1913,14 @@
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -1983,7 +1983,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "application layer",
         "entity2_type": "TOPIC"
     },
@@ -1997,7 +1997,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2011,7 +2011,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2046,7 +2046,7 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "firewall",
         "entity2_type": "OTHER"
     },
@@ -2123,14 +2123,14 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "availability",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
@@ -2144,14 +2144,14 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "availability",
         "entity2_type": "CONCEPT"
     },
@@ -2319,7 +2319,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2340,14 +2340,14 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "improves",
+        "relation": "part_of",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "firewall",
         "entity2_type": "OTHER"
     },
@@ -2368,14 +2368,14 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "intrusion detection",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "firewall",
         "entity2_type": "OTHER"
     },
@@ -2452,7 +2452,7 @@
     {
         "entity1": "network performance",
         "entity1_type": "TOPIC",
-        "relation": "improves",
+        "relation": "part_of",
         "entity2": "latency",
         "entity2_type": "CONCEPT"
     },
@@ -2466,7 +2466,7 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
@@ -2480,7 +2480,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2501,7 +2501,7 @@
     {
         "entity1": "encryption",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
@@ -2522,7 +2522,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
