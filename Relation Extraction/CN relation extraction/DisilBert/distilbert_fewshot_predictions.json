@@ -1,0 +1,67 @@
+[
+    {
+        "input": "Sentence: Networking protocols rely on the Data Link Layer for reliable frame transmission Entity1: data link layer (TOPIC). Entity2: frame (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: Another key responsibility is error detection and correction, typically implemented through mechanisms like parity checks or cyclic redundancy checks (CRC) Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Error detection and correction methods ensure data integrity during transmission, often using redundancy bits or codes like CRC Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: packet (CONCEPT). Entity2: flow control (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: packet loss (CONCEPT). Entity2: flow control (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control protocols regulate transmission rates and prevent network congestion Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: Error detection and correction mechanisms are used to identify corrupted frames, often through techniques such as cyclic redundancy checks (CRC) Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Error detection and correction techniques such as CRC are used to verify frame integrity and detect corruption Entity1: frame (CONCEPT). Entity2: error detection (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control regulates the rate of frame transmission, preventing congestion or buffer overflow Entity1: frame (CONCEPT). Entity2: flow control (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Flow control regulates the rate of frame transmission, preventing congestion or buffer overflow Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: In Mesh Topology, the protocols used are AHCP (Ad Hoc Configuration Protocols), DHCP (Dynamic Host Configuration Protocol), etc Entity1: Mesh Topology (CONCEPT). Entity2: DHCP (OTHER).",
+        "ground_truth": "uses_for",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: In Star Topology, many popular Ethernet LAN protocols are used as CD(Collision Detection), CSMA (Carrier Sense Multiple Access), etc Entity1: Star Topology (CONCEPT). Entity2: Collision Detection (CONCEPT).",
+        "ground_truth": "uses_for",
+        "predicted": "based_on"
+    }
+]

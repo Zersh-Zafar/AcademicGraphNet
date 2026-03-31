@@ -1,0 +1,1957 @@
+[
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "latency"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "latency",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "ietf"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "doh",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "doh",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "pop3",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "sftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "telnet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ssh"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ssh"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tls"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ssl"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "improves",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "improves",
+        "entity2": "quic"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "dns",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "dhcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "used_for",
+        "entity2": "network security"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "network security",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ftp",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip address"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "dns",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "pop3",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "pop3",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "application layer"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "application layer"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "pop3",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "udp",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "polling",
+        "relation": "no_relation",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "bandwidth"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "bandwidth",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "bandwidth",
+        "relation": "used_for",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "network management",
+        "relation": "part_of",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ftp",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ftp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "application layer"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "network security",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "stateful inspection"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "reliability",
+        "relation": "used_for",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "network security",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "network security"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "no_relation",
+        "entity2": "application layer"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "part_of",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "fragmentation"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "icmp"
+    },
+    {
+        "entity1": "fragmentation",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "fragmentation",
+        "relation": "used_for",
+        "entity2": "icmp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "icmp"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "frame"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "frame",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "frame",
+        "relation": "used_for",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "wifi",
+        "relation": "no_relation",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "part_of",
+        "entity2": "network security"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network security",
+        "relation": "improves",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "intrusion detection"
+    },
+    {
+        "entity1": "network security",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "packet filtering"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "packet filtering"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet filtering",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "stateful inspection"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "stateful inspection",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "network performance",
+        "relation": "part_of",
+        "entity2": "latency"
+    },
+    {
+        "entity1": "stateful inspection",
+        "relation": "no_relation",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "network security",
+        "relation": "part_of",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "part_of",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "pop3",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "stateful inspection"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "stateful inspection",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "proxy server"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    }
+]

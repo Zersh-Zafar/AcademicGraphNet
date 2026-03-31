@@ -1,0 +1,1957 @@
+[
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "packet filtering",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "router"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Network Layer",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "physical layer",
+        "relation": "no_relation",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "datagram",
+        "relation": "no_relation",
+        "entity2": "demultiplexing"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "used_for",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "error detection"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "part_of",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "Application Layer",
+        "relation": "no_relation",
+        "entity2": "Protocol"
+    },
+    {
+        "entity1": "OSI Model",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "segment",
+        "relation": "no_relation",
+        "entity2": "mac address"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "TCP/IP Model",
+        "relation": "no_relation",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Router",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "router",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "no_relation",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "Network Topology",
+        "relation": "no_relation",
+        "entity2": "Tree Topology"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "packet filtering"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "used_for",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "mac address"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "segment",
+        "relation": "no_relation",
+        "entity2": "hub"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "used_for",
+        "entity2": "frame"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "packet switching",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "reliability",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "Ring Topology",
+        "relation": "used_for",
+        "entity2": "Token Passing"
+    },
+    {
+        "entity1": "Ring Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "no_relation",
+        "entity2": "Error Control"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "no_relation",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "router"
+    },
+    {
+        "entity1": "Data Link Layer",
+        "relation": "no_relation",
+        "entity2": "Protocol"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "mac address"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ssl"
+    },
+    {
+        "entity1": "Reliability",
+        "relation": "no_relation",
+        "entity2": "UDP"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Network Layer",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "switch",
+        "relation": "no_relation",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "Frame",
+        "relation": "no_relation",
+        "entity2": "Checksum"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "OSI Model",
+        "relation": "no_relation",
+        "entity2": "TCP/IP Model"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "HTTP",
+        "relation": "no_relation",
+        "entity2": "SMTP"
+    },
+    {
+        "entity1": "switch",
+        "relation": "no_relation",
+        "entity2": "dhcp"
+    },
+    {
+        "entity1": "Transport Layer",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "ftp",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "Network Models",
+        "relation": "used_for",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "Application Layer",
+        "relation": "no_relation",
+        "entity2": "SMTP"
+    },
+    {
+        "entity1": "OSI Model",
+        "relation": "no_relation",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "used_for",
+        "entity2": "Coaxial Cable"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "reliability"
+    },
+    {
+        "entity1": "Ethernet",
+        "relation": "used_for",
+        "entity2": "Twisted Pair"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "part_of",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "physical layer",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "tls",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "Multiplexing",
+        "relation": "no_relation",
+        "entity2": "Demultiplexing"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "no_relation",
+        "entity2": "MAC Address"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "proxy server"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "used_for",
+        "entity2": "modem"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "flow control"
+    },
+    {
+        "entity1": "latency",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "no_relation",
+        "entity2": "Star Topology"
+    },
+    {
+        "entity1": "default gateway",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "Frame",
+        "relation": "no_relation",
+        "entity2": "Checksum"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "Collision Detection",
+        "relation": "no_relation",
+        "entity2": "Ethernet"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "no_relation",
+        "entity2": "Star Topology"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "network security"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "used_for",
+        "entity2": "Coaxial Cable"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "no_relation",
+        "entity2": "Star Topology"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "no_relation",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "snmp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "encryption"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "part_of",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "stateful inspection"
+    },
+    {
+        "entity1": "packet",
+        "relation": "improves",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "network topology"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "no_relation",
+        "entity2": "Data Link Layer"
+    },
+    {
+        "entity1": "rip",
+        "relation": "no_relation",
+        "entity2": "ospf"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "datagram"
+    },
+    {
+        "entity1": "physical layer",
+        "relation": "used_for",
+        "entity2": "hub"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "switch",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "application layer"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "Presentation Layer",
+        "relation": "no_relation",
+        "entity2": "Application Layer"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Data Link Layer",
+        "relation": "used_for",
+        "entity2": "Frame"
+    },
+    {
+        "entity1": "Router",
+        "relation": "no_relation",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "https"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "Scalability",
+        "relation": "improves",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Mesh Topology",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "Reliability",
+        "relation": "no_relation",
+        "entity2": "UDP"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "part_of",
+        "entity2": "Switch"
+    },
+    {
+        "entity1": "Network Security",
+        "relation": "no_relation",
+        "entity2": "Authentication"
+    },
+    {
+        "entity1": "Throughput",
+        "relation": "no_relation",
+        "entity2": "Latency"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "flow control"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "used_for",
+        "entity2": "frame"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "segment",
+        "relation": "used_for",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "part_of",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "network topology"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "used_for",
+        "entity2": "modem"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "part_of",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "network security",
+        "relation": "no_relation",
+        "entity2": "authentication"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "cyclic redundancy check"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "used_for",
+        "entity2": "hub"
+    },
+    {
+        "entity1": "firewall",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "router",
+        "relation": "no_relation",
+        "entity2": "modem"
+    },
+    {
+        "entity1": "network security",
+        "relation": "no_relation",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "used_for",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Application Layer",
+        "relation": "used_for",
+        "entity2": "HTTP"
+    },
+    {
+        "entity1": "TCP/IP Model",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "Throughput",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "Hub",
+        "relation": "no_relation",
+        "entity2": "Ethernet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "Network Security",
+        "relation": "no_relation",
+        "entity2": "Encryption"
+    },
+    {
+        "entity1": "router",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "Switch",
+        "relation": "no_relation",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "segment",
+        "relation": "no_relation",
+        "entity2": "demultiplexing"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "router"
+    },
+    {
+        "entity1": "packet loss",
+        "relation": "no_relation",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "TCP/IP Model",
+        "relation": "used_for",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "no_relation",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "switch",
+        "relation": "no_relation",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "router",
+        "relation": "no_relation",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "TCP/IP Model",
+        "relation": "used_for",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "error detection"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "router"
+    },
+    {
+        "entity1": "Session Layer",
+        "relation": "no_relation",
+        "entity2": "Application Layer"
+    },
+    {
+        "entity1": "error detection",
+        "relation": "used_for",
+        "entity2": "redundancy"
+    },
+    {
+        "entity1": "Presentation Layer",
+        "relation": "used_for",
+        "entity2": "Encryption"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "Mesh Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "used_for",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "bridge",
+        "relation": "no_relation",
+        "entity2": "repeater"
+    },
+    {
+        "entity1": "latency",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ip address"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Latency",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "http",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "flow control",
+        "relation": "used_for",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "ip",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "Hub",
+        "relation": "used_for",
+        "entity2": "Repeater"
+    },
+    {
+        "entity1": "Network Layer",
+        "relation": "no_relation",
+        "entity2": "Packet"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "computer networks",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "osi model",
+        "relation": "used_for",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "HTTP",
+        "relation": "used_for",
+        "entity2": "FTP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "TCP/IP Model",
+        "relation": "used_for",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "flow control"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "part_of",
+        "entity2": "reliability"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "network topology"
+    },
+    {
+        "entity1": "datagram",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "error detection",
+        "relation": "no_relation",
+        "entity2": "reliability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "bridge",
+        "relation": "no_relation",
+        "entity2": "ieee"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Mesh Topology",
+        "relation": "part_of",
+        "entity2": "DHCP"
+    },
+    {
+        "entity1": "osi model",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "Ethernet",
+        "relation": "used_for",
+        "entity2": "Fiber Optics"
+    },
+    {
+        "entity1": "Reliability",
+        "relation": "no_relation",
+        "entity2": "Authentication"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "part_of",
+        "entity2": "Mesh Topology"
+    },
+    {
+        "entity1": "OSI Model",
+        "relation": "no_relation",
+        "entity2": "Physical Layer"
+    },
+    {
+        "entity1": "Bandwidth",
+        "relation": "used_for",
+        "entity2": "Twisted Pair"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "reliability"
+    },
+    {
+        "entity1": "network security",
+        "relation": "no_relation",
+        "entity2": "availability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Network Architecture",
+        "relation": "used_for",
+        "entity2": "Physical Layer"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "Network Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "pop3"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "network layer"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "no_relation",
+        "entity2": "quality of service"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "used_for",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "network performance",
+        "relation": "part_of",
+        "entity2": "bandwidth"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "UDP"
+    },
+    {
+        "entity1": "ssl",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "ip address",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "physical layer",
+        "relation": "no_relation",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "Collision Detection",
+        "relation": "used_for",
+        "entity2": "Carrier Sense Multiple Access"
+    },
+    {
+        "entity1": "https",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "fragmentation",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "HTTP"
+    },
+    {
+        "entity1": "HTTP",
+        "relation": "no_relation",
+        "entity2": "FTP"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "segment"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Network Topology",
+        "relation": "no_relation",
+        "entity2": "Ring Topology"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "used_for",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "bridge"
+    },
+    {
+        "entity1": "Frame",
+        "relation": "used_for",
+        "entity2": "Token Passing"
+    },
+    {
+        "entity1": "gateway",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "ipv4"
+    },
+    {
+        "entity1": "Bus Topology",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "router",
+        "relation": "part_of",
+        "entity2": "firewall"
+    },
+    {
+        "entity1": "segment",
+        "relation": "no_relation",
+        "entity2": "checksum"
+    },
+    {
+        "entity1": "Ethernet",
+        "relation": "used_for",
+        "entity2": "Twisted Pair"
+    },
+    {
+        "entity1": "dhcp",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "udp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ethernet"
+    },
+    {
+        "entity1": "authentication",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "no_relation",
+        "entity2": "SMTP"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "used_for",
+        "entity2": "Ethernet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "WiFi",
+        "relation": "no_relation",
+        "entity2": "IEEE"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "imap"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "Ring Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "bandwidth",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "multiplexing",
+        "relation": "no_relation",
+        "entity2": "demultiplexing"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "TCP",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "part_of",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "packet",
+        "relation": "used_for",
+        "entity2": "packet loss"
+    },
+    {
+        "entity1": "osi model",
+        "relation": "no_relation",
+        "entity2": "physical layer"
+    },
+    {
+        "entity1": "ipv4",
+        "relation": "no_relation",
+        "entity2": "ipv6"
+    },
+    {
+        "entity1": "Packet",
+        "relation": "no_relation",
+        "entity2": "Frame"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "flow control"
+    },
+    {
+        "entity1": "Error Control",
+        "relation": "no_relation",
+        "entity2": "Ethernet"
+    },
+    {
+        "entity1": "congestion",
+        "relation": "no_relation",
+        "entity2": "scalability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "http"
+    },
+    {
+        "entity1": "Ring Topology",
+        "relation": "no_relation",
+        "entity2": "Tree Topology"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "sliding window"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "no_relation",
+        "entity2": "POP3"
+    },
+    {
+        "entity1": "Hub",
+        "relation": "no_relation",
+        "entity2": "TCP"
+    },
+    {
+        "entity1": "network performance",
+        "relation": "part_of",
+        "entity2": "packet"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "http",
+        "relation": "no_relation",
+        "entity2": "smtp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "repeater",
+        "relation": "no_relation",
+        "entity2": "modem"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "Tree Topology",
+        "relation": "no_relation",
+        "entity2": "Hybrid Topology"
+    },
+    {
+        "entity1": "Protocol",
+        "relation": "used_for",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "Scalability",
+        "relation": "no_relation",
+        "entity2": "Reliability"
+    },
+    {
+        "entity1": "Network Layer",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "network layer",
+        "relation": "no_relation",
+        "entity2": "protocol"
+    },
+    {
+        "entity1": "frame",
+        "relation": "no_relation",
+        "entity2": "switch"
+    },
+    {
+        "entity1": "Computer Networks",
+        "relation": "used_for",
+        "entity2": "Network Models"
+    },
+    {
+        "entity1": "encryption",
+        "relation": "no_relation",
+        "entity2": "http"
+    },
+    {
+        "entity1": "OSI Model",
+        "relation": "no_relation",
+        "entity2": "IP"
+    },
+    {
+        "entity1": "Physical Layer",
+        "relation": "no_relation",
+        "entity2": "Protocol"
+    },
+    {
+        "entity1": "ip",
+        "relation": "no_relation",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "multiplexing"
+    },
+    {
+        "entity1": "smtp",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "cyclic redundancy check",
+        "relation": "no_relation",
+        "entity2": "redundancy"
+    },
+    {
+        "entity1": "application layer",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "gateway"
+    },
+    {
+        "entity1": "data link layer",
+        "relation": "no_relation",
+        "entity2": "reliability"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "used_for",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "udp"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "tcp"
+    },
+    {
+        "entity1": "http",
+        "relation": "used_for",
+        "entity2": "ftp"
+    },
+    {
+        "entity1": "tcp",
+        "relation": "used_for",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "dns"
+    },
+    {
+        "entity1": "Star Topology",
+        "relation": "used_for",
+        "entity2": "Hub"
+    },
+    {
+        "entity1": "transport layer",
+        "relation": "no_relation",
+        "entity2": "congestion"
+    },
+    {
+        "entity1": "network performance",
+        "relation": "no_relation",
+        "entity2": "latency"
+    },
+    {
+        "entity1": "protocol",
+        "relation": "no_relation",
+        "entity2": "https"
+    },
+    {
+        "entity1": "dns",
+        "relation": "no_relation",
+        "entity2": "ip"
+    },
+    {
+        "entity1": "packet",
+        "relation": "no_relation",
+        "entity2": "router"
+    }
+]
