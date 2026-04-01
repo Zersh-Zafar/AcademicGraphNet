@@ -1,0 +1,2746 @@
+[
+    {
+        "entity1": "Virtual Memory",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Swapping",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Logical Address",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Physical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Thread",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Concurrency",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Waiting Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "I/O Scheduler",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Deadlock Avoidance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Kernel",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Paging",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Virtual Memory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "SJF",
+        "entity1_type": "ALGORITHM",
+        "relation": "used_for",
+        "entity2": "Waiting Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Encryption",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Binary Semaphore",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Mutex",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Semaphore",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Multiprogramming",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Directory",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Throughput",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Swapping",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Access Control",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "FCFS",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "CPU Utilization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Virtual Memory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Control Block",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Windows",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Windows",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Kernel",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "FCFS",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "FIFO",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process State",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Access Control",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Cache Coherence",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Waiting Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Preemptive Scheduling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Response Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "exec",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "CPU Burst",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Dispatcher",
+        "entity1_type": "OTHER",
+        "relation": "used_for",
+        "entity2": "Process Control Block",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Dispatcher",
+        "entity1_type": "OTHER",
+        "relation": "used_for",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "UNIX",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Multiprogramming",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "FCFS",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "FIFO",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "exec",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Logical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "CPU Registers",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Shell",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Directory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "FCFS",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "Priority Scheduling",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "System Calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "CPU Registers",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Real-Time Systems",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Child Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "PID",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Turnaround Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock Detection",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Deadlock Avoidance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Prevention",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Control Block",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Security",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Paging",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "exec",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "C-SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "LOOK",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "C-LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Thread",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Process Control Block",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "UNIX",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Mutual Exclusion",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Critical Section",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Mutual Exclusion",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Waiting Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Parent Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Parent Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "File Allocation Table",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Disk Scheduling",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "C-LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Directory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Preemptive Scheduling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process Control Block",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Kernel Mode",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Mutual Exclusion",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Mutual Exclusion",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Response Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Child Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "waitpid",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "System Calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Internal Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "External Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Waiting Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Frame",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Safe State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "Round Robin",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Physical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "External Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Virtual Memory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Semaphore",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Prevention",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Semaphore",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Priority Scheduling",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Mutual Exclusion",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Clock Synchronization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Distributed Systems",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Monitor",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Priority Scheduling",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "C-SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Mutex",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "External Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "signal",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Logical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Paging",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Paging",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Swapping",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Parent Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Memory Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Stack Pointer",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Utilization",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "CPU Registers",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Stack Pointer",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Interrupt",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Program Counter",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock Detection",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Distributed File System",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Turnaround Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "UNIX",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "C-SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Round Robin",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Parent Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Critical Section",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Control Block",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Throughput",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "CPU Utilization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Multiprogramming",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Prevention",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Segmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Directory",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "File System",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Waiting Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process State",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Semaphore",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Identifier",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "PID",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Virtual Memory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process Control Block",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fairness",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Round Robin",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "signal",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Waiting Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "FCFS",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Directory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "POSIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "CPU Burst",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Preemptive Scheduling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Response Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Directory",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Waiting Time",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Segmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "C-SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Access Control",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Kernel",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Thread",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Stack Pointer",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "PID",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Directory",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Device Driver",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "User Mode",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock Detection",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Deadlock Avoidance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Child Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "PID",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Paging",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Swapping",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Paging",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "External Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Preemptive Scheduling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Virtual Memory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Security",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "PID",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Parent Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "System Calls",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Directory",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "File System",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "Deadlock Detection",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Resource Allocation Graph",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "SJF",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Avoidance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Internal Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Starvation",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Priority Scheduling",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "System Calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Mutex",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "File Allocation Table",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Mutual Exclusion",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Logical Address",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Physical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Interrupt",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Scheduler",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Round Robin",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "File Allocation Table",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Windows",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "FCFS",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "SJF",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "fork",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process State",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "C-SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process State",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "waitpid",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Interrupt",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Deadlock",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Deadlock Detection",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Logical Address",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Disk Scheduling",
+        "entity1_type": "CONCEPT",
+        "relation": "based_on",
+        "entity2": "LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process State",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Turnaround Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Response Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "CPU Scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Interrupt",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Virtual Memory",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "SCAN",
+        "entity1_type": "ALGORITHM",
+        "relation": "based_on",
+        "entity2": "C-SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Child Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Page Fault",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Scheduler",
+        "entity1_type": "OTHER",
+        "relation": "part_of",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Child Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Shell",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "LOOK",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "C-LOOK",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Turnaround Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Waiting Time",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Response Time",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "PCB",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "SCAN",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "Windows",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Mutual Exclusion",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Mutual Exclusion",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Multiprogramming",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Concurrency",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Throughput",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Thread",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process Management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process Control Block",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Linux",
+        "entity1_type": "OTHER",
+        "relation": "implements",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Dispatcher",
+        "entity1_type": "OTHER",
+        "relation": "used_for",
+        "entity2": "Context Switching",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "External Fragmentation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Process State",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Dispatcher",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Synchronization",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Journaling",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Thread",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "POSIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Thread",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "Mutex",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Program Counter",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Journaling",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "MacOS",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Time Quantum",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Child Process",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "Critical Section",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Linux",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Throughput",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Context Switching",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "CPU Registers",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "FIFO",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "UNIX",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "PCB",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "Binary Semaphore",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "Mutex",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "File System",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "Directory",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "Process",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "Scheduler",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "UNIX",
+        "entity1_type": "OTHER",
+        "relation": "part_of",
+        "entity2": "Kernel",
+        "entity2_type": "OTHER"
+    }
+]
