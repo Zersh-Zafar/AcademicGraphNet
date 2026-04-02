@@ -9,7 +9,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -107,7 +107,7 @@
     {
         "entity1": "Network Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Router",
         "entity2_type": "OTHER"
     },
@@ -282,14 +282,14 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "congestion",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Network Layer",
         "entity2_type": "TOPIC"
     },
@@ -366,14 +366,14 @@
     {
         "entity1": "OSI Model",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "Physical Layer",
         "entity2_type": "TOPIC"
     },
     {
         "entity1": "http",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -429,7 +429,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "improves",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -450,7 +450,7 @@
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "firewall",
         "entity2_type": "OTHER"
     },
@@ -464,7 +464,7 @@
     {
         "entity1": "TCP",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "UDP",
         "entity2_type": "OTHER"
     },
@@ -485,7 +485,7 @@
     {
         "entity1": "OSI Model",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Physical Layer",
         "entity2_type": "TOPIC"
     },
@@ -541,7 +541,7 @@
     {
         "entity1": "Protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -695,7 +695,7 @@
     {
         "entity1": "Network Security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "Authentication",
         "entity2_type": "METHOD"
     },
@@ -744,7 +744,7 @@
     {
         "entity1": "Network Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -793,7 +793,7 @@
     {
         "entity1": "error detection",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "redundancy",
         "entity2_type": "CONCEPT"
     },
@@ -807,7 +807,7 @@
     {
         "entity1": "reliability",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -835,7 +835,7 @@
     {
         "entity1": "checksum",
         "entity1_type": "CONCEPT",
-        "relation": "based_on",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -891,7 +891,7 @@
     {
         "entity1": "Protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -1080,7 +1080,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -1129,7 +1129,7 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Switch",
         "entity2_type": "OTHER"
     },
@@ -1206,7 +1206,7 @@
     {
         "entity1": "https",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -1227,7 +1227,7 @@
     {
         "entity1": "datagram",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -1290,7 +1290,7 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Coaxial Cable",
         "entity2_type": "OTHER"
     },
@@ -1311,7 +1311,7 @@
     {
         "entity1": "flow control",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "congestion",
         "entity2_type": "CONCEPT"
     },
@@ -1409,14 +1409,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "improves",
+        "relation": "no_relation",
         "entity2": "packet",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "based_on",
+        "relation": "no_relation",
         "entity2": "ip address",
         "entity2_type": "CONCEPT"
     },
@@ -1542,7 +1542,7 @@
     {
         "entity1": "osi model",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ethernet",
         "entity2_type": "OTHER"
     },
@@ -1647,14 +1647,14 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Bluetooth",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "osi model",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
@@ -1780,7 +1780,7 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1843,7 +1843,7 @@
     {
         "entity1": "ipv4",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -1962,7 +1962,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -2060,14 +2060,14 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Bandwidth",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "demultiplexing",
         "entity2_type": "CONCEPT"
     },
@@ -2081,7 +2081,7 @@
     {
         "entity1": "reliability",
         "entity1_type": "CONCEPT",
-        "relation": "based_on",
+        "relation": "used_for",
         "entity2": "udp",
         "entity2_type": "OTHER"
     },
@@ -2158,7 +2158,7 @@
     {
         "entity1": "OSI Model",
         "entity1_type": "TOPIC",
-        "relation": "implements",
+        "relation": "improves",
         "entity2": "ISO",
         "entity2_type": "OTHER"
     },
@@ -2263,7 +2263,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "encryption",
         "entity2_type": "METHOD"
     },
@@ -2291,7 +2291,7 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
@@ -2389,7 +2389,7 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "based_on",
+        "relation": "no_relation",
         "entity2": "udp",
         "entity2_type": "OTHER"
     },
@@ -2662,7 +2662,7 @@
     {
         "entity1": "Reliability",
         "entity1_type": "CONCEPT",
-        "relation": "based_on",
+        "relation": "used_for",
         "entity2": "Authentication",
         "entity2_type": "METHOD"
     },
@@ -2676,7 +2676,7 @@
     {
         "entity1": "Presentation Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "Encryption",
         "entity2_type": "METHOD"
     },
@@ -2718,7 +2718,7 @@
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dhcp",
         "entity2_type": "OTHER"
     },

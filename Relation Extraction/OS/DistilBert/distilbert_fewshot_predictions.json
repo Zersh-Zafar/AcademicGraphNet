@@ -1,0 +1,122 @@
+[
+    {
+        "input": "Sentence: Synchronization is also closely connected to process scheduling and system performance, because inefficient synchronization can degrade throughput Entity1: Synchronization (TOPIC). Entity2: Throughput (CONCEPT).",
+        "ground_truth": "improves",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence:  Deadlock detection and recovery - Abort a process or preempt some resources when deadlocks are detected Entity1: Deadlock (TOPIC). Entity2: Process (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: The book emphasizes that synchronization must ensure progress so that processes do not wait indefinitely Entity1: Synchronization (TOPIC). Entity2: wait (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: As we shall see later in this section, noncontiguous memory allocation using paging can even eliminate external fragmentation completely Entity1: Paging (CONCEPT). Entity2: External Fragmentation (CONCEPT).",
+        "ground_truth": "improves",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: Fork is the only way to create a new process in POSIX Entity1: Process (CONCEPT). Entity2: fork (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: Round Robin (RR) scheduling gives each process a fixed time slice in cyclic order to ensure fairness Entity1: Process (CONCEPT). Entity2: Round Robin (ALGORITHM).",
+        "ground_truth": "implements",
+        "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: It is important to understand the difference between a file system and a directory Entity1: File System (TOPIC). Entity2: Directory (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: The kernel saves CPU registers and process state before restoring another process\u2019s context Entity1: Process (CONCEPT). Entity2: CPU Registers (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: Non-Preemptive CPU scheduling: CPU can\u2019t be taken until process finishes or blocks // under I/O wait Entity1: CPU Scheduling (TOPIC). Entity2: wait (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: Hold and wait: A process must be holding at least one resource and waiting to acquire additional resources that are currently being held by other processes Entity1: Process (CONCEPT). Entity2: wait (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: They are commonly used in UNIX/Linux systems using system calls like pipe() Entity1: UNIX (OTHER). Entity2: Linux (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: In this lesson, we discuss virtual memory in the form of demand paging, and examine its complexity and cost Entity1: Paging (CONCEPT). Entity2: Demand Paging (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: CPU Scheduling is the backbone of Multiprogramming Entity1: CPU Scheduling (TOPIC). Entity2: Multiprogramming (TOPIC).",
+        "ground_truth": "improves",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: The book explains that synchronization primarily solves the critical-section problem by enforcing mutual exclusion, ensuring only one process executes in its critical section at a time Entity1: Synchronization (TOPIC). Entity2: Critical Section (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: When the scheduler determines that a different process should run, the kernel saves the current process\u2019s state into its process table entry Entity1: Process (CONCEPT). Entity2: Scheduler (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: ) The fork call returns a value, which is zero in the child and equal to the child\u2019s PID (Process IDentifier) in the parent Entity1: Process Identifier (CONCEPT). Entity2: PID (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: An important aspect of memory management that became unavoidable with paging is the separation of the user's view of memory and the actual physical memory Entity1: Memory Management (TOPIC). Entity2: Paging (CONCEPT).",
+        "ground_truth": "based_on",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Deitel notes that reducing switching overhead improves throughput and turnaround time Entity1: Throughput (CONCEPT). Entity2: Turnaround Time (CONCEPT).",
+        "ground_truth": "improves",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Round Robin (RR) scheduling gives each process a fixed time slice in cyclic order to ensure fairness Entity1: Fairness (CONCEPT). Entity2: Round Robin (ALGORITHM).",
+        "ground_truth": "improves",
+        "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: Dispatcher uses the process's PCB to save its state and later resume execution Entity1: Dispatcher (OTHER). Entity2: Process (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: In distributed systems, context switching also occurs between communication tasks Entity1: Distributed Systems (TOPIC). Entity2: Context Switching (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Semaphores can be classified into: Counting semaphores, which allow multiple threads to access a finite number of resourcesBinary semaphores, which behave like simple locks (only one thread at a time)\u200b The initial semaphore value determines how many threads can proceed before blocking Entity1: Thread (CONCEPT). Entity2: Semaphore (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: The short-term scheduler (also known as the CPU scheduler) decides which of the ready, in- memory processes is to be executed (allocated a CPU) after a clock interrupt, an I/O interrupt, an operating system call or another form of signal Entity1: Interrupt (CONCEPT). Entity2: signal (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: This model of memory allocation permits the kernel to reuse free memory areas that are smaller than the size of a process, so it can reduce external fragmentation Entity1: External Fragmentation (CONCEPT). Entity2: Kernel (OTHER).",
+        "ground_truth": "improves",
+        "predicted": "part_of"
+    }
+]

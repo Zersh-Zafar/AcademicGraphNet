@@ -1,0 +1,2753 @@
+[
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "batch",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dropout",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "svm",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "recall",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "dataset",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "unsupervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "testing",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "validation",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "l2 regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "boosting",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "anomaly detection",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "gradient descent",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient descent",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "label",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "iteration",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "generalization",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "batch",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "batch normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "anomaly detection",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "pattern recognition",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "reinforcement learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "deep learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "roc curve",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "roc",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "batch",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient descent",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "supervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "principal component analysis",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "reinforcement learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "computer vision",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "generative models",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "pattern recognition",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "used_for",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "used_for",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature extraction",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature engineering",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "dqn",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "missing data",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "label",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "llm",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "batch normalization",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "roc",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "auc",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "diffusion models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "unsupervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "feature engineering",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "diffusion models",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "normalization",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "tokenization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "natural language processing",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "computer vision",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "imbalanced data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "cnn",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "unsupervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "entropy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bagging",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "diffusion models",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "batch",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "dataset",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "outliers",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "model evaluation",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "recall",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "confusion matrix",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "outliers",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "used_for",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bagging",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "anomaly detection",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "pattern recognition",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature space",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "auc",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "batch",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dropout",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "entropy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature engineering",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "neural networks",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "l2 regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "l2 regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dropout",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "early stopping",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature engineering",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "accuracy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "model evaluation",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "f1 score",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "accuracy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "label",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "label",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "underfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "testing",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dimensionality reduction",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "label",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "feature engineering",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "neural networks",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature extraction",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "transfer learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "unsupervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "dropout",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "data augmentation",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "target variable",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "label",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "cost function",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "testing",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "cross validation",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "dataset",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "missing data",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "accuracy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "accuracy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "testing",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient descent",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dropout",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature extraction",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "principal component analysis",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "natural language processing",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "neural networks",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "recall",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "testing",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient descent",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "objective function",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "entropy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "improves",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature selection",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dimensionality reduction",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "feature engineering",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "roc curve",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "roc",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "latent space",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "target variable",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "l1 regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "target variable",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature selection",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "based_on",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "based_on",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "target variable",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "pytorch",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "data augmentation",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "embedding",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "gradient descent",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "roc",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "auc",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "mlops",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "roc curve",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "roc",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "hyperparameters",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "neural networks",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "anomaly detection",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "natural language processing",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "diffusion models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "hierarchical clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature engineering",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "normalization",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "tokenization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "cost function",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "natural language processing",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "large language models",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "gradient descent",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "underfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "lstm",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "gru",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "clustering",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "boosting",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "underfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "validation",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bert",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "gpt",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "confusion matrix",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "missing data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "anomaly detection",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "word2vec",
+        "entity1_type": "OTHER",
+        "relation": "no_relation",
+        "entity2": "glove",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "roc",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "feature space",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "pytorch",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "validation",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "generalization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "supervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "diffusion models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "classification",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "test data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "entropy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "validation",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "cross validation",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "model evaluation",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "batch normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "feature selection",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "recommendation systems",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "supervised learning",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "precision",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "boosting",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "l2 regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "normalization",
+        "entity1_type": "METHOD",
+        "relation": "no_relation",
+        "entity2": "tokenization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "anomaly detection",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bagging",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "boosting",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "anomaly detection",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "batch normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "natural language processing",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "dropout",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "label",
+        "entity1_type": "CONCEPT",
+        "relation": "implements",
+        "entity2": "logistic regression algorithm",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "reinforcement learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "dataset",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "hierarchical clustering",
+        "entity1_type": "METHOD",
+        "relation": "implements",
+        "entity2": "principal component analysis",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "label",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "recall",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "validation",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "gradient descent",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "supervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "feature engineering",
+        "entity2_type": "TOPIC"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "iteration",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "anomaly detection",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "accuracy",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "precision",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "no_relation",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "underfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training data",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "overfitting",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "unsupervised learning",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "hierarchical clustering",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature selection",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "variance",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "bootstrap sampling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "variance",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "regularization",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "dimensionality reduction",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "no_relation",
+        "entity2": "tensorflow",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "used_for",
+        "entity2": "pca",
+        "entity2_type": "ALGORITHM"
+    },
+    {
+        "entity1": "bagging",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "bootstrap sampling",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "bagging",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "xgboost",
+        "entity2_type": "OTHER"
+    },
+    {
+        "entity1": "overfitting",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bagging",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "data preprocessing",
+        "entity1_type": "TOPIC",
+        "relation": "implements",
+        "entity2": "normalization",
+        "entity2_type": "METHOD"
+    },
+    {
+        "entity1": "diffusion models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "no_relation",
+        "entity2": "outliers",
+        "entity2_type": "CONCEPT"
+    },
+    {
+        "entity1": "regression",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "logistic regression",
+        "entity2_type": "METHOD"
+    }
+]

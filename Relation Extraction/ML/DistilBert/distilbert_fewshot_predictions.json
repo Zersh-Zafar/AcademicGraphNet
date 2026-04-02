@@ -1,0 +1,122 @@
+[
+    {
+        "input": "Sentence: Clustering is a popular type of unsupervised learning approach Entity1: unsupervised learning (TOPIC). Entity2: clustering (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: A fundamental step in NLP is text preprocessing, which includes tokenization, stopword removal, and stemming or lemmatization Entity1: tokenization (METHOD). Entity2: lemmatization (METHOD).",
+        "ground_truth": "no_relation",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Techniques like dropout, batch normalization, and data augmentation are used to prevent overfitting Entity1: batch (CONCEPT). Entity2: batch normalization (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: This includes steps such as data cleansing, normalization, feature scaling, and data transformation Entity1: feature (CONCEPT). Entity2: normalization (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: These samples mimic the characteristics of the original dataset, making generative models useful in simulation, data augmentation, and creative tasks Entity1: generative models (TOPIC). Entity2: data augmentation (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: In Machine Learning, linear regression and logistic regression are two fundamental supervised learning algorithms used for prediction, but they are applied to different types of problems Entity1: supervised learning (TOPIC). Entity2: regression (METHOD).",
+        "ground_truth": "part_of",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: K-means is simple and efficient for well-separated clusters, PCA reduces dimensions and simplifies data, DBSCAN detects dense clusters and noise, and Hierarchical clustering shows cluster relationships in a structured way Entity1: noise (CONCEPT). Entity2: pca (ALGORITHM).",
+        "ground_truth": "improves",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: Overfitting and underfitting are analyzed with examples, and strategies such as regularization and validation are introduced Entity1: underfitting (CONCEPT). Entity2: regularization (CONCEPT).",
+        "ground_truth": "improves",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: The ROC Curve provides a graphical method to assess performance across different classification thresholds Entity1: roc curve (CONCEPT). Entity2: roc (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Given enough computation time, data, and careful tuning of the parameters, neural networks often beat other machine learning algorithms (for classification and regression tasks) Entity1: neural networks (TOPIC). Entity2: classification (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: Random forests usually work well even on very large datasets, and training can easily be parallelized over many CPU cores within a powerful computer Entity1: training (CONCEPT). Entity2: cpu (OTHER).",
+        "ground_truth": "part_of",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Target encoding can be effective in capturing valuable information from categorical data while reducing the dimensionality of the feature space, making it suitable for models like decision trees and gradient boosting Entity1: gradient (CONCEPT). Entity2: feature space (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Gradient Boosting constructs models sequentially, optimizing a loss function using gradient descent Entity1: loss function (CONCEPT). Entity2: gradient descent (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: This is part of feature engineering, a process for transforming raw data into features suitable for supervised machine learning Entity1: machine learning (TOPIC). Entity2: feature (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Unsupervised learning allows algorithms to find hidden patterns without labeled outputs Entity1: unsupervised learning (TOPIC). Entity2: pattern recognition (TOPIC).",
+        "ground_truth": "improves",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: It is frequently used in machine learning to handle high dimensional data as it facilitates automatic feature selection with its application Entity1: machine learning (TOPIC). Entity2: feature selection (METHOD).",
+        "ground_truth": "implements",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: With each iteration, the initial features are reduced to principal components, with greater variance than the original set on the condition that they are uncorrelated with the preceding components Entity1: variance (CONCEPT). Entity2: iteration (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: If the neural network is being used as a binary classifier, with the sigmoid at the final layer, the loss function is the same logistic regression loss Entity1: loss function (CONCEPT). Entity2: logistic regression (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Principal Component Analysis (PCA) is a dimensionality reduction method that reduces large data sets into fewer variables while preserving key data trends Entity1: dimensionality reduction (METHOD). Entity2: pca (ALGORITHM).",
+        "ground_truth": "improves",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: In other words, the input is mapped to the output based on the training data Entity1: training (CONCEPT). Entity2: training data (CONCEPT).",
+        "ground_truth": "based_on",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: High bias leads to underfitting, while high variance results in overfitting Entity1: overfitting (CONCEPT). Entity2: variance (CONCEPT).",
+        "ground_truth": "based_on",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Typical phases of data preprocessing include data cleansing, normalization, feature scaling, and data transformation, each addressing specific challenges such as inaccurate, inconsistent, or missing data Entity1: feature (CONCEPT). Entity2: missing data (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Feature extraction methods generate new features from existing ones to capture hidden patterns within the dataset Entity1: dataset (CONCEPT). Entity2: feature extraction (METHOD).",
+        "ground_truth": "part_of",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: TF-IDF is used for feature extraction Entity1: feature (CONCEPT). Entity2: feature extraction (METHOD).",
+        "ground_truth": "used_for",
+        "predicted": "improves"
+    }
+]

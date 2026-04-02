@@ -2,7 +2,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -16,14 +16,14 @@
     {
         "entity1": "packet filtering",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -44,7 +44,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -65,7 +65,7 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
@@ -86,7 +86,7 @@
     {
         "entity1": "ip address",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -100,7 +100,7 @@
     {
         "entity1": "firewall",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -121,7 +121,7 @@
     {
         "entity1": "Protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -135,7 +135,7 @@
     {
         "entity1": "ipv4",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -156,14 +156,14 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Application Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Protocol",
         "entity2_type": "CONCEPT"
     },
@@ -191,14 +191,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "packet",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -219,14 +219,14 @@
     {
         "entity1": "TCP/IP Model",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "TCP",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -254,21 +254,21 @@
     {
         "entity1": "network layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "packet",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -282,14 +282,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "packet filtering",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "smtp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "pop3",
         "entity2_type": "OTHER"
     },
@@ -324,14 +324,14 @@
     {
         "entity1": "frame",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "segment",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "hub",
         "entity2_type": "OTHER"
     },
@@ -359,7 +359,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "bridge",
         "entity2_type": "OTHER"
     },
@@ -373,21 +373,21 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -415,7 +415,7 @@
     {
         "entity1": "encryption",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "smtp",
         "entity2_type": "OTHER"
     },
@@ -443,7 +443,7 @@
     {
         "entity1": "Star Topology",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Hub",
         "entity2_type": "OTHER"
     },
@@ -457,21 +457,21 @@
     {
         "entity1": "Data Link Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Protocol",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "packet loss",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "frame",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "mac address",
         "entity2_type": "CONCEPT"
     },
@@ -492,7 +492,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -506,7 +506,7 @@
     {
         "entity1": "Network Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -534,7 +534,7 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -548,7 +548,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "improves",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -562,7 +562,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -590,21 +590,21 @@
     {
         "entity1": "Transport Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Reliability",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "ftp",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "smtp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "congestion",
         "entity2_type": "CONCEPT"
     },
@@ -618,7 +618,7 @@
     {
         "entity1": "Application Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "SMTP",
         "entity2_type": "OTHER"
     },
@@ -632,21 +632,21 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "pop3",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Coaxial Cable",
         "entity2_type": "OTHER"
     },
@@ -681,14 +681,14 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -702,7 +702,7 @@
     {
         "entity1": "tls",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -730,14 +730,14 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -765,7 +765,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "packet loss",
         "entity2_type": "CONCEPT"
     },
@@ -779,14 +779,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "flow control",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "latency",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -821,7 +821,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -842,7 +842,7 @@
     {
         "entity1": "Collision Detection",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Ethernet",
         "entity2_type": "OTHER"
     },
@@ -856,7 +856,7 @@
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -870,7 +870,7 @@
     {
         "entity1": "encryption",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
@@ -884,7 +884,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -905,14 +905,14 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Hub",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "snmp",
         "entity2_type": "OTHER"
     },
@@ -940,28 +940,28 @@
     {
         "entity1": "network layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "packet",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -1031,14 +1031,14 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -1052,7 +1052,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -1066,7 +1066,7 @@
     {
         "entity1": "ipv4",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "improves",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -1087,7 +1087,7 @@
     {
         "entity1": "ip address",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1129,28 +1129,28 @@
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "udp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Scalability",
         "entity1_type": "CONCEPT",
-        "relation": "improves",
+        "relation": "no_relation",
         "entity2": "Reliability",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "ip address",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1178,14 +1178,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Switch",
         "entity2_type": "OTHER"
     },
@@ -1241,21 +1241,21 @@
     {
         "entity1": "segment",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ethernet",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "ip",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -1276,28 +1276,28 @@
     {
         "entity1": "gateway",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "modem",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "network security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "authentication",
         "entity2_type": "METHOD"
     },
@@ -1311,7 +1311,7 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "hub",
         "entity2_type": "OTHER"
     },
@@ -1325,7 +1325,7 @@
     {
         "entity1": "TCP",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -1346,7 +1346,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -1395,35 +1395,35 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Network Security",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Encryption",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "router",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Switch",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Hub",
         "entity2_type": "OTHER"
     },
@@ -1437,7 +1437,7 @@
     {
         "entity1": "computer networks",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "router",
         "entity2_type": "OTHER"
     },
@@ -1458,7 +1458,7 @@
     {
         "entity1": "TCP/IP Model",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "IP",
         "entity2_type": "OTHER"
     },
@@ -1472,7 +1472,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1500,7 +1500,7 @@
     {
         "entity1": "TCP/IP Model",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "TCP",
         "entity2_type": "OTHER"
     },
@@ -1535,7 +1535,7 @@
     {
         "entity1": "error detection",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "redundancy",
         "entity2_type": "CONCEPT"
     },
@@ -1556,7 +1556,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "smtp",
         "entity2_type": "OTHER"
     },
@@ -1584,7 +1584,7 @@
     {
         "entity1": "latency",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1598,7 +1598,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip address",
         "entity2_type": "CONCEPT"
     },
@@ -1619,14 +1619,14 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "http",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -1654,7 +1654,7 @@
     {
         "entity1": "Hub",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Repeater",
         "entity2_type": "OTHER"
     },
@@ -1682,7 +1682,7 @@
     {
         "entity1": "smtp",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "imap",
         "entity2_type": "OTHER"
     },
@@ -1738,7 +1738,7 @@
     {
         "entity1": "frame",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -1752,21 +1752,21 @@
     {
         "entity1": "HTTP",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "FTP",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "TCP/IP Model",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "TCP",
         "entity2_type": "OTHER"
     },
@@ -1780,7 +1780,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -1801,7 +1801,7 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "reliability",
         "entity2_type": "CONCEPT"
     },
@@ -1815,7 +1815,7 @@
     {
         "entity1": "datagram",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -1843,28 +1843,28 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Mesh Topology",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "DHCP",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "osi model",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Ethernet",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Fiber Optics",
         "entity2_type": "OTHER"
     },
@@ -1885,7 +1885,7 @@
     {
         "entity1": "Star Topology",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Mesh Topology",
         "entity2_type": "CONCEPT"
     },
@@ -1906,7 +1906,7 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "reliability",
         "entity2_type": "CONCEPT"
     },
@@ -1920,21 +1920,21 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Network Architecture",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Physical Layer",
         "entity2_type": "TOPIC"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "implements",
         "entity2": "congestion",
         "entity2_type": "CONCEPT"
     },
@@ -1976,7 +1976,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -1990,14 +1990,14 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "network performance",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "bandwidth",
         "entity2_type": "CONCEPT"
     },
@@ -2011,7 +2011,7 @@
     {
         "entity1": "ssl",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -2032,7 +2032,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
@@ -2046,7 +2046,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
@@ -2074,14 +2074,14 @@
     {
         "entity1": "fragmentation",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "TCP",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "HTTP",
         "entity2_type": "OTHER"
     },
@@ -2137,7 +2137,7 @@
     {
         "entity1": "gateway",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "ipv6",
         "entity2_type": "OTHER"
     },
@@ -2158,14 +2158,14 @@
     {
         "entity1": "router",
         "entity1_type": "OTHER",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "firewall",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "segment",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "checksum",
         "entity2_type": "CONCEPT"
     },
@@ -2186,7 +2186,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2221,7 +2221,7 @@
     {
         "entity1": "Protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "SMTP",
         "entity2_type": "OTHER"
     },
@@ -2235,28 +2235,28 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Ethernet",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "http",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "WiFi",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "IEEE",
         "entity2_type": "OTHER"
     },
@@ -2298,7 +2298,7 @@
     {
         "entity1": "encryption",
         "entity1_type": "METHOD",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
@@ -2326,14 +2326,14 @@
     {
         "entity1": "smtp",
         "entity1_type": "OTHER",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "packet loss",
         "entity2_type": "CONCEPT"
     },
@@ -2396,7 +2396,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
@@ -2417,7 +2417,7 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Hub",
         "entity2_type": "OTHER"
     },
@@ -2445,7 +2445,7 @@
     {
         "entity1": "Protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "POP3",
         "entity2_type": "OTHER"
     },
@@ -2459,7 +2459,7 @@
     {
         "entity1": "network performance",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "packet",
         "entity2_type": "CONCEPT"
     },
@@ -2480,7 +2480,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -2529,7 +2529,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "gateway",
         "entity2_type": "OTHER"
     },
@@ -2550,14 +2550,14 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "protocol",
         "entity2_type": "CONCEPT"
     },
@@ -2571,14 +2571,14 @@
     {
         "entity1": "frame",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "switch",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Computer Networks",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Network Models",
         "entity2_type": "TOPIC"
     },
@@ -2599,7 +2599,7 @@
     {
         "entity1": "Physical Layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Protocol",
         "entity2_type": "CONCEPT"
     },
@@ -2634,7 +2634,7 @@
     {
         "entity1": "application layer",
         "entity1_type": "TOPIC",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
@@ -2648,7 +2648,7 @@
     {
         "entity1": "data link layer",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "reliability",
         "entity2_type": "CONCEPT"
     },
@@ -2662,35 +2662,35 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "udp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "tcp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "http",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ftp",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "tcp",
         "entity1_type": "OTHER",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "ip",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "dns",
         "entity2_type": "OTHER"
     },
@@ -2718,7 +2718,7 @@
     {
         "entity1": "protocol",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "https",
         "entity2_type": "OTHER"
     },
@@ -2732,7 +2732,7 @@
     {
         "entity1": "packet",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "router",
         "entity2_type": "OTHER"
     }

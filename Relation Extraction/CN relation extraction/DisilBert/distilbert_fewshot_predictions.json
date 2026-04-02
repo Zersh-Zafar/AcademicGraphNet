@@ -1,67 +1,127 @@
 [
     {
-        "input": "Sentence: Networking protocols rely on the Data Link Layer for reliable frame transmission Entity1: data link layer (TOPIC). Entity2: frame (CONCEPT).",
+        "input": "Sentence: The Data Link Layer acts as the communication interface between the physical layer and network layer Entity1: physical layer (TOPIC). Entity2: data link layer (TOPIC).",
         "ground_truth": "part_of",
-        "predicted": "part_of"
+        "predicted": "no_relation"
     },
     {
-        "input": "Sentence: Another key responsibility is error detection and correction, typically implemented through mechanisms like parity checks or cyclic redundancy checks (CRC) Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
+        "input": "Sentence: Today\u2019s network designs are based on three topologies: \u2022 Bus consists of series of computers connected along a single cable segment \u2022 Star connects computers via central connection point or hub \u2022 Ring connects computers to form a loop All computers, regardless of topology, communicate by addressing data to one or more computers and transmitting it across cable as electronic signals Entity1: Segment (CONCEPT). Entity2: Hub (OTHER).",
+        "ground_truth": "based_on",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Transport Layer: Handles host-to-host communication (TCP and UDP) Entity1: Transport Layer (TOPIC). Entity2: TCP (OTHER).",
         "ground_truth": "used_for",
         "predicted": "no_relation"
     },
     {
-        "input": "Sentence: Error detection and correction methods ensure data integrity during transmission, often using redundancy bits or codes like CRC Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: packet (CONCEPT). Entity2: flow control (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: packet loss (CONCEPT). Entity2: flow control (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: Flow control ensures efficient communication between devices operating at different speeds, preventing congestion or packet loss Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: Flow control protocols regulate transmission rates and prevent network congestion Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
+        "input": "Sentence: HTTP is an application layer protocol because it runs on top of TCP and is closely associated with the Web Entity1: protocol (CONCEPT). Entity2: http (OTHER).",
         "ground_truth": "used_for",
         "predicted": "implements"
     },
     {
-        "input": "Sentence: Error detection and correction mechanisms are used to identify corrupted frames, often through techniques such as cyclic redundancy checks (CRC) Entity1: error detection (CONCEPT). Entity2: redundancy (CONCEPT).",
-        "ground_truth": "used_for",
+        "input": "Sentence: Flow control mechanisms like stop-and-wait or sliding window protocols regulate the rate of transmission between communicating nodes Entity1: flow control (CONCEPT). Entity2: sliding window (METHOD).",
+        "ground_truth": "implements",
         "predicted": "no_relation"
     },
     {
-        "input": "Sentence: Error detection and correction techniques such as CRC are used to verify frame integrity and detect corruption Entity1: frame (CONCEPT). Entity2: error detection (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
+        "input": "Sentence: MAC addressing uniquely identifies each device within a network segment, enabling accurate frame delivery Entity1: frame (CONCEPT). Entity2: segment (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "implements"
     },
     {
-        "input": "Sentence: Flow control regulates the rate of frame transmission, preventing congestion or buffer overflow Entity1: frame (CONCEPT). Entity2: flow control (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: Flow control regulates the rate of frame transmission, preventing congestion or buffer overflow Entity1: flow control (CONCEPT). Entity2: congestion (CONCEPT).",
-        "ground_truth": "used_for",
-        "predicted": "no_relation"
-    },
-    {
-        "input": "Sentence: In Mesh Topology, the protocols used are AHCP (Ad Hoc Configuration Protocols), DHCP (Dynamic Host Configuration Protocol), etc Entity1: Mesh Topology (CONCEPT). Entity2: DHCP (OTHER).",
-        "ground_truth": "uses_for",
+        "input": "Sentence: IPv6 addresses the limitations of IPv4 by providing a larger address space and simplified packet processing Entity1: ipv4 (OTHER). Entity2: ipv6 (OTHER).",
+        "ground_truth": "improves",
         "predicted": "improves"
     },
     {
-        "input": "Sentence: In Star Topology, many popular Ethernet LAN protocols are used as CD(Collision Detection), CSMA (Carrier Sense Multiple Access), etc Entity1: Star Topology (CONCEPT). Entity2: Collision Detection (CONCEPT).",
-        "ground_truth": "uses_for",
+        "input": "Sentence: Routing protocols such as Routing Information Protocol, Open Shortest Path First, and Border Gateway Protocol ensure routers maintain accurate routing tables Entity1: protocol (CONCEPT). Entity2: gateway (OTHER).",
+        "ground_truth": "used_for",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: However, partially due to the protocol's adoption of QUIC, HTTP/3 has lower latency and loads more quickly in real-world usage when compared with previous versions: in some cases over four times faster than with HTTP/1 Entity1: protocol (CONCEPT). Entity2: latency (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: The transport layer in computer networks is responsible for providing reliable communication between end systems Entity1: computer networks (TOPIC). Entity2: transport layer (TOPIC).",
+        "ground_truth": "part_of",
+        "predicted": "part_of"
+    },
+    {
+        "input": "Sentence: Once packet loss is detected, the protocol reduces its transmission rate to stabilize the network Entity1: protocol (CONCEPT). Entity2: packet (CONCEPT).",
+        "ground_truth": "improves",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: In contrast, User Datagram Protocol (UDP) is connectionless and does not guarantee delivery, order, or error correction Entity1: Protocol (CONCEPT). Entity2: Datagram (CONCEPT).",
+        "ground_truth": "no_relation",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: This allows tasks and resources to be distributed across different machines, improving performance, reliability, and scalability Entity1: Scalability (CONCEPT). Entity2: Reliability (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Computer networks are operated by network models; most prominently the OSIRM and the TCP/ IP Models Entity1: Network Models (TOPIC). Entity2: TCP (OTHER).",
+        "ground_truth": "implements",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: IPv6 was developed to overcome IPv4 address exhaustion and provide better scalability for the rapidly growing internet Entity1: ipv4 (OTHER). Entity2: ipv6 (OTHER).",
+        "ground_truth": "improves",
+        "predicted": "improves"
+    },
+    {
+        "input": "Sentence: Data Link Layer \u2022 Is responsible for moving frames from node to node or computer to computer \u2022 Can move frames from one adjacent computer to another, cannot move frames across routers \u2022 Encapsulation = frame \u2022 Requires MAC address or physical address \u2022 Protocols defined include Ethernet Protocol and Point-to-Point Protocol (PPP) \u2022 Device example: Switch \u2022 Two sublayers: Logical Link Control (LLC) and the Media Access Control (MAC) o Logical Link Control (LLC) \u2013 Data Link layer addressing, flow control, address notification, error control o Media Access Control (MAC) \u2013Determines which computer has access to the network media at any given time \u2013Determines where one frame ends and the next one starts, called frame synchronization Entity1: Data Link Layer (TOPIC). Entity2: Ethernet (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: DNS acts like a phonebook of the Internet, matching domain names with their corresponding IP addresses Entity1: ip (OTHER). Entity2: dns (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: It also introduces protocols and standards, the OSI model, and the TCP/IP protocol suite Entity1: Protocol (CONCEPT). Entity2: IP (OTHER).",
+        "ground_truth": "implements",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: As a network layer device, the router collects and stores information such as the IP address of its connected devices in a routing table and uses it for packet forwarding to the right destination Entity1: network layer (TOPIC). Entity2: packet (CONCEPT).",
+        "ground_truth": "part_of",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: DNS queries and responses relied on UDP as its transport protocol, based on the rationale that DNS queries and responses needed to be fast and lightweight, and could not handle the corresponding overhead of a TCP three- way handshake Entity1: protocol (CONCEPT). Entity2: tcp (OTHER).",
+        "ground_truth": "based_on",
         "predicted": "based_on"
+    },
+    {
+        "input": "Sentence: Each host receives an IP address through Internet Protocol version 4 or Internet Protocol version 6 Entity1: protocol (CONCEPT). Entity2: ip address (CONCEPT).",
+        "ground_truth": "used_for",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: When a router receives a packet, it searches its routing table to find the best match between the destination IP address of the packet and one of the addresses in the routing table Entity1: router (OTHER). Entity2: ip (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "used_for"
+    },
+    {
+        "input": "Sentence: SMTP typically operates over TCP port 25 for server-to-server communication and port 587 or 465 for client- to-server email submission with encryption Entity1: encryption (METHOD). Entity2: smtp (OTHER).",
+        "ground_truth": "no_relation",
+        "predicted": "implements"
+    },
+    {
+        "input": "Sentence: HTTPS is HTTP over TLS or SSL, providing encrypted communication and secure identification of a network web server Entity1: https (OTHER). Entity2: ssl (OTHER).",
+        "ground_truth": "implements",
+        "predicted": "no_relation"
+    },
+    {
+        "input": "Sentence: Routers filters and forward data based on logical addresses, for example, the IP address Entity1: ip address (CONCEPT). Entity2: ip (OTHER).",
+        "ground_truth": "based_on",
+        "predicted": "used_for"
     }
 ]

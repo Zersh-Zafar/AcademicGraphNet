@@ -93,7 +93,7 @@
     {
         "entity1": "Fragmentation",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Internal Fragmentation",
         "entity2_type": "CONCEPT"
     },
@@ -226,7 +226,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -324,7 +324,7 @@
     {
         "entity1": "Windows",
         "entity1_type": "OTHER",
-        "relation": "implements",
+        "relation": "based_on",
         "entity2": "Dispatcher",
         "entity2_type": "OTHER"
     },
@@ -338,7 +338,7 @@
     {
         "entity1": "FCFS",
         "entity1_type": "ALGORITHM",
-        "relation": "no_relation",
+        "relation": "based_on",
         "entity2": "FIFO",
         "entity2_type": "ALGORITHM"
     },
@@ -401,7 +401,7 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "implements",
+        "relation": "no_relation",
         "entity2": "UNIX",
         "entity2_type": "OTHER"
     },
@@ -520,7 +520,7 @@
     {
         "entity1": "FCFS",
         "entity1_type": "ALGORITHM",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "FIFO",
         "entity2_type": "ALGORITHM"
     },
@@ -604,14 +604,14 @@
     {
         "entity1": "System Calls",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "PCB",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "CPU Registers",
         "entity2_type": "CONCEPT"
     },
@@ -688,7 +688,7 @@
     {
         "entity1": "Process Control Block",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Program Counter",
         "entity2_type": "CONCEPT"
     },
@@ -716,7 +716,7 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "implements",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -737,7 +737,7 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -779,7 +779,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process Control Block",
         "entity2_type": "CONCEPT"
     },
@@ -919,7 +919,7 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "based_on",
         "entity2": "Linux",
         "entity2_type": "OTHER"
     },
@@ -1164,7 +1164,7 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
@@ -1234,7 +1234,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "implements",
+        "relation": "no_relation",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1311,7 +1311,7 @@
     {
         "entity1": "Concurrency",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -1423,7 +1423,7 @@
     {
         "entity1": "UNIX",
         "entity1_type": "OTHER",
-        "relation": "implements",
+        "relation": "part_of",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -1458,7 +1458,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "Dispatcher",
         "entity2_type": "OTHER"
     },
@@ -1542,7 +1542,7 @@
     {
         "entity1": "Multiprogramming",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -1598,7 +1598,7 @@
     {
         "entity1": "Process Identifier",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "PID",
         "entity2_type": "CONCEPT"
     },
@@ -1626,7 +1626,7 @@
     {
         "entity1": "Fairness",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "implements",
         "entity2": "Round Robin",
         "entity2_type": "ALGORITHM"
     },
@@ -1899,7 +1899,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Time Quantum",
         "entity2_type": "CONCEPT"
     },
@@ -2053,7 +2053,7 @@
     {
         "entity1": "Starvation",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "implements",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
@@ -2088,7 +2088,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -2130,7 +2130,7 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Interrupt",
         "entity2_type": "CONCEPT"
     },
@@ -2144,7 +2144,7 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -2228,7 +2228,7 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "implements",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -2389,14 +2389,14 @@
     {
         "entity1": "Shell",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "LOOK",
         "entity1_type": "ALGORITHM",
-        "relation": "no_relation",
+        "relation": "based_on",
         "entity2": "C-LOOK",
         "entity2_type": "ALGORITHM"
     },
@@ -2522,7 +2522,7 @@
     {
         "entity1": "Multiprogramming",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },

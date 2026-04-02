@@ -16,14 +16,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Program Counter",
         "entity2_type": "CONCEPT"
     },
@@ -44,7 +44,7 @@
     {
         "entity1": "wait",
         "entity1_type": "METHOD",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "waitpid",
         "entity2_type": "METHOD"
     },
@@ -79,14 +79,14 @@
     {
         "entity1": "Turnaround Time",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "SJF",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Deadlock Avoidance",
         "entity2_type": "CONCEPT"
     },
@@ -100,14 +100,14 @@
     {
         "entity1": "signal",
         "entity1_type": "METHOD",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Time Sharing",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Thread",
         "entity2_type": "CONCEPT"
     },
@@ -128,7 +128,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -156,7 +156,7 @@
     {
         "entity1": "Deadlock Avoidance",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Safe State",
         "entity2_type": "CONCEPT"
     },
@@ -177,21 +177,21 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Synchronization",
         "entity2_type": "TOPIC"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "Preemptive Scheduling",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Dispatcher Latency",
         "entity1_type": "CONCEPT",
-        "relation": "improves",
+        "relation": "no_relation",
         "entity2": "Throughput",
         "entity2_type": "CONCEPT"
     },
@@ -261,7 +261,7 @@
     {
         "entity1": "CPU Burst",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Time Quantum",
         "entity2_type": "CONCEPT"
     },
@@ -275,7 +275,7 @@
     {
         "entity1": "Semaphore",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Mutex",
         "entity2_type": "CONCEPT"
     },
@@ -289,7 +289,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -310,14 +310,14 @@
     {
         "entity1": "Concurrency",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Segmentation",
         "entity2_type": "CONCEPT"
     },
@@ -331,28 +331,28 @@
     {
         "entity1": "Critical Section",
         "entity1_type": "CONCEPT",
-        "relation": "implements",
+        "relation": "part_of",
         "entity2": "Mutual Exclusion",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Throughput",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Dispatcher",
         "entity2_type": "OTHER"
     },
@@ -380,28 +380,28 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Semaphore",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "PID",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "exec",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Logical Address",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Physical Address",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Turnaround Time",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "FCFS",
         "entity2_type": "ALGORITHM"
     },
@@ -415,7 +415,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Thread",
         "entity2_type": "CONCEPT"
     },
@@ -429,7 +429,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Throughput",
         "entity2_type": "CONCEPT"
     },
@@ -450,7 +450,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -485,14 +485,14 @@
     {
         "entity1": "Program Counter",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Stack Pointer",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Concurrency",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -506,7 +506,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Parent Process",
         "entity2_type": "CONCEPT"
     },
@@ -520,42 +520,42 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Concurrency",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Waiting Time",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "FCFS",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Physical Address",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -597,7 +597,7 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -646,28 +646,28 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "File System",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "MacOS",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Preemptive Scheduling",
         "entity1_type": "METHOD",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -688,7 +688,7 @@
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Physical Address",
         "entity2_type": "CONCEPT"
     },
@@ -709,35 +709,35 @@
     {
         "entity1": "Paging",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Internal Fragmentation",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "implements",
+        "relation": "no_relation",
         "entity2": "Deadlock Avoidance",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -751,7 +751,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "PCB",
         "entity2_type": "CONCEPT"
     },
@@ -800,14 +800,14 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "FIFO",
         "entity2_type": "ALGORITHM"
     },
@@ -884,21 +884,21 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Child Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -919,7 +919,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Safe State",
         "entity2_type": "CONCEPT"
     },
@@ -940,7 +940,7 @@
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -975,7 +975,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -989,21 +989,21 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Critical Section",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Thread",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process Control Block",
         "entity2_type": "CONCEPT"
     },
@@ -1024,7 +1024,7 @@
     {
         "entity1": "Process Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "CPU Utilization",
         "entity2_type": "CONCEPT"
     },
@@ -1038,7 +1038,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Mutual Exclusion",
         "entity2_type": "CONCEPT"
     },
@@ -1059,21 +1059,21 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Throughput",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Paging",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Demand Paging",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -1087,14 +1087,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "UNIX",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Mutual Exclusion",
         "entity2_type": "CONCEPT"
     },
@@ -1115,7 +1115,7 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1129,14 +1129,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Segmentation",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Linux",
         "entity2_type": "OTHER"
     },
@@ -1157,7 +1157,7 @@
     {
         "entity1": "Interrupt",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -1178,7 +1178,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1192,7 +1192,7 @@
     {
         "entity1": "CPU Registers",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Program Counter",
         "entity2_type": "CONCEPT"
     },
@@ -1248,28 +1248,28 @@
     {
         "entity1": "Child Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "PID",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "UNIX",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Critical Section",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "improves",
+        "relation": "no_relation",
         "entity2": "Deadlock Avoidance",
         "entity2_type": "CONCEPT"
     },
@@ -1283,14 +1283,14 @@
     {
         "entity1": "Thread",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Critical Section",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Mutual Exclusion",
         "entity2_type": "CONCEPT"
     },
@@ -1318,14 +1318,14 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "UNIX",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1360,14 +1360,14 @@
     {
         "entity1": "Swapping",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1430,7 +1430,7 @@
     {
         "entity1": "CPU Burst",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "SJF",
         "entity2_type": "ALGORITHM"
     },
@@ -1458,7 +1458,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1479,14 +1479,14 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -1500,7 +1500,7 @@
     {
         "entity1": "wait",
         "entity1_type": "METHOD",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "SCAN",
         "entity2_type": "ALGORITHM"
     },
@@ -1514,21 +1514,21 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "implements",
+        "relation": "used_for",
         "entity2": "exec",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Child Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Mutex",
         "entity2_type": "CONCEPT"
     },
@@ -1542,21 +1542,21 @@
     {
         "entity1": "File System",
         "entity1_type": "TOPIC",
-        "relation": "based_on",
+        "relation": "no_relation",
         "entity2": "UNIX File System",
         "entity2_type": "TOPIC"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Real-Time Systems",
         "entity2_type": "TOPIC"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1570,7 +1570,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1584,14 +1584,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "fork",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -1605,7 +1605,7 @@
     {
         "entity1": "Paging",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Demand Paging",
         "entity2_type": "CONCEPT"
     },
@@ -1640,7 +1640,7 @@
     {
         "entity1": "Paging",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Segmentation",
         "entity2_type": "CONCEPT"
     },
@@ -1682,7 +1682,7 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Response Time",
         "entity2_type": "CONCEPT"
     },
@@ -1703,14 +1703,14 @@
     {
         "entity1": "C-SCAN",
         "entity1_type": "ALGORITHM",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "LOOK",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "fork",
         "entity2_type": "METHOD"
     },
@@ -1752,21 +1752,21 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Time Quantum",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "UNIX",
         "entity1_type": "OTHER",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Thread",
         "entity2_type": "CONCEPT"
     },
@@ -1787,7 +1787,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -1801,14 +1801,14 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Deadlock Detection",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Logical Address",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Physical Address",
         "entity2_type": "CONCEPT"
     },
@@ -1822,7 +1822,7 @@
     {
         "entity1": "Starvation",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
@@ -1836,7 +1836,7 @@
     {
         "entity1": "Inode",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Security",
         "entity2_type": "TOPIC"
     },
@@ -1857,7 +1857,7 @@
     {
         "entity1": "System Calls",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "UNIX",
         "entity2_type": "OTHER"
     },
@@ -1892,7 +1892,7 @@
     {
         "entity1": "File System",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -1913,21 +1913,21 @@
     {
         "entity1": "CPU Utilization",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "File System",
         "entity1_type": "TOPIC",
-        "relation": "implements",
+        "relation": "part_of",
         "entity2": "Journaling",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -1941,7 +1941,7 @@
     {
         "entity1": "Response Time",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Multilevel Feedback Queue Scheduling",
         "entity2_type": "ALGORITHM"
     },
@@ -1955,7 +1955,7 @@
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -1983,7 +1983,7 @@
     {
         "entity1": "Multiprogramming",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Context Switching",
         "entity2_type": "CONCEPT"
     },
@@ -2011,7 +2011,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Time Quantum",
         "entity2_type": "CONCEPT"
     },
@@ -2032,7 +2032,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Process State",
         "entity2_type": "CONCEPT"
     },
@@ -2046,7 +2046,7 @@
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -2060,7 +2060,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Dispatcher",
         "entity2_type": "OTHER"
     },
@@ -2081,7 +2081,7 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -2109,7 +2109,7 @@
     {
         "entity1": "Thread",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Scheduler",
         "entity2_type": "OTHER"
     },
@@ -2137,7 +2137,7 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Turnaround Time",
         "entity2_type": "CONCEPT"
     },
@@ -2186,14 +2186,14 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "implements",
+        "relation": "part_of",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Mutual Exclusion",
         "entity2_type": "CONCEPT"
     },
@@ -2207,21 +2207,21 @@
     {
         "entity1": "Interrupt",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "kill",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Synchronization",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Critical Section",
         "entity2_type": "CONCEPT"
     },
@@ -2242,28 +2242,28 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "PCB",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Context Switching",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Priority Scheduling",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Security",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Access Control",
         "entity2_type": "CONCEPT"
     },
@@ -2277,28 +2277,28 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Preemptive Scheduling",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Linux",
         "entity1_type": "OTHER",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "System Calls",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process Control Block",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "PCB",
         "entity2_type": "CONCEPT"
     },
@@ -2319,14 +2319,14 @@
     {
         "entity1": "Interrupt",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Preemptive Scheduling",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Round Robin",
         "entity2_type": "ALGORITHM"
     },
@@ -2368,7 +2368,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -2410,7 +2410,7 @@
     {
         "entity1": "Dispatcher",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process Control Block",
         "entity2_type": "CONCEPT"
     },
@@ -2431,14 +2431,14 @@
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "SCAN",
         "entity1_type": "ALGORITHM",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "C-SCAN",
         "entity2_type": "ALGORITHM"
     },
@@ -2452,7 +2452,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Kernel",
         "entity2_type": "OTHER"
     },
@@ -2473,21 +2473,21 @@
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "part_of",
+        "relation": "used_for",
         "entity2": "Shortest Job Next",
         "entity2_type": "ALGORITHM"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Process Control Block",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process Control Block",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Program Counter",
         "entity2_type": "CONCEPT"
     },
@@ -2501,7 +2501,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process State",
         "entity2_type": "CONCEPT"
     },
@@ -2515,7 +2515,7 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "no_relation",
         "entity2": "Paging",
         "entity2_type": "CONCEPT"
     },
@@ -2550,14 +2550,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Waiting Time",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
@@ -2606,28 +2606,28 @@
     {
         "entity1": "Process Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Deadlock",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
     {
         "entity1": "Memory Management",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Virtual Memory",
         "entity2_type": "CONCEPT"
     },
@@ -2641,14 +2641,14 @@
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Thread",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "File System",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Directory",
         "entity2_type": "CONCEPT"
     },
@@ -2676,28 +2676,28 @@
     {
         "entity1": "Semaphore",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Binary Semaphore",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Thread",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Dispatcher",
         "entity2_type": "OTHER"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "part_of",
+        "relation": "no_relation",
         "entity2": "Paging",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "CPU Scheduling",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
@@ -2711,7 +2711,7 @@
     {
         "entity1": "Concurrency",
         "entity1_type": "TOPIC",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "Throughput",
         "entity2_type": "CONCEPT"
     },
@@ -2725,14 +2725,14 @@
     {
         "entity1": "Dispatcher",
         "entity1_type": "OTHER",
-        "relation": "no_relation",
+        "relation": "part_of",
         "entity2": "Process",
         "entity2_type": "CONCEPT"
     },
     {
         "entity1": "Process",
         "entity1_type": "CONCEPT",
-        "relation": "no_relation",
+        "relation": "used_for",
         "entity2": "wait",
         "entity2_type": "METHOD"
     },
