@@ -1,0 +1,542 @@
+[
+    {
+        "text": "Traffic prediction involves analyzing network usage patterns to forecast future traffic demands. Network administrators use statistical models and machine learning techniques to anticipate congestion and optimize routing paths before problems occur. At the network layer, predictive algorithms can adjust routing policies and allocate bandwidth dynamically to maintain high performance. For example, if historical data shows that traffic spikes occur during certain hours, routing systems can prepare alternate paths to distribute traffic load more effectively. Traffic prediction improves resource utilization and helps maintain consistent network performance even during peak usage periods in large enterprise and service provider networks.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "congestion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.957
+    },
+    {
+        "text": "Traffic prediction involves analyzing network usage patterns to forecast future traffic demands. Network administrators use statistical models and machine learning techniques to anticipate congestion and optimize routing paths before problems occur. At the network layer, predictive algorithms can adjust routing policies and allocate bandwidth dynamically to maintain high performance. For example, if historical data shows that traffic spikes occur during certain hours, routing systems can prepare alternate paths to distribute traffic load more effectively. Traffic prediction improves resource utilization and helps maintain consistent network performance even during peak usage periods in large enterprise and service provider networks.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bandwidth",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.952
+    },
+    {
+        "text": "The Data Link Layer supports reliable frame delivery across physical connections. Framing structures raw data into frames with defined boundaries. Error detection and correction mechanisms ensure that transmission errors are detected. Flow control synchronizes the transmission rate between communicating devices. MAC addressing provides unique identification for devices in a network. Switching concepts enable switches to forward frames selectively to reduce network congestion.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frame",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.975
+    },
+    {
+        "text": "The Data Link Layer supports reliable frame delivery across physical connections. Framing structures raw data into frames with defined boundaries. Error detection and correction mechanisms ensure that transmission errors are detected. Flow control synchronizes the transmission rate between communicating devices. MAC addressing provides unique identification for devices in a network. Switching concepts enable switches to forward frames selectively to reduce network congestion.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.974
+    },
+    {
+        "text": "The Data Link Layer supports reliable frame delivery across physical connections. Framing structures raw data into frames with defined boundaries. Error detection and correction mechanisms ensure that transmission errors are detected. Flow control synchronizes the transmission rate between communicating devices. MAC addressing provides unique identification for devices in a network. Switching concepts enable switches to forward frames selectively to reduce network congestion.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "error detection",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.971
+    },
+    {
+        "text": "Network models provide a structured framework for understanding how communication occurs between devices. They break down the complex process into layers, each with distinct responsibilities. OSI Model (Open Systems Interconnection) \ufffd 7 Layers: Physical Layer: Transfers raw bits over a physical medium (cables, fiber, wireless). Data Link Layer: Packages bits into frames, manages error detection, and controls media access. Network Layer: Handles logical addressing and routing; determines the path data takes across networks. Transport Layer: Ensures reliable end-to-end communication, error recovery, and sequencing (TCP for reliable, UDP for fast connectionless transport). Session Layer: Manages sessions between applications (setup, maintenance, termination). Presentation Layer: Formats data, manages encryption, compression, and translation. Application Layer: Interfaces with applications; includes protocols like HTTP, FTP, SMTP, DNS.",
+        "entity1": "network models",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.975
+    },
+    {
+        "text": "Network models provide a structured framework for understanding how communication occurs between devices. They break down the complex process into layers, each with distinct responsibilities. OSI Model (Open Systems Interconnection) \ufffd 7 Layers: Physical Layer: Transfers raw bits over a physical medium (cables, fiber, wireless). Data Link Layer: Packages bits into frames, manages error detection, and controls media access. Network Layer: Handles logical addressing and routing; determines the path data takes across networks. Transport Layer: Ensures reliable end-to-end communication, error recovery, and sequencing (TCP for reliable, UDP for fast connectionless transport). Session Layer: Manages sessions between applications (setup, maintenance, termination). Presentation Layer: Formats data, manages encryption, compression, and translation. Application Layer: Interfaces with applications; includes protocols like HTTP, FTP, SMTP, DNS.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "osi model",
+        "entity2_type": "TOPIC",
+        "confidence": 0.974
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "tcp / ip model",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "tcp / ip model",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.978
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "tcp / ip model",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.978
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.978
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.977
+    },
+    {
+        "text": "The Data Link Layer is responsible for reliable communication across a physical link between devices. One of its primary functions is framing, where raw bits received from the physical layer are organized into frames. Frames contain headers and trailers that include addressing fields and error-checking codes. Error detection and correction mechanisms help ensure that frames affected by noise or interference can be identified and retransmitted if necessary. Flow control regulates the rate of data transmission between sender and receiver to prevent buffer overflow. MAC addressing uniquely identifies each device on the network. Switching concepts allow switches to examine MAC addresses and forward frames efficiently.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "error detection",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.975
+    },
+    {
+        "text": "The Data Link Layer is responsible for reliable communication across a physical link between devices. One of its primary functions is framing, where raw bits received from the physical layer are organized into frames. Frames contain headers and trailers that include addressing fields and error-checking codes. Error detection and correction mechanisms help ensure that frames affected by noise or interference can be identified and retransmitted if necessary. Flow control regulates the rate of data transmission between sender and receiver to prevent buffer overflow. MAC addressing uniquely identifies each device on the network. Switching concepts allow switches to examine MAC addresses and forward frames efficiently.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.977
+    },
+    {
+        "text": "FTP is a standard application layer protocol used to transfer files between a client and a server over a TCP/IP network. It enables users to upload, download, rename, delete, or list files and directories on a remote system. FTP uses two separate TCP connections: Port 21: for control commands (like login, file list, etc.). Port 20: for actual data transfer (file upload/download). These port numbers are added by the transport layer after the FTP request is generated at the application layer.",
+        "entity1": "application layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.911
+    },
+    {
+        "text": "FTP is a standard application layer protocol used to transfer files between a client and a server over a TCP/IP network. It enables users to upload, download, rename, delete, or list files and directories on a remote system. FTP uses two separate TCP connections: Port 21: for control commands (like login, file list, etc.). Port 20: for actual data transfer (file upload/download). These port numbers are added by the transport layer after the FTP request is generated at the application layer.",
+        "entity1": "application layer",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "transport layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.97
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entity1": "frames",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "data link layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.976
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "data link layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.974
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entity1": "frames",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.976
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entity1": "error detection",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.974
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.975
+    },
+    {
+        "text": "LAN Edge: Combining switching and Wi-Fi access points (AP), LAN Edge integrates connectivity and security, allowing devices connected to the internal network. Switching ensures adequate security at the network edge by facilitating traffic filtering and access control at the port level, allowing administrators to enforce policies on granular network segments. And Wireless Access Points implement encryption protocols and authentication mechanisms, protecting data in transit. They also support access control lists (ACLs), restricting unauthorized devices from connecting to the network.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "encryption",
+        "entity2_type": "METHOD",
+        "confidence": 0.817
+    },
+    {
+        "text": "LAN Edge: Combining switching and Wi-Fi access points (AP), LAN Edge integrates connectivity and security, allowing devices connected to the internal network. Switching ensures adequate security at the network edge by facilitating traffic filtering and access control at the port level, allowing administrators to enforce policies on granular network segments. And Wireless Access Points implement encryption protocols and authentication mechanisms, protecting data in transit. They also support access control lists (ACLs), restricting unauthorized devices from connecting to the network.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "authentication",
+        "entity2_type": "METHOD",
+        "confidence": 0.851
+    },
+    {
+        "text": "Error detection and reliability mechanisms are fundamental features of transport layer protocols. In Transmission Control Protocol, each transmitted segment includes a checksum that verifies the integrity of the data. When the receiver obtains a segment, it calculates the checksum again and compares it with the value included in the header. If the values differ, the segment is considered corrupted and discarded. TCP then retransmits the missing segment to ensure accurate delivery. Combined with sequence numbers and acknowledgments, this mechanism ensures reliable communication between hosts. Such reliability is essential for applications where accurate data transmission is critical.",
+        "entity1": "error detection",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "transport layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.967
+    },
+    {
+        "text": "Error detection and reliability mechanisms are fundamental features of transport layer protocols. In Transmission Control Protocol, each transmitted segment includes a checksum that verifies the integrity of the data. When the receiver obtains a segment, it calculates the checksum again and compares it with the value included in the header. If the values differ, the segment is considered corrupted and discarded. TCP then retransmits the missing segment to ensure accurate delivery. Combined with sequence numbers and acknowledgments, this mechanism ensures reliable communication between hosts. Such reliability is essential for applications where accurate data transmission is critical.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "reliability",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.966
+    },
+    {
+        "text": "Error detection and reliability mechanisms are fundamental features of transport layer protocols. In Transmission Control Protocol, each transmitted segment includes a checksum that verifies the integrity of the data. When the receiver obtains a segment, it calculates the checksum again and compares it with the value included in the header. If the values differ, the segment is considered corrupted and discarded. TCP then retransmits the missing segment to ensure accurate delivery. Combined with sequence numbers and acknowledgments, this mechanism ensures reliable communication between hosts. Such reliability is essential for applications where accurate data transmission is critical.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "segment",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.972
+    },
+    {
+        "text": "Error detection and reliability mechanisms are fundamental features of transport layer protocols. In Transmission Control Protocol, each transmitted segment includes a checksum that verifies the integrity of the data. When the receiver obtains a segment, it calculates the checksum again and compares it with the value included in the header. If the values differ, the segment is considered corrupted and discarded. TCP then retransmits the missing segment to ensure accurate delivery. Combined with sequence numbers and acknowledgments, this mechanism ensures reliable communication between hosts. Such reliability is essential for applications where accurate data transmission is critical.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "checksum",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.964
+    },
+    {
+        "text": "Telnet is a client-server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.It is a protocol for bidirectional 8-bit communications. Its main goal was to connect terminal devices and terminal-oriented processes. The name \"Telnet\" refers to two things: a protocol specifying how two parties are to communicate and a software application that implements the protocol as a service.User data is interspersed in-band with Telnet control information in an 8-bit byte oriented data connection over the Transmission Control Protocol (TCP). Telnet transmits all information including usernames and passwords in plaintext so it is not recommended for security-sensitive applications such as remote management of routers.Telnet's use for this purpose has waned significantly in favor of SSH. Some extensions to Telnet which would provide encryption have been proposed.",
+        "entity1": "encryption",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.964
+    },
+    {
+        "text": "In computer networks, the transport layer is responsible for providing communication services directly to application processes. Two main protocols used at this layer are Transmission Control Protocol and User Datagram Protocol. TCP is a connection-oriented protocol, meaning that it establishes a connection between sender and receiver before transmitting data. It ensures reliable delivery through acknowledgments, sequence numbers, and retransmission of lost packets. TCP is widely used in applications such as HTTP, HTTPS, and FTP where reliable communication is required.",
+        "entity1": "datagram",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "transport layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.98
+    },
+    {
+        "text": "Within the OSI networking architecture, the Data Link Layer ensures structured communication across physical network links. Framing divides raw bit streams into frames with defined boundaries so that receiving devices can interpret data correctly. Error detection and correction mechanisms such as parity checks or cyclic redundancy checks verify the accuracy of transmitted frames. Flow control regulates transmission speed between sender and receiver to maintain network stability. MAC addressing uniquely identifies devices within a LAN environment. Switching concepts allow switches to maintain MAC address tables and efficiently deliver frames to their intended destinations.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "parity checks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.972
+    },
+    {
+        "text": "Within the OSI networking architecture, the Data Link Layer ensures structured communication across physical network links. Framing divides raw bit streams into frames with defined boundaries so that receiving devices can interpret data correctly. Error detection and correction mechanisms such as parity checks or cyclic redundancy checks verify the accuracy of transmitted frames. Flow control regulates transmission speed between sender and receiver to maintain network stability. MAC addressing uniquely identifies devices within a LAN environment. Switching concepts allow switches to maintain MAC address tables and efficiently deliver frames to their intended destinations.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "cyclic redundancy checks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.973
+    },
+    {
+        "text": "Physical Layer Protocols These standards define the speed, distance, and pin configurations for serial communication. Protocol : RS-232 , RS-449 Max Data Rate: 20 kbps , 2 Mbps Max Distance: 10 feet, 60 feet",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.969
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bandwidth",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.967
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.972
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.969
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.97
+    },
+    {
+        "text": "Network virtualization allows multiple logical networks to operate on the same physical infrastructure. Technologies such as VXLAN and NVGRE encapsulate network layer packets within other packets to create virtual overlays. This approach is widely used in cloud computing and data centers to isolate tenants and provide scalable networking services.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.953
+    },
+    {
+        "text": "The Network Layer ensures packets are delivered from the source network to the destination network across multiple intermediate routers. Logical addressing is performed using Internet Protocol version 4 and Internet Protocol version 6. IPv6 significantly expands the available address space and supports advanced networking features. Subnetting is an essential technique that allows large networks to be divided into smaller subnetworks, improving efficiency and control over network traffic. Routing algorithms determine optimal packet paths using information about network topology and link metrics. Routing protocols such as Routing Information Protocol and Open Shortest Path First help routers exchange routing updates. For communication between different autonomous systems on the internet, routers rely on Border Gateway Protocol.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packet",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.972
+    },
+    {
+        "text": "The Network Layer ensures packets are delivered from the source network to the destination network across multiple intermediate routers. Logical addressing is performed using Internet Protocol version 4 and Internet Protocol version 6. IPv6 significantly expands the available address space and supports advanced networking features. Subnetting is an essential technique that allows large networks to be divided into smaller subnetworks, improving efficiency and control over network traffic. Routing algorithms determine optimal packet paths using information about network topology and link metrics. Routing protocols such as Routing Information Protocol and Open Shortest Path First help routers exchange routing updates. For communication between different autonomous systems on the internet, routers rely on Border Gateway Protocol.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "network topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.971
+    },
+    {
+        "text": "4. Transport Layer This layer manages the communication between specific processes on the host computers. Function: Establishes end-to-end connection characteristics. Focus: * Sequencing: Ensuring packets arrive in the correct order. Retransmissions: Resending data that was lost during transit. Congestion Control: Preventing the network from being overwhelmed by too much data.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "congestion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.975
+    },
+    {
+        "text": "4. Transport Layer This layer manages the communication between specific processes on the host computers. Function: Establishes end-to-end connection characteristics. Focus: * Sequencing: Ensuring packets arrive in the correct order. Retransmissions: Resending data that was lost during transit. Congestion Control: Preventing the network from being overwhelmed by too much data.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Transport Layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.975
+    },
+    {
+        "text": "Within networking systems, the Data Link Layer organizes communication between devices connected to the same physical medium. Framing defines frame boundaries and adds control information. Error detection and correction mechanisms verify data integrity and ensure reliable communication. Flow control manages the rate of frame transmission. MAC addressing uniquely identifies network devices. Switching concepts allow switches to route frames efficiently using MAC address tables.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "mac address",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "Transport Layer The transport layer provides end-to-end communication services. It ensures reliable delivery of data, manages flow control, and divides large data messages into smaller segments. The most important protocols at this layer are TCP and UDP.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "transport layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.974
+    },
+    {
+        "text": "Satellite networking uses satellites in orbit to provide communication links between distant geographic locations. In these systems, network layer routing determines how packets travel between ground stations and satellites. Because satellite links introduce high latency and limited bandwidth, routing protocols must be optimized to handle delays and dynamic link conditions. Satellite networking plays a critical role in providing Internet access to remote regions, maritime environments, and disaster-affected areas where traditional infrastructure is unavailable. Advanced satellite constellations, such as low-Earth-orbit systems, are improving network layer routing efficiency and enabling global broadband connectivity.",
+        "entity1": "latency",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.961
+    },
+    {
+        "text": "Satellite networking uses satellites in orbit to provide communication links between distant geographic locations. In these systems, network layer routing determines how packets travel between ground stations and satellites. Because satellite links introduce high latency and limited bandwidth, routing protocols must be optimized to handle delays and dynamic link conditions. Satellite networking plays a critical role in providing Internet access to remote regions, maritime environments, and disaster-affected areas where traditional infrastructure is unavailable. Advanced satellite constellations, such as low-Earth-orbit systems, are improving network layer routing efficiency and enabling global broadband connectivity.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.963
+    },
+    {
+        "text": "Protocols operating at the Application Layer include Hypertext Transfer Protocol (HTTP) for web browsing, File Transfer Protocol (FTP) for file transfers, Simple Mail Transfer Protocol (SMTP) for email services, and Domain Name System (DNS) for resolving domain names to IP addresses. These protocols ensure that user applications can effectively communicate with each other and with servers over a network.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "application layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.977
+    },
+    {
+        "text": "Protocols operating at the Application Layer include Hypertext Transfer Protocol (HTTP) for web browsing, File Transfer Protocol (FTP) for file transfers, Simple Mail Transfer Protocol (SMTP) for email services, and Domain Name System (DNS) for resolving domain names to IP addresses. These protocols ensure that user applications can effectively communicate with each other and with servers over a network.",
+        "entity1": "protocol",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "Application Layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.974
+    },
+    {
+        "text": "OSI Reference Model The OSI (Open Systems Interconnection) model consists of seven layers, each responsible for a specific part of the communication process. These layers are: Physical Layer \ufffd responsible for transmitting raw bits over the communication medium. Data Link Layer \ufffd ensures reliable transmission of frames and handles error detection. Network Layer \ufffd manages routing and logical addressing. Transport Layer \ufffd provides end-to-end communication and error recovery. Session Layer \ufffd establishes and manages communication sessions. Presentation Layer \ufffd handles data translation, encryption, and compression. Application Layer \ufffd provides network services directly to applications. Each layer communicates only with its adjacent layers, which helps simplify network design and allows different technologies to operate together.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.976
+    },
+    {
+        "text": "OSI Reference Model The OSI (Open Systems Interconnection) model consists of seven layers, each responsible for a specific part of the communication process. These layers are: Physical Layer \ufffd responsible for transmitting raw bits over the communication medium. Data Link Layer \ufffd ensures reliable transmission of frames and handles error detection. Network Layer \ufffd manages routing and logical addressing. Transport Layer \ufffd provides end-to-end communication and error recovery. Session Layer \ufffd establishes and manages communication sessions. Presentation Layer \ufffd handles data translation, encryption, and compression. Application Layer \ufffd provides network services directly to applications. Each layer communicates only with its adjacent layers, which helps simplify network design and allows different technologies to operate together.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.976
+    },
+    {
+        "text": "Physical Layer also performs following responsibility 1) Physical characteristics of interfaces and medium. The physical layer defines the characteristics of the interface between the devices and the transmission medium. It also defines the type of transmission medium. 2) Representation of bits. The physical layer data consists of a stream of bits (sequence of Os or 1s) . The physical layer defines the type of encoding(how Os and Is are changed to signals). 3) Data rate: The transmission rate-the number of bits sent each second-is also defined by the physical layer.. 4) Synchronization of bits. Sender & Receiver must have same bit rate 5.Line configuration. pointto-point configuration . multipoint configuration 5) Physical topology. mesh topology (every device is connected to every other device), a star topology (devices are connected through a central device), a ring topology (each device is connected to the next, forming aring), a bus topology (every device is on a common link), or a hybrid topology 6) Transmission mode simplex, half-duplex, or full-duplex.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "star topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "Physical Layer also performs following responsibility 1) Physical characteristics of interfaces and medium. The physical layer defines the characteristics of the interface between the devices and the transmission medium. It also defines the type of transmission medium. 2) Representation of bits. The physical layer data consists of a stream of bits (sequence of Os or 1s) . The physical layer defines the type of encoding(how Os and Is are changed to signals). 3) Data rate: The transmission rate-the number of bits sent each second-is also defined by the physical layer.. 4) Synchronization of bits. Sender & Receiver must have same bit rate 5.Line configuration. pointto-point configuration . multipoint configuration 5) Physical topology. mesh topology (every device is connected to every other device), a star topology (devices are connected through a central device), a ring topology (each device is connected to the next, forming aring), a bus topology (every device is on a common link), or a hybrid topology 6) Transmission mode simplex, half-duplex, or full-duplex.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "ring",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.98
+    },
+    {
+        "text": "Physical Layer also performs following responsibility 1) Physical characteristics of interfaces and medium. The physical layer defines the characteristics of the interface between the devices and the transmission medium. It also defines the type of transmission medium. 2) Representation of bits. The physical layer data consists of a stream of bits (sequence of Os or 1s) . The physical layer defines the type of encoding(how Os and Is are changed to signals). 3) Data rate: The transmission rate-the number of bits sent each second-is also defined by the physical layer.. 4) Synchronization of bits. Sender & Receiver must have same bit rate 5.Line configuration. pointto-point configuration . multipoint configuration 5) Physical topology. mesh topology (every device is connected to every other device), a star topology (devices are connected through a central device), a ring topology (each device is connected to the next, forming aring), a bus topology (every device is on a common link), or a hybrid topology 6) Transmission mode simplex, half-duplex, or full-duplex.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bus topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "Physical Layer also performs following responsibility 1) Physical characteristics of interfaces and medium. The physical layer defines the characteristics of the interface between the devices and the transmission medium. It also defines the type of transmission medium. 2) Representation of bits. The physical layer data consists of a stream of bits (sequence of Os or 1s) . The physical layer defines the type of encoding(how Os and Is are changed to signals). 3) Data rate: The transmission rate-the number of bits sent each second-is also defined by the physical layer.. 4) Synchronization of bits. Sender & Receiver must have same bit rate 5.Line configuration. pointto-point configuration . multipoint configuration 5) Physical topology. mesh topology (every device is connected to every other device), a star topology (devices are connected through a central device), a ring topology (each device is connected to the next, forming aring), a bus topology (every device is on a common link), or a hybrid topology 6) Transmission mode simplex, half-duplex, or full-duplex.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "hybrid topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "The Network Layer provides packet forwarding and routing services that allow communication between networks. Logical addressing is implemented using Internet Protocol version 4 and Internet Protocol version 6. IPv6 was developed to overcome the limitations of IPv4 and to support the rapid growth of internet-connected devices. Subnetting divides networks into smaller segments by extending the network portion of an IP address. This improves network organization and reduces unnecessary broadcast traffic. Routing algorithms determine optimal packet paths based on link metrics such as hop count or delay. Routers exchange route information using protocols like Routing Information Protocol and Open Shortest Path First, while global internet routing between autonomous systems is handled by Border Gateway Protocol.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "segments",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.971
+    },
+    {
+        "text": "The Data Link Layer manages communication across a single physical link. Framing groups transmitted bits into frames. Error detection and correction methods detect corrupted frames and maintain data integrity. Flow control prevents congestion in communication channels. MAC addressing uniquely identifies devices in a LAN. Switching concepts allow frames to be forwarded efficiently between network devices.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "congestion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "The Data Link Layer is responsible for ensuring reliable data transfer between directly connected nodes. Framing encapsulates network-layer packets into frames. Error detection and correction techniques verify frame integrity during transmission. Flow control helps maintain balanced communication speeds. MAC addressing uniquely identifies network devices within a LAN. Switching concepts allow network switches to forward frames efficiently using MAC address information.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.98
+    },
+    {
+        "text": "The Data Link Layer manages reliable frame transmission in networking environments. Framing converts the continuous stream of bits into frames with defined boundaries. Error detection and correction techniques maintain communication reliability. Flow control regulates the rate of frame transmission. MAC addressing uniquely identifies network interfaces. Switching concepts allow switches to maintain MAC address tables and forward frames accurately.",
+        "entity1": "frame",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "data link layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.976
+    },
+    {
+        "text": "The Data Link Layer manages reliable frame transmission in networking environments. Framing converts the continuous stream of bits into frames with defined boundaries. Error detection and correction techniques maintain communication reliability. Flow control regulates the rate of frame transmission. MAC addressing uniquely identifies network interfaces. Switching concepts allow switches to maintain MAC address tables and forward frames accurately.",
+        "entity1": "mac address",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "data link layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.977
+    }
+]

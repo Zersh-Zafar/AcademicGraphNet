@@ -1,0 +1,425 @@
+[
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "engineering",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.812
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.803
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "engineering",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.832
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "engineering",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.896
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "improves",
+        "entity2": "engineering",
+        "entity2_type": "TOPIC",
+        "confidence": 0.847
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.884
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.821
+    },
+    {
+        "text": "Feature engineering is a critical step in building effective machine learning systems, as it directly influences model performance. Feature selection focuses on choosing the most relevant variables using techniques such as filter methods (correlation, chi-square), wrapper methods (recursive feature elimination), and embedded methods (LASSO). This reduces noise and improves interpretability. Feature extraction involves transforming raw data into new features, such as encoding categorical variables, creating interaction terms, or applying mathematical transformations. Dimensionality reduction, through techniques like Principal Component Analysis (PCA), reduces the number of features while preserving important variance, improving efficiency and reducing overfitting. Handling imbalanced datasets is essential because models can become biased toward majority classes; methods such as SMOTE, undersampling, and cost-sensitive learning ensure fair and balanced predictions.",
+        "entity1": "principal component analysis",
+        "entity1_type": "ALGORITHM",
+        "relation": "improves",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.893
+    },
+    {
+        "text": "Generative models are integrated with reinforcement learning to simulate environments. A key subtopic is scenario generation, where models create possible future states. This helps agents learn optimal strategies more effectively.",
+        "entity1": "generative models",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "reinforcement learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.86
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "engineering",
+        "entity2_type": "TOPIC",
+        "confidence": 0.981
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "datasets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.924
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "engineering",
+        "entity2_type": "TOPIC",
+        "confidence": 0.977
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "datasets",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "engineering",
+        "entity2_type": "TOPIC",
+        "confidence": 0.982
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "datasets",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.981
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "Feature",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.98
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming data. Feature selection removes redundant variables. Feature extraction creates meaningful features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate predictions.",
+        "entity1": "datasets",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "Feature",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.931
+    },
+    {
+        "text": "Feature engineering enhances machine learning performance. Feature selection reduces noise. Feature extraction creates useful features. Dimensionality reduction improves efficiency. Handling imbalanced data ensures accurate predictions.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "imbalanced data",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.98
+    },
+    {
+        "text": "Feature engineering enhances machine learning performance. Feature selection reduces noise. Feature extraction creates useful features. Dimensionality reduction improves efficiency. Handling imbalanced data ensures accurate predictions.",
+        "entity1": "engineering",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "imbalanced data",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.984
+    },
+    {
+        "text": "Feature engineering enhances machine learning performance. Feature selection reduces noise. Feature extraction creates useful features. Dimensionality reduction improves efficiency. Handling imbalanced data ensures accurate predictions.",
+        "entity1": "imbalanced data",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.984
+    },
+    {
+        "text": "NLP systems use deep learning for text analysis. Preprocessing prepares data. TF-IDF is used for feature extraction. Attention mechanisms improve understanding. Transformer models generate contextual embeddings. Sentiment analysis identifies emotions, and Named Entity Recognition extracts entities.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "deep learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.966
+    },
+    {
+        "text": "Log Loss measures the performance of probabilistic classification models. It penalizes incorrect predictions based on the confidence level, with higher penalties for confident wrong predictions. Minimizing log loss ensures both accuracy and reliable probability estimates. It is commonly used in logistic regression, neural networks, and competitions like Kaggle to assess model quality.",
+        "entity1": "loss",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD",
+        "confidence": 0.957
+    },
+    {
+        "text": "Log Loss measures the performance of probabilistic classification models. It penalizes incorrect predictions based on the confidence level, with higher penalties for confident wrong predictions. Minimizing log loss ensures both accuracy and reliable probability estimates. It is commonly used in logistic regression, neural networks, and competitions like Kaggle to assess model quality.",
+        "entity1": "accuracy",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD",
+        "confidence": 0.96
+    },
+    {
+        "text": "Overfitting occurs when a generative model memorizes training data instead of learning patterns. A key subtopic is generalization, which ensures the model can generate new and diverse samples. Techniques like dropout, batch normalization, and data augmentation are used to prevent overfitting.",
+        "entity1": "data augmentation",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "training data",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.879
+    },
+    {
+        "text": "Ensemble Learning combines multiple models to produce better predictions. Bagging uses bootstrap sampling to reduce variance. Boosting trains models sequentially to reduce bias. Gradient Boosting optimizes the loss function using gradient descent. XGBoost improves performance through optimization and regularization.",
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bootstrap sampling",
+        "entity2_type": "METHOD",
+        "confidence": 0.98
+    },
+    {
+        "text": "Ensemble Learning combines multiple models to produce better predictions. Bagging uses bootstrap sampling to reduce variance. Boosting trains models sequentially to reduce bias. Gradient Boosting optimizes the loss function using gradient descent. XGBoost improves performance through optimization and regularization.",
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "bootstrap sampling",
+        "entity2_type": "METHOD",
+        "confidence": 0.978
+    },
+    {
+        "text": "Ensemble Learning combines multiple models to produce better predictions. Bagging uses bootstrap sampling to reduce variance. Boosting trains models sequentially to reduce bias. Gradient Boosting optimizes the loss function using gradient descent. XGBoost improves performance through optimization and regularization.",
+        "entity1": "bootstrap sampling",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "Gradient",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.979
+    },
+    {
+        "text": "Ensemble Learning combines multiple models to produce better predictions. Bagging uses bootstrap sampling to reduce variance. Boosting trains models sequentially to reduce bias. Gradient Boosting optimizes the loss function using gradient descent. XGBoost improves performance through optimization and regularization.",
+        "entity1": "loss function",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "gradient",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.977
+    },
+    {
+        "text": "Ensemble Learning combines multiple models to produce better predictions. Bagging uses bootstrap sampling to reduce variance. Boosting trains models sequentially to reduce bias. Gradient Boosting optimizes the loss function using gradient descent. XGBoost improves performance through optimization and regularization.",
+        "entity1": "Gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "loss function",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.975
+    },
+    {
+        "text": "In Holdout Validation method typically 50% data is used for training and 50% for testing. Making it simple and quick to apply. The major drawback of this method is that only 50% data is used for training, the model may miss important patterns in the other half which leads to high bias.",
+        "entity1": "training",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "validation",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.946
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming raw data. Feature selection identifies important variables. Feature extraction creates new features. Dimensionality reduction simplifies datasets. Handling imbalanced data improves model fairness.",
+        "entity1": "imbalanced data",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "feature",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.967
+    },
+    {
+        "text": "Feature engineering improves machine learning models by transforming raw data. Feature selection identifies important variables. Feature extraction creates new features. Dimensionality reduction simplifies datasets. Handling imbalanced data improves model fairness.",
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "imbalanced data",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.983
+    },
+    {
+        "text": "Ridge regression modifies OLS by calculating coefficients that account for potentially correlated predictors. Specifically, ridge regression corrects for high-value coefficients by introducing a regularization term (often called the penalty term) into the RSS function. This penalty term is the sum of the squares of the model's coefficients.",
+        "entity1": "regularization",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "regression",
+        "entity2_type": "METHOD",
+        "confidence": 0.972
+    },
+    {
+        "text": "Ensemble Learning is a powerful machine learning approach. Bagging reduces variance, Boosting reduces bias, Gradient Boosting optimizes loss, and XGBoost enhances speed and accuracy.",
+        "entity1": "gradient",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "machine learning",
+        "entity2_type": "TOPIC",
+        "confidence": 0.985
+    },
+    {
+        "text": "Ensemble Learning is a powerful machine learning approach. Bagging reduces variance, Boosting reduces bias, Gradient Boosting optimizes loss, and XGBoost enhances speed and accuracy.",
+        "entity1": "machine learning",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "Gradient",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.983
+    },
+    {
+        "text": "Deep learning frameworks like TensorFlow and PyTorch provide tools for building and training neural networks. They offer automatic differentiation, GPU support, and pre-built layers. These frameworks simplify complex computations and allow researchers to experiment quickly. PyTorch is known for its flexibility, while TensorFlow excels in production deployment.",
+        "entity1": "deep learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "training",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.928
+    },
+    {
+        "text": "NLP models are evaluated using various metrics to ensure accuracy. Preprocessing prepares data. TF-IDF highlights important words. Precision and recall are key metrics in classification tasks. Challenges include bias in data and handling multiple meanings of words. Transformer-based models improve performance. Future trends include LLMs and multimodal AI systems.",
+        "entity1": "precision",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "llms",
+        "entity2_type": "TOPIC",
+        "confidence": 0.921
+    },
+    {
+        "text": "NLP models are evaluated using various metrics to ensure accuracy. Preprocessing prepares data. TF-IDF highlights important words. Precision and recall are key metrics in classification tasks. Challenges include bias in data and handling multiple meanings of words. Transformer-based models improve performance. Future trends include LLMs and multimodal AI systems.",
+        "entity1": "recall",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "llms",
+        "entity2_type": "TOPIC",
+        "confidence": 0.91
+    },
+    {
+        "text": "NLP models are evaluated using various metrics to ensure accuracy. Preprocessing prepares data. TF-IDF highlights important words. Precision and recall are key metrics in classification tasks. Challenges include bias in data and handling multiple meanings of words. Transformer-based models improve performance. Future trends include LLMs and multimodal AI systems.",
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "bias",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.849
+    },
+    {
+        "text": "NLP models are evaluated using various metrics to ensure accuracy. Preprocessing prepares data. TF-IDF highlights important words. Precision and recall are key metrics in classification tasks. Challenges include bias in data and handling multiple meanings of words. Transformer-based models improve performance. Future trends include LLMs and multimodal AI systems.",
+        "entity1": "classification",
+        "entity1_type": "METHOD",
+        "relation": "improves",
+        "entity2": "llms",
+        "entity2_type": "TOPIC",
+        "confidence": 0.905
+    },
+    {
+        "text": "NLP models are evaluated using various metrics to ensure accuracy. Preprocessing prepares data. TF-IDF highlights important words. Precision and recall are key metrics in classification tasks. Challenges include bias in data and handling multiple meanings of words. Transformer-based models improve performance. Future trends include LLMs and multimodal AI systems.",
+        "entity1": "bias",
+        "entity1_type": "CONCEPT",
+        "relation": "improves",
+        "entity2": "llms",
+        "entity2_type": "TOPIC",
+        "confidence": 0.926
+    },
+    {
+        "text": "Preprocessing is the process by which unstructured data is transformed into intelligible representations suitable for machine-learning models. This phase of model deals with noise in order to arrive at better and improved results from the original data set which was noisy. This dataset also has some level of missing value present in it.",
+        "entity1": "machine-learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "noise",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.937
+    },
+    {
+        "text": "Preprocessing is the process by which unstructured data is transformed into intelligible representations suitable for machine-learning models. This phase of model deals with noise in order to arrive at better and improved results from the original data set which was noisy. This dataset also has some level of missing value present in it.",
+        "entity1": "machine-learning",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "dataset",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.906
+    },
+    {
+        "text": "PCA is useful for data visualization, noise reduction, and feature extraction in machine learning. However, it can make features less interpretable, since the new components are combinations of the original ones.",
+        "entity1": "noise",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD",
+        "confidence": 0.964
+    },
+    {
+        "text": "PCA is useful for data visualization, noise reduction, and feature extraction in machine learning. However, it can make features less interpretable, since the new components are combinations of the original ones.",
+        "entity1": "features",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD",
+        "confidence": 0.971
+    },
+    {
+        "text": "PCA is useful for data visualization, noise reduction, and feature extraction in machine learning. However, it can make features less interpretable, since the new components are combinations of the original ones.",
+        "entity1": "feature",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "feature extraction",
+        "entity2_type": "METHOD",
+        "confidence": 0.971
+    },
+    {
+        "text": "The confusion matrix provides a complete overview of classification performance. It helps in identifying the types of errors made by the model and serves as the basis for many evaluation metrics.",
+        "entity1": "confusion matrix",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "classification",
+        "entity2_type": "METHOD",
+        "confidence": 0.98
+    },
+    {
+        "text": "Feature engineering plays a central role in machine learning pipelines. Feature selection identifies important attributes. Feature extraction creates new features. Dimensionality reduction reduces feature space. Handling imbalanced datasets ensures accurate and balanced predictions.",
+        "entity1": "engineering",
+        "entity1_type": "TOPIC",
+        "relation": "improves",
+        "entity2": "datasets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.957
+    }
+]

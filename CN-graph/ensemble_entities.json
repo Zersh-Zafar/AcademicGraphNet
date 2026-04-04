@@ -1,0 +1,2112 @@
+[
+    {
+        "text": "Traffic prediction involves analyzing network usage patterns to forecast future traffic demands. Network administrators use statistical models and machine learning techniques to anticipate congestion and optimize routing paths before problems occur. At the network layer, predictive algorithms can adjust routing policies and allocate bandwidth dynamically to maintain high performance. For example, if historical data shows that traffic spikes occur during certain hours, routing systems can prepare alternate paths to distribute traffic load more effectively. Traffic prediction improves resource utilization and helps maintain consistent network performance even during peak usage periods in large enterprise and service provider networks.",
+        "entities": [
+            {
+                "entity": "congestion",
+                "label": "CONCEPT",
+                "score": 0.9940000176429749
+            },
+            {
+                "entity": "bandwidth",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "network performance",
+                "label": "TOPIC",
+                "score": 0.9980000257492065
+            }
+        ]
+    },
+    {
+        "text": "Transition mechanisms like Softwire protocols and 6to4 tunneling allow IPv6 packets to traverse IPv4 infrastructure by encapsulating IPv6 inside IPv4 packets. Softwire supports automated protocols for IPv4/IPv6 coexistence, aiding the migration from IPv4 to IPv6 without native support on all segments. These techniques preserve connectivity while networks upgrade to IPv6.",
+        "entities": [
+            {
+                "entity": "transition mechanisms like softwire",
+                "label": "OTHER",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "and 6to4 tunneling allow ipv6",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            }
+        ]
+    },
+    {
+        "text": "The Data Link Layer supports reliable frame delivery across physical connections. Framing structures raw data into frames with defined boundaries. Error detection and correction mechanisms ensure that transmission errors are detected. Flow control synchronizes the transmission rate between communicating devices. MAC addressing provides unique identification for devices in a network. Switching concepts enable switches to forward frames selectively to reduce network congestion.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "supports reliable",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frame",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9919999837875366
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9950000047683716
+            }
+        ]
+    },
+    {
+        "text": "Telnet is vulnerable to network-based cyberattacks, such as packet sniffing sensitive information including passwords and fingerprinting .Telnet services can be exploited to leak information about the server (such as hostnames, IP addresses, and brand) by packet sniffing the banner. This information can then be searched to determine if a Telnet service accepts a connection without authentication. Telnet is frequently exploited by malware due to being improperly configured. Telnet is targeted by attackers more frequently than other common protocols, especially when compared to UPnP, CoAP, MQTT, AMQP, and XMPP. Common devices targeted are Internet of things devices, routers, and modems.",
+        "entities": [
+            {
+                "entity": "telnet is vulnerable to network - based cyberattacks, such as",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packet",
+                "label": "CONCEPT",
+                "score": 0.9399999976158142
+            }
+        ]
+    },
+    {
+        "text": "TFTP is a more basic version of FTP and works similarly but provides fewer services. Using NFS, we can share files remotely over the internet. LPD helps in printing jobs between UNIX systems and remote servers. X Window defines a protocol for writing GUI applications. The SMTP protocol builds a communication network between two email servers.",
+        "entities": [
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9909999966621399
+            }
+        ]
+    },
+    {
+        "text": "The session layer creates the setup, controls the connections, and ends the teardown, between two or more computers, which is called a \"session\". Common functions of the session layer include user logon (establishment) and user logoff (termination) functions. Including this matter, authentication methods are also built into most client software, such as FTP Client and NFS Client for Microsoft Networks. Therefore, the session layer establishes, manages and terminates the connections between the local and remote applications. The session layer also provides for full-duplex, half-duplex, or simplex operation,[citation needed] and establishes procedures for checkpointing, suspending, restarting, and terminating a session between two related streams of data, such as an audio and a video stream in a web-conferencing application. Therefore, the session layer is commonly implemented explicitly in application environments that use remote procedure calls.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "session layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "authentication",
+                "label": "METHOD",
+                "score": 0.984000027179718
+            }
+        ]
+    },
+    {
+        "text": "Network models provide a structured framework for understanding how communication occurs between devices. They break down the complex process into layers, each with distinct responsibilities. OSI Model (Open Systems Interconnection) \ufffd 7 Layers: Physical Layer: Transfers raw bits over a physical medium (cables, fiber, wireless). Data Link Layer: Packages bits into frames, manages error detection, and controls media access. Network Layer: Handles logical addressing and routing; determines the path data takes across networks. Transport Layer: Ensures reliable end-to-end communication, error recovery, and sequencing (TCP for reliable, UDP for fast connectionless transport). Session Layer: Manages sessions between applications (setup, maintenance, termination). Presentation Layer: Formats data, manages encryption, compression, and translation. Application Layer: Interfaces with applications; includes protocols like HTTP, FTP, SMTP, DNS.",
+        "entities": [
+            {
+                "entity": "network models",
+                "label": "TOPIC",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "osi model",
+                "label": "TOPIC",
+                "score": 0.9890000224113464
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "Network models",
+                "label": "TOPIC",
+                "score": 0.8539999723434448
+            },
+            {
+                "entity": "OSI",
+                "label": "TOPIC",
+                "score": 0.777999997138977
+            }
+        ]
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP model is the networking framework used by the Internet and most modern computer networks. It was developed as part of research funded by the United States Department of Defense to support reliable communication across interconnected networks. Unlike the OSI model, which is mainly theoretical, the TCP/IP model is a practical model that is widely implemented in real-world networking systems. The TCP/IP model consists of four layers: Network Interface Layer, Internet Layer, Transport Layer, and Application Layer. The Network Interface Layer is responsible for handling the physical transmission of data and interaction with network hardware. The Internet Layer manages logical addressing and routing of data packets across networks using protocols such as Internet Protocol (IP). The Transport Layer provides end-to-end communication and ensures reliable data delivery through protocols such as Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). The Application Layer includes protocols that support user applications such as Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), and Simple Mail Transfer Protocol (SMTP). The TCP/IP model is essential because it provides a standardized method for devices on different networks to communicate. It enables the Internet to function as a global network connecting millions of devices worldwide.",
+        "entities": [
+            {
+                "entity": "tcp / ip model the",
+                "label": "OTHER",
+                "score": 0.7519999742507935
+            },
+            {
+                "entity": "tcp / ip model",
+                "label": "TOPIC",
+                "score": 0.8629999756813049
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "across networks using",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "such as internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9810000061988831
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9890000224113464
+            },
+            {
+                "entity": "provides end - to - end communication and ensures reliable data delivery through",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "such as transmission control",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "( tcp ) and user",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "datagram protocol",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "application layer",
+                "label": "TOPIC",
+                "score": 0.9359999895095825
+            },
+            {
+                "entity": "includes",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "that support user applications such as hypertext transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "( http ), file transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "( ftp ), and simple mail transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "Datagram",
+                "label": "CONCEPT",
+                "score": 0.9319999814033508
+            }
+        ]
+    },
+    {
+        "text": "The Data Link Layer is responsible for reliable communication across a physical link between devices. One of its primary functions is framing, where raw bits received from the physical layer are organized into frames. Frames contain headers and trailers that include addressing fields and error-checking codes. Error detection and correction mechanisms help ensure that frames affected by noise or interference can be identified and retransmitted if necessary. Flow control regulates the rate of data transmission between sender and receiver to prevent buffer overflow. MAC addressing uniquely identifies each device on the network. Switching concepts allow switches to examine MAC addresses and forward frames efficiently.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9760000109672546
+            },
+            {
+                "entity": "and correction mechanisms help ensure that",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.972000002861023
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9950000047683716
+            }
+        ]
+    },
+    {
+        "text": "The modem connects to a cable/wire from the outside, bringing in Internet data (email, YouTube videos, Google search results, files) from all over the world. A different wire that goes from your modem to your computer delivers your Internet requests and activity to your computer and monitor.",
+        "entities": []
+    },
+    {
+        "text": "FTP is a standard application layer protocol used to transfer files between a client and a server over a TCP/IP network. It enables users to upload, download, rename, delete, or list files and directories on a remote system. FTP uses two separate TCP connections: Port 21: for control commands (like login, file list, etc.). Port 20: for actual data transfer (file upload/download). These port numbers are added by the transport layer after the FTP request is generated at the application layer.",
+        "entities": [
+            {
+                "entity": "ftp is a standard",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "application layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9210000038146973
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9520000219345093
+            },
+            {
+                "entity": "FTP is a standard",
+                "label": "OTHER",
+                "score": 0.9549999833106995
+            }
+        ]
+    },
+    {
+        "text": "Regulatory compliance & risk management Effective network security ensures that organizations remain compliant with regulatory frameworks like the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS). This reduces the risk of legal fines and penalties. Strengthening access control & authentication Network security strengthens access control and authentication, ensuring only authorized employees can access sensitive data and minimizing the risk of insider threats.",
+        "entities": [
+            {
+                "entity": "regulatory compliance & risk management effective",
+                "label": "OTHER",
+                "score": 0.9900000095367432
+            },
+            {
+                "entity": "network security",
+                "label": "TOPIC",
+                "score": 0.9959999918937683
+            }
+        ]
+    },
+    {
+        "text": "Data Link Layer This layer ensures reliable node-to-node communication. It organizes data into frames and performs error detection to ensure data integrity. Network Layer The network layer handles logical addressing and routing of packets across multiple networks. It determines the best path for data transmission from source to destination.",
+        "entities": [
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "and performs",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9909999966621399
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "the network layer handles logical addressing and routing of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9890000224113464
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9139999747276306
+            }
+        ]
+    },
+    {
+        "text": "DNS over HTTPS (DoH) is a protocol for performing remote Domain Name System (DNS) resolution via the HTTPS protocol. A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-based DNS resolver. By March 2018, Google and the Mozilla Foundation had started testing versions of DNS over HTTPS. In February 2020, Firefox switched to DNS over HTTPS by default for users in the United States. In May 2020, Chrome switched to DNS over HTTPS by default.",
+        "entities": [
+            {
+                "entity": "dns over https ( doh ) is a",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9670000076293945
+            }
+        ]
+    },
+    {
+        "text": "LAN Edge: Combining switching and Wi-Fi access points (AP), LAN Edge integrates connectivity and security, allowing devices connected to the internal network. Switching ensures adequate security at the network edge by facilitating traffic filtering and access control at the port level, allowing administrators to enforce policies on granular network segments. And Wireless Access Points implement encryption protocols and authentication mechanisms, protecting data in transit. They also support access control lists (ACLs), restricting unauthorized devices from connecting to the network.",
+        "entities": [
+            {
+                "entity": "encryption",
+                "label": "METHOD",
+                "score": 0.9890000224113464
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9739999771118164
+            },
+            {
+                "entity": "and",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "authentication",
+                "label": "METHOD",
+                "score": 0.9279999732971191
+            }
+        ]
+    },
+    {
+        "text": "Multiplexing and Demultiplexing Recall that a fundamental idea of packet switching is to multiplex multiple flows of data over a single physical link. This same idea applies up and down the protocol graph, not just to switching nodes. In Figure 1.11, for example, we can think of RRP as implementing a logical communication channel, with messages from two different applications multiplexed over this channel at the source host and then demultiplexed back to the appropriate application at the destination host. Practically speaking, this simply means that the header that RRP attaches to its messages contains an identifier that records the application to which the message belongs. We call this identifier RRP\ufffds demultiplexing key, or demux key for short. At the source host, RRP includes the appropriate demux key in its header. When the message is delivered to RRP on the destination host, it strips its header, examines the demux key, and demultiplexes the message to the correct application. RRP is not unique in its support for multiplexing; nearly every protocol implements this mechanism. For example, HHP has its own demux key to determine which messages to pass up to RRP and which to pass up to MSP. However, there is no uniform agreement among protocols\ufffdeven those within a single network architecture\ufffdon exactly what constitutes a demux key. Some protocols use an 8-bit field (meaning they can support only 256 high-level protocols), and others use 16- or 32-bit fields. Also, some protocols have a single demultiplexing field in their header, while others have a pair of demultiplexing fields. In the former case, the same demux key is used on both sides of the communication, while in the latter case each side uses a different key to identify the high-level protocol (or application program) to which the message is to be delivered.",
+        "entities": [
+            {
+                "entity": "multiplexing",
+                "label": "CONCEPT",
+                "score": 0.9900000095367432
+            },
+            {
+                "entity": "and",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "demultiplexing",
+                "label": "CONCEPT",
+                "score": 0.9190000295639038
+            },
+            {
+                "entity": "recall that a fundamental idea of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "demultiplex",
+                "label": "CONCEPT",
+                "score": 0.7699999809265137
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9929999709129333
+            },
+            {
+                "entity": "##even those within a single",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network architecture",
+                "label": "TOPIC",
+                "score": 0.640999972820282
+            },
+            {
+                "entity": "have a single",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "field in their header, while others have a pair of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "Multiplexing",
+                "label": "CONCEPT",
+                "score": 0.8069999814033508
+            },
+            {
+                "entity": "Demultiplexing",
+                "label": "CONCEPT",
+                "score": 0.8510000109672546
+            }
+        ]
+    },
+    {
+        "text": "Mesh Topology In a mesh topology, every device is connected to another device via a particular channel. Every device is connected to another via dedicated channels. These channels are known as links. In Mesh Topology, the protocols used are AHCP (Ad Hoc Configuration Protocols), DHCP (Dynamic Host Configuration Protocol), etc.",
+        "entities": [
+            {
+                "entity": "mesh topology",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "Mesh Topology",
+                "label": "CONCEPT",
+                "score": 0.9580000042915344
+            }
+        ]
+    },
+    {
+        "text": "Types of Computer Networks Computer networks can be classified based on geographical coverage. A Local Area Network (LAN) connects devices within a limited geographical area such as a home, office, or university building. LANs usually provide high-speed communication and are privately managed. A Metropolitan Area Network (MAN) covers a larger area such as a city. It connects multiple LANs together and is often used by organizations or service providers. A Wide Area Network (WAN) spans very large geographic distances, sometimes connecting networks across different countries or continents. The internet is the largest WAN and connects millions of networks worldwide.",
+        "entities": [
+            {
+                "entity": "types of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "computer networks computer networks",
+                "label": "TOPIC",
+                "score": 0.9860000014305115
+            }
+        ]
+    },
+    {
+        "text": "5. Based on Reliability Reliability is maintained by authentication. \ufffd Connection-oriented This type of communication establishes a session connection before data can be sent. This method is often called a \"reliable\" network service. It can guarantee that data will arrive in the same order. \ufffd Connection less This type of communication does not require a session connection between sender and receiver for data transfer. The sender simply starts sending packets to the destination. A connectionless network provides minimal services.",
+        "entities": [
+            {
+                "entity": "reliability reliability",
+                "label": "CONCEPT",
+                "score": 0.9269999861717224
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "Reliability Rel",
+                "label": "CONCEPT",
+                "score": 0.8159999847412109
+            }
+        ]
+    },
+    {
+        "text": "Access control includes a mix of smart technologies \ufffd from passwords to biometrics \ufffd that ensure your digital identity is as unique and protected as your fingerprint. It restricts access to networks and makes it easier for authorized users to access them. Zero trust treats trust as a vulnerability. It assumes everyone is a potential threat \ufffd after all, breaches happen every day. To prevent such breaches, zero trust verifies everything, making security dynamic and adaptive",
+        "entities": []
+    },
+    {
+        "text": "Metropolitan Area Networks (MANs) MANs are created by linking the networks located at two or more sites within a city. Connections can be made using cabling or wireless technologies, with optical fiber cabling often used to link a customer\ufffds buildings to a facility operated by a telecommunications provider.",
+        "entities": []
+    },
+    {
+        "text": "Error detection and reliability mechanisms are fundamental features of transport layer protocols. In Transmission Control Protocol, each transmitted segment includes a checksum that verifies the integrity of the data. When the receiver obtains a segment, it calculates the checksum again and compares it with the value included in the header. If the values differ, the segment is considered corrupted and discarded. TCP then retransmits the missing segment to ensure accurate delivery. Combined with sequence numbers and acknowledgments, this mechanism ensures reliable communication between hosts. Such reliability is essential for applications where accurate data transmission is critical.",
+        "entities": [
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "and",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "reliability",
+                "label": "CONCEPT",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "mechanisms are fundamental features of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "segment",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "includes a",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "checksum",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "detection and reliability mechanisms are fundamental features of",
+                "label": "OTHER",
+                "score": 0.9599999785423279
+            }
+        ]
+    },
+    {
+        "text": "A modem is a crucial piece of computer hardware that converts digital data into a format suitable for transmission over analog mediums, such as phone lines or radio waves. This process involves modulating one or more carrier wave signals to encode the digital information, which is then transmitted over the medium. The receiver, on the other hand, demodulates the received signal to recreate the original digital information. The ultimate goal of a modem is to produce a signal that can be transmitted efficiently and decoded reliably, regardless of the analog medium being used. In fact, modems can be used with a wide range of analog transmission methods, including light-emitting diodes, radio, and much more.",
+        "entities": []
+    },
+    {
+        "text": "The domain name space consists of a tree data structure. Each node or leaf in the tree has a label and zero or more resource records (RR), which hold information associated with the domain name. The domain name itself consists of the label, concatenated with the name of its parent node on the right, separated by a dot.",
+        "entities": []
+    },
+    {
+        "text": "Data Flow Communication between two devices can be simplex, half-duplex, or full-duplex as shown in Figure. Simplex In simplex mode, the communication is unidirectional, as on a one way street. Only one of the two devices on a link can transmit; the other can only receive (Figure a). Keyboards and traditional monitors are examples of simplex devices. Half-Duplex In half-duplex mode, each station can both transmit and receive, but not at the same time. When one device is sending, the other can only receive, and vice versa (Figure b). Walkie-talkies and CB (citizens band) radios are both half duplex systems. Full-Duplex In full-duplex, both stations can transmit and receive simultaneously (Figure c). One common example of full-duplex communication is the telephone network. When two people are communicating by a telephone line, both can talk and listen at the same time. The full-duplex mode is used when communication in both directions is required all the time.",
+        "entities": []
+    },
+    {
+        "text": "An Internet of things (IoT) gateway provides the bridge (protocol converter) between IoT devices in the field, the cloud, and user equipment such as smartphones. The IoT gateway provides a communication link between the field and the cloud, and may provide offline services and real-time control of devices in the field.",
+        "entities": [
+            {
+                "entity": "An Internet of things (IoT) gateway provides the bridge (",
+                "label": "OTHER",
+                "score": 0.9819999933242798
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.8799999952316284
+            }
+        ]
+    },
+    {
+        "text": "File Transfer Protocol (FTP) allows hosts to transfer data among dissimilar hosts, as well as files between two foreign hosts indirectly. FTP provides for such tasks as listing remote directories, changing the current remote directory, creating and removing remote directories, and transferring multiple files in a single request. FTP keeps the transport secure by passing user and account passwords to the foreign host. Although FTP is designed primarily to be used by applications, it also allows interactive user-oriented sessions. FTP uses reliable stream delivery (TCP/IP) to send the files and uses a Telnet connection to transfer commands and replies. FTP also understands several basic file formats including NETASCII, IMAGE, and Local 8. TCP/IP implements FTP in the ftp user command and the ftpd server command and does not provide an applications programming interface (API) to this protocol.",
+        "entities": [
+            {
+                "entity": "file transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            }
+        ]
+    },
+    {
+        "text": "Telnet is a client-server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.It is a protocol for bidirectional 8-bit communications. Its main goal was to connect terminal devices and terminal-oriented processes. The name \"Telnet\" refers to two things: a protocol specifying how two parties are to communicate and a software application that implements the protocol as a service.User data is interspersed in-band with Telnet control information in an 8-bit byte oriented data connection over the Transmission Control Protocol (TCP). Telnet transmits all information including usernames and passwords in plaintext so it is not recommended for security-sensitive applications such as remote management of routers.Telnet's use for this purpose has waned significantly in favor of SSH. Some extensions to Telnet which would provide encryption have been proposed.",
+        "entities": [
+            {
+                "entity": "telnet is a client - server application",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9929999709129333
+            },
+            {
+                "entity": "specifying how two parties are to communicate and a software application that implements the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "encryption",
+                "label": "METHOD",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "Cloud security is a shared responsibility. In general, the public cloud infrastructure is secured by the service provider\ufffdsuch as AWS, Azure, or GCP\ufffdand the workloads running on the infrastructure are secured by the customer. To meet the business imperative of cloud migration, organizations need a network security solution in the cloud that offers advanced protection, flexibility, and predictable costs.",
+        "entities": [
+            {
+                "entity": "cloud security",
+                "label": "TOPIC",
+                "score": 0.8939999938011169
+            },
+            {
+                "entity": "network security",
+                "label": "TOPIC",
+                "score": 0.9860000014305115
+            }
+        ]
+    },
+    {
+        "text": "In computer networks, the transport layer is responsible for providing communication services directly to application processes. Two main protocols used at this layer are Transmission Control Protocol and User Datagram Protocol. TCP is a connection-oriented protocol, meaning that it establishes a connection between sender and receiver before transmitting data. It ensures reliable delivery through acknowledgments, sequence numbers, and retransmission of lost packets. TCP is widely used in applications such as HTTP, HTTPS, and FTP where reliable communication is required.",
+        "entities": [
+            {
+                "entity": "in computer networks, the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "used at this layer are transmission control",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9179999828338623
+            },
+            {
+                "entity": "and user",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "datagram",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "In computer",
+                "label": "OTHER",
+                "score": 0.8460000157356262
+            },
+            {
+                "entity": "Datagram",
+                "label": "CONCEPT",
+                "score": 0.7310000061988831
+            }
+        ]
+    },
+    {
+        "text": "Unguided Media These transmit signals through the air using electromagnetic waves, including: Radio waves Microwaves Infrared communication The physical layer also handles data rate, bandwidth, and signal encoding techniques that determine how fast data can be transmitted over a network. In summary, the physical layer provides the foundation for network communication, ensuring that digital data can be transmitted as signals through physical transmission media.",
+        "entities": [
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "The http protocol is the Web\ufffds native language, the one spoken by Web servers. HTTP stands for HyperText Transfer Protocol. We will examine it in more detail later in this section, with a particular focus on HTTPS, the secure version of this protocol, which is now the predominant protocol used to serve objects on the Web today.",
+        "entities": [
+            {
+                "entity": "the http",
+                "label": "OTHER",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "Within the OSI networking architecture, the Data Link Layer ensures structured communication across physical network links. Framing divides raw bit streams into frames with defined boundaries so that receiving devices can interpret data correctly. Error detection and correction mechanisms such as parity checks or cyclic redundancy checks verify the accuracy of transmitted frames. Flow control regulates transmission speed between sender and receiver to maintain network stability. MAC addressing uniquely identifies devices within a LAN environment. Switching concepts allow switches to maintain MAC address tables and efficiently deliver frames to their intended destinations.",
+        "entities": [
+            {
+                "entity": "within the osi networking architecture, the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "and correction mechanisms such as",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "parity checks",
+                "label": "CONCEPT",
+                "score": 0.8529999852180481
+            },
+            {
+                "entity": "or",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "cyclic redundancy checks",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "mac address",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "tables and efficiently deliver",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "Within the OSI",
+                "label": "OTHER",
+                "score": 0.8550000190734863
+            },
+            {
+                "entity": "architecture, the",
+                "label": "OTHER",
+                "score": 0.9559999704360962
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9929999709129333
+            },
+            {
+                "entity": "MAC address",
+                "label": "CONCEPT",
+                "score": 0.7459999918937683
+            }
+        ]
+    },
+    {
+        "text": "Physical Layer Protocols These standards define the speed, distance, and pin configurations for serial communication. Protocol : RS-232 , RS-449 Max Data Rate: 20 kbps , 2 Mbps Max Distance: 10 feet, 60 feet",
+        "entities": [
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.9800000190734863
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9860000014305115
+            },
+            {
+                "entity": "Physical Layer",
+                "label": "TOPIC",
+                "score": 0.9950000047683716
+            }
+        ]
+    },
+    {
+        "text": "The Network Layer enables communication between different networks by providing logical addressing and routing functionality. Devices are identified through IP addresses assigned using Internet Protocol version 4 or the more advanced Internet Protocol version 6. IPv6 introduces a large address space and improved routing efficiency. Subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. Routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. Routing protocols such as Routing Information Protocol operate using a distance-vector algorithm, while Open Shortest Path First uses a link-state approach. The global internet relies on Border Gateway Protocol to exchange routing information between autonomous systems.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "version 4 or the more advanced internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network performance",
+                "label": "TOPIC",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "bandwidth",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "such as routing information",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9760000109672546
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9900000095367432
+            }
+        ]
+    },
+    {
+        "text": "However, organizations that are accelerating their cloud adoption may not have the resources, skills, or time to build, scale, or adapt their cloud security to meet the pace of their business. A managed firewall service allows organizations to offload cloud security infrastructure maintenance, get deep visibility, apply robust controls, and optimize cloud security spend.",
+        "entities": []
+    },
+    {
+        "text": "Layer 6: Presentation Layer ? It is concerned with the syntax and semantics of the information exchanged between two systems. ? It translates information from text/numeric into bit stream. ? It also encrypts the information for security purpose and compress the information to reduce the number of bits in the information.",
+        "entities": [
+            {
+                "entity": "layer 6 :",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "presentation layer",
+                "label": "TOPIC",
+                "score": 0.9909999966621399
+            },
+            {
+                "entity": "Layer 6:",
+                "label": "OTHER",
+                "score": 0.9760000109672546
+            },
+            {
+                "entity": "Presentation Layer",
+                "label": "TOPIC",
+                "score": 0.6639999747276306
+            }
+        ]
+    },
+    {
+        "text": "Network virtualization allows multiple logical networks to operate on the same physical infrastructure. Technologies such as VXLAN and NVGRE encapsulate network layer packets within other packets to create virtual overlays. This approach is widely used in cloud computing and data centers to isolate tenants and provide scalable networking services.",
+        "entities": [
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "within other",
+                "label": "OTHER",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "text": "The IPv4 header contains essential fields needed for routing and control. It includes Version, Header Length, Type of Service/DSCP, Total Length, and Identification/Flags/Fragment Offset used for fragmentation and reassembly. Other fields include Time To Live (TTL) to prevent loops, Protocol to indicate the encapsulated higher layer, and Header Checksum for error detection. These fields collectively allow routers to forward packets correctly, manage fragmentation, support quality?of?service cues, and help in diagnosing problems such as TTL expiration.",
+        "entities": [
+            {
+                "entity": "fragmentation",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "to indicate the encapsulated higher layer, and header",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "checksum",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            }
+        ]
+    },
+    {
+        "text": "The Network Layer ensures packets are delivered from the source network to the destination network across multiple intermediate routers. Logical addressing is performed using Internet Protocol version 4 and Internet Protocol version 6. IPv6 significantly expands the available address space and supports advanced networking features. Subnetting is an essential technique that allows large networks to be divided into smaller subnetworks, improving efficiency and control over network traffic. Routing algorithms determine optimal packet paths using information about network topology and link metrics. Routing protocols such as Routing Information Protocol and Open Shortest Path First help routers exchange routing updates. For communication between different autonomous systems on the internet, routers rely on Border Gateway Protocol.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "ensures",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "version 4 and internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packet",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "paths using information about",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network topology",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "such as routing information",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9869999885559082
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9909999966621399
+            }
+        ]
+    },
+    {
+        "text": "4. Transport Layer This layer manages the communication between specific processes on the host computers. Function: Establishes end-to-end connection characteristics. Focus: * Sequencing: Ensuring packets arrive in the correct order. Retransmissions: Resending data that was lost during transit. Congestion Control: Preventing the network from being overwhelmed by too much data.",
+        "entities": [
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "congestion",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "Transport Layer",
+                "label": "TOPIC",
+                "score": 0.9919999837875366
+            },
+            {
+                "entity": "Congestion",
+                "label": "CONCEPT",
+                "score": 0.9860000014305115
+            }
+        ]
+    },
+    {
+        "text": "Guided Media Guided media, which are those that provide a conduit from one device to another, include twisted-pair cable, coaxial cable, and fiber-optic cable. A signal traveling along any of these media is directed and contained by the physical limits of the medium. Twisted-pair and coaxial cable use metallic (copper) conductors that accept and transport signals in the form of electric current. Optical fiber is a cable that accepts and transports signals in the form of light. 1. Twisted-Pair Cable A twisted pair consists of two conductors (normally copper), each with its own plastic insulation, twisted together, as shown below figure. One of the wires is used to carry signals to the receiver, and the other is used only as a ground reference. The receiver uses the difference between the two. In addition to the signal sent by the sender on one of the wires, interference (noise) and crosstalk may affect both wires and create unwanted signals. If the two wires are parallel, the effect of these unwanted signals is not the same in both wires because they are at different locations relative to the noise or crosstalk sources (e,g., one is closer and the other is farther). This results in a difference at the receiver. By twisting the pairs, a balance is maintained. For example, suppose in one twist, one wire is closer to the noise source and the other is farther; in the next twist, the reverse is true. Twisting makes it probable that both wires are equally affected by external influences (noise or crosstalk). This means that the receiver, which calculates the difference between the two, receives no unwanted signals. The unwanted signals are mostly canceled out. From the above discussion, it is clear that the number of twists per unit of length (e.g., inch) has some effect on the quality of the cable.",
+        "entities": []
+    },
+    {
+        "text": "The physical layer is responsible for transmitting raw binary data across communication channels. It defines hardware specifications such as cables, connectors, signal voltage levels, and transmission speeds. This layer converts digital data into electrical, optical, or radio signals that can travel through communication media.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "The physical",
+                "label": "OTHER",
+                "score": 0.7450000047683716
+            }
+        ]
+    },
+    {
+        "text": "A cloud storage gateway is a network appliance or server which translates cloud storage APIs such as SOAP or REST to block-based storage protocols such as iSCSI, Fiber Channel or file-based interfaces such as NFS or CIFS. Cloud storage gateways enable companies to integrate private cloud storage into applications without moving the applications into a public cloud, thereby simplifying data protection.",
+        "entities": [
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            }
+        ]
+    },
+    {
+        "text": "Within networking systems, the Data Link Layer organizes communication between devices connected to the same physical medium. Framing defines frame boundaries and adds control information. Error detection and correction mechanisms verify data integrity and ensure reliable communication. Flow control manages the rate of frame transmission. MAC addressing uniquely identifies network devices. Switching concepts allow switches to route frames efficiently using MAC address tables.",
+        "entities": [
+            {
+                "entity": "within networking systems, the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "frame",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "efficiently using",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "mac address",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "Within networking systems, the",
+                "label": "OTHER",
+                "score": 0.9860000014305115
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            },
+            {
+                "entity": "MAC",
+                "label": "CONCEPT",
+                "score": 0.7409999966621399
+            }
+        ]
+    },
+    {
+        "text": "Transport Layer The transport layer provides end-to-end communication services. It ensures reliable delivery of data, manages flow control, and divides large data messages into smaller segments. The most important protocols at this layer are TCP and UDP.",
+        "entities": [
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "Transport Layer",
+                "label": "TOPIC",
+                "score": 0.9959999918937683
+            }
+        ]
+    },
+    {
+        "text": "Satellite networking uses satellites in orbit to provide communication links between distant geographic locations. In these systems, network layer routing determines how packets travel between ground stations and satellites. Because satellite links introduce high latency and limited bandwidth, routing protocols must be optimized to handle delays and dynamic link conditions. Satellite networking plays a critical role in providing Internet access to remote regions, maritime environments, and disaster-affected areas where traditional infrastructure is unavailable. Advanced satellite constellations, such as low-Earth-orbit systems, are improving network layer routing efficiency and enabling global broadband connectivity.",
+        "entities": [
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "routing determines how",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "latency",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "and limited bandwidth, routing",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "HTTP follows a request-response model where each client request is answered by a server response, following a defined communication flow. Client sends request: Sends an HTTP request with method, URL, headers, and optional body. Server processes request: Handles the request and performs required operations. Server sends response: Returns status code, headers, and optional data. Client processes response: Renders or handles the received content.",
+        "entities": []
+    },
+    {
+        "text": "Protocols operating at the Application Layer include Hypertext Transfer Protocol (HTTP) for web browsing, File Transfer Protocol (FTP) for file transfers, Simple Mail Transfer Protocol (SMTP) for email services, and Domain Name System (DNS) for resolving domain names to IP addresses. These protocols ensure that user applications can effectively communicate with each other and with servers over a network.",
+        "entities": [
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "operating at the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "application layer",
+                "label": "TOPIC",
+                "score": 0.984000027179718
+            },
+            {
+                "entity": "include hypertext transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "( http ) for web browsing, file transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "( ftp ) for file transfers, simple mail transfer",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "Protocols",
+                "label": "CONCEPT",
+                "score": 0.984000027179718
+            },
+            {
+                "entity": "Application Layer",
+                "label": "TOPIC",
+                "score": 0.9779999852180481
+            }
+        ]
+    },
+    {
+        "text": "Cloud workload security signifies the security of data, applications, and all the infrastructure in cloud environments. It is a leading trend in next-gen network security because of the increasing usage of cloud applications. Organizations are transitioning to the cloud and prioritizing visibility, risk mitigation, and integration with DevOps to ensure secure distributed workloads across containers, virtual machines, and serverless environments. Cloud workload security helps them achieve the goal by providing real-time threat detection and continuous network security without impacting performance.",
+        "entities": [
+            {
+                "entity": "network security",
+                "label": "TOPIC",
+                "score": 0.9929999709129333
+            }
+        ]
+    },
+    {
+        "text": "In computer network design, the Network Layer ensures that packets are delivered from the source network to the destination network through multiple intermediate routers. Logical addressing is achieved through Internet Protocol version 4 and Internet Protocol version 6. IPv4 addresses are limited, which is why subnetting techniques were introduced to efficiently allocate address ranges and reduce network congestion. Subnetting also helps in organizing networks into hierarchical structures, improving routing performance. Routing algorithms analyze network topology and calculate the best route between nodes. For smaller networks, protocols like Routing Information Protocol may be used, while enterprise networks prefer Open Shortest Path First. On the global internet, Border Gateway Protocol is widely used to exchange routing information between autonomous systems.",
+        "entities": [
+            {
+                "entity": "in computer network design, the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "ensures that",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "version 4 and internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network topology",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "like routing information",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "In",
+                "label": "OTHER",
+                "score": 0.9900000095367432
+            },
+            {
+                "entity": "computer network",
+                "label": "TOPIC",
+                "score": 0.7710000276565552
+            },
+            {
+                "entity": "design, the",
+                "label": "OTHER",
+                "score": 0.9380000233650208
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9779999852180481
+            }
+        ]
+    },
+    {
+        "text": "OSI Reference Model The OSI (Open Systems Interconnection) model consists of seven layers, each responsible for a specific part of the communication process. These layers are: Physical Layer \ufffd responsible for transmitting raw bits over the communication medium. Data Link Layer \ufffd ensures reliable transmission of frames and handles error detection. Network Layer \ufffd manages routing and logical addressing. Transport Layer \ufffd provides end-to-end communication and error recovery. Session Layer \ufffd establishes and manages communication sessions. Presentation Layer \ufffd handles data translation, encryption, and compression. Application Layer \ufffd provides network services directly to applications. Each layer communicates only with its adjacent layers, which helps simplify network design and allows different technologies to operate together.",
+        "entities": [
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "ensures reliable transmission of",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "session layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "presentation layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "application layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "OSI Reference Model",
+                "label": "TOPIC",
+                "score": 0.6660000085830688
+            },
+            {
+                "entity": "Physical Layer",
+                "label": "TOPIC",
+                "score": 0.8460000157356262
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9039999842643738
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.6129999756813049
+            },
+            {
+                "entity": "Presentation Layer",
+                "label": "TOPIC",
+                "score": 0.6460000276565552
+            },
+            {
+                "entity": "Application",
+                "label": "TOPIC",
+                "score": 0.6439999938011169
+            }
+        ]
+    },
+    {
+        "text": "Access points are used to create a wireless local area network (LAN). These devices send and receive data so that visitors, clients and employees can wirelessly connect to the internet. Internet signals are transmitted from the AP device using 2.4Ghz and/or 5Ghz bands. APs receive the signal via an ethernet cable, which is connected to the router.",
+        "entities": []
+    },
+    {
+        "text": "Network Topologies Network topology refers to the physical or logical arrangement of devices in a network. It determines how devices are connected and how data flows between them. Common topologies include bus topology, where all devices share a single backbone cable. Star topology, where each device connects to a central hub or switch. Ring topology, where devices are connected in a circular loop and data travels around the ring. Mesh topology, where every device connects to multiple other devices, providing redundancy and reliability. Tree topology combines characteristics of star and bus networks to form hierarchical structures. Each topology has advantages and disadvantages related to cost, scalability, reliability, and performance.",
+        "entities": [
+            {
+                "entity": "network topologies",
+                "label": "OTHER",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "network topology",
+                "label": "CONCEPT",
+                "score": 0.9760000109672546
+            },
+            {
+                "entity": "redundancy",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            }
+        ]
+    },
+    {
+        "text": "Network components are divided into hardware and software. Hardware includes NICs (Network Interface Cards), switches, routers, hubs, and gateways. Software includes network operating systems, protocols, and management software, which coordinate communication between devices.",
+        "entities": []
+    },
+    {
+        "text": "In a ring topology, each device is connected to exactly two others, forming a closed loop. Data travels in one direction around the ring (or in both directions when using dual rings). Each node receives data and passes it to the next until it reaches its destination. While ring topology can perform better than bus under heavy load, a single device failure can disrupt the entire ring unless special redundancy mechanisms are used.",
+        "entities": [
+            {
+                "entity": "topology",
+                "label": "CONCEPT",
+                "score": 0.7300000190734863
+            },
+            {
+                "entity": "redundancy",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            }
+        ]
+    },
+    {
+        "text": "TCP/IP Model The TCP/IP Model is the networking architecture used in the internet. It organizes communication functions into four layers. Network Interface Layer This layer handles communication between devices connected to the same network. It includes functions related to hardware addressing and physical transmission.",
+        "entities": [
+            {
+                "entity": "Network Interface Layer",
+                "label": "TOPIC",
+                "score": 0.7390000224113464
+            }
+        ]
+    },
+    {
+        "text": "The Data Link Layer ensures reliable frame transmission between neighboring nodes. Framing divides transmitted bits into frames containing addressing information. Error detection and correction techniques detect transmission errors. Flow control regulates communication speed between devices. MAC addressing uniquely identifies network interfaces. Switching concepts allow switches to forward frames using MAC address tables.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "ensures reliable",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frame",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "using",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "mac address",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.996999979019165
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "MAC",
+                "label": "CONCEPT",
+                "score": 0.6959999799728394
+            }
+        ]
+    },
+    {
+        "text": "Physical Layer also performs following responsibility 1) Physical characteristics of interfaces and medium. The physical layer defines the characteristics of the interface between the devices and the transmission medium. It also defines the type of transmission medium. 2) Representation of bits. The physical layer data consists of a stream of bits (sequence of Os or 1s) . The physical layer defines the type of encoding(how Os and Is are changed to signals). 3) Data rate: The transmission rate-the number of bits sent each second-is also defined by the physical layer.. 4) Synchronization of bits. Sender & Receiver must have same bit rate 5.Line configuration. pointto-point configuration . multipoint configuration 5) Physical topology. mesh topology (every device is connected to every other device), a star topology (devices are connected through a central device), a ring topology (each device is connected to the next, forming aring), a bus topology (every device is on a common link), or a hybrid topology 6) Transmission mode simplex, half-duplex, or full-duplex.",
+        "entities": [
+            {
+                "entity": "physical layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "star topology",
+                "label": "CONCEPT",
+                "score": 0.722000002861023
+            },
+            {
+                "entity": "( devices are connected through a central device ), a",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "ring",
+                "label": "CONCEPT",
+                "score": 0.8560000061988831
+            },
+            {
+                "entity": "topology ( each device is connected to the next, forming aring ), a",
+                "label": "OTHER",
+                "score": 0.9739999771118164
+            },
+            {
+                "entity": "bus topology",
+                "label": "CONCEPT",
+                "score": 0.7950000166893005
+            },
+            {
+                "entity": "( every device is on a common link ), or a",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "hybrid topology",
+                "label": "CONCEPT",
+                "score": 0.8420000076293945
+            },
+            {
+                "entity": "Physical Layer",
+                "label": "TOPIC",
+                "score": 0.8709999918937683
+            }
+        ]
+    },
+    {
+        "text": "Many network attacks start with the interception of network traffic. For this attack ingredient, we assume that the attacker has a presence in the victim\ufffds network. For instance, the attacker brings a laptop in range of the victim\ufffds WiFi network, or obtains access to a PC in the wired network. Sniffing on a broadcast medium, such as WiFi or the original Ethernet implementation is easy: you just tune into the channel at a convenient location, and listen for the bits come thundering by. To do so, attackers set their network interfaces in promiscuous mode, to make it accept all packets on the channel, even those destined for another host, and use tools such as tcpdump or Wireshark to capture the traffic.",
+        "entities": [
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            }
+        ]
+    },
+    {
+        "text": "Error detection is another important function of the transport layer. In Transmission Control Protocol, a checksum is used to verify the integrity of transmitted data. The sender calculates a checksum value based on the contents of the segment and includes it in the TCP header. When the receiver receives the segment, it performs the same calculation and compares the result with the transmitted checksum. If the values do not match, the segment is considered corrupted and is discarded. The sender will then retransmit the lost or damaged segment. This process ensures reliable and accurate communication between network hosts.",
+        "entities": [
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9369999766349792
+            },
+            {
+                "entity": "checksum",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "value based on the contents of the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "segment",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "Hybrid Network Combination of private and public networks Some parts of the network are restricted, while others are publicly accessible Allows organizations to maintain internal security while providing external connectivity Common in modern enterprise and cloud-based systems",
+        "entities": [
+            {
+                "entity": "Hybrid",
+                "label": "OTHER",
+                "score": 0.7179999947547913
+            }
+        ]
+    },
+    {
+        "text": "Transport Layer The transport layer provides reliable end-to-end communication services. It manages segmentation, error control, and flow control to ensure proper data delivery. Session Layer This layer establishes, manages, and terminates communication sessions between applications.",
+        "entities": [
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "session layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "Transport Layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            },
+            {
+                "entity": "Session Layer",
+                "label": "TOPIC",
+                "score": 0.621999979019165
+            }
+        ]
+    },
+    {
+        "text": "The process of looking up a name and finding an address is called name resolution. When a resolver has a query about a domain name, it passes the query to a local name server. If the domain being sought falls under the jurisdiction of the name server, such as top.cs.vu.nl falling under cs.vu.nl, it returns the authoritative resource records. An authoritative record is one that comes from the authority that manages the record and is thus always correct. Authoritative records are in contrast to cached records, which may be out of date.",
+        "entities": []
+    },
+    {
+        "text": "The Network Layer provides packet forwarding and routing services that allow communication between networks. Logical addressing is implemented using Internet Protocol version 4 and Internet Protocol version 6. IPv6 was developed to overcome the limitations of IPv4 and to support the rapid growth of internet-connected devices. Subnetting divides networks into smaller segments by extending the network portion of an IP address. This improves network organization and reduces unnecessary broadcast traffic. Routing algorithms determine optimal packet paths based on link metrics such as hop count or delay. Routers exchange route information using protocols like Routing Information Protocol and Open Shortest Path First, while global internet routing between autonomous systems is handled by Border Gateway Protocol.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "provides",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packet",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "version 4 and internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "segments",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "like routing information",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9729999899864197
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            }
+        ]
+    },
+    {
+        "text": "IPv6 replaces broadcast communication with multicast mechanisms that allow efficient delivery of packets to multiple hosts simultaneously. Multicast groups are identified by special IPv6 addresses, and routers forward packets only to network segments containing interested receivers. This reduces unnecessary traffic and improves bandwidth efficiency for applications such as streaming media and online conferencing.",
+        "entities": [
+            {
+                "entity": "ipv6 replaces",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "broadcast communication",
+                "label": "CONCEPT",
+                "score": 0.7720000147819519
+            },
+            {
+                "entity": "with multicast mechanisms that allow efficient delivery of",
+                "label": "OTHER",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "only to network",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "segments",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "bandwidth",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            }
+        ]
+    },
+    {
+        "text": "LAN switches connect devices on an organization's internal LAN. They are also known as Ethernet switches or data switches. These switches are especially useful for alleviating network congestion or bottlenecks. They allocate bandwidth in such a way that data packets in a network do not overlap.",
+        "entities": [
+            {
+                "entity": "congestion",
+                "label": "CONCEPT",
+                "score": 0.9789999723434448
+            },
+            {
+                "entity": "bandwidth",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "in such a way that data",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            }
+        ]
+    },
+    {
+        "text": "Integrity means that data cannot be modified without authorization. Like confidentiality, it can be applied to a stream of messages, a single message or selected fields within a message. Two types of integrity services are available. They are: Connection-Oriented Integrity Service: This service deals with a stream of messages, assures that messages are received as sent, with no duplication, insertion, modification, reordering or replays. Destruction of data is also covered here. Hence, it attends to both message stream modification and denial of service. Connectionless-Oriented Integrity Service: It deals with individual messages regardless of larger context, providing protection against message modification only. An integrity service can be applied with or without recovery. Because it is related to active attacks, major concern will be detection rather than prevention.",
+        "entities": []
+    },
+    {
+        "text": "The Network Layer ensures packet transmission between networks using routing and logical addressing. Devices are assigned addresses through Internet Protocol version 4 and Internet Protocol version 6. IPv6 supports a larger address space and better routing capabilities. Subnetting divides networks into smaller subnetworks that improve performance and management. Routing algorithms compute optimal routes based on link costs and topology information. Routing protocols such as Routing Information Protocol and Open Shortest Path First allow routers to exchange routing tables. Global routing across autonomous systems is performed using Border Gateway Protocol.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "network layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "ensures",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "packet",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "protocol",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "version 4 and internet",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "protocols",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "such as routing information",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9860000014305115
+            },
+            {
+                "entity": "Network Layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            }
+        ]
+    },
+    {
+        "text": "The Data Link Layer manages communication across a single physical link. Framing groups transmitted bits into frames. Error detection and correction methods detect corrupted frames and maintain data integrity. Flow control prevents congestion in communication channels. MAC addressing uniquely identifies devices in a LAN. Switching concepts allow frames to be forwarded efficiently between network devices.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "and correction methods detect corrupted",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "congestion",
+                "label": "CONCEPT",
+                "score": 0.9909999966621399
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9959999918937683
+            }
+        ]
+    },
+    {
+        "text": "3. Internet Layer Also known as the Network Layer, this layer deals with packets and connects independent networks to transport data across boundaries. IP (Internet Protocol): Handles addressing and routing of packets. ICMP (Internet Control Message Protocol): Used for error reporting and diagnostics",
+        "entities": [
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.996999979019165
+            }
+        ]
+    },
+    {
+        "text": "The transport layer ensures reliable communication between applications by managing data transfer processes. TCP is designed to provide dependable communication by ensuring that data is delivered without errors and in the correct order. It includes mechanisms for flow control and congestion control to maintain efficient network performance. UDP, in contrast, provides a connectionless service with minimal overhead. While it does not guarantee reliability, it offers faster transmission and is suitable for time-sensitive applications. Flow control prevents the sender from overwhelming the receiver with excessive data. Congestion control techniques adjust transmission rates during periods of heavy network traffic. Port numbers help identify the destination application for incoming data.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "transport layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "congestion",
+                "label": "CONCEPT",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9729999899864197
+            },
+            {
+                "entity": "Congestion",
+                "label": "CONCEPT",
+                "score": 0.824999988079071
+            }
+        ]
+    },
+    {
+        "text": "Unguided Media Unguided media, also known as wireless or Unbounded transmission media , uses electromagnetic waves to transmit data without any physical medium. Signals propagate through free space such as air or vacuum. The main types of unguided media are radio waves, microwaves, and infrared waves.",
+        "entities": []
+    },
+    {
+        "text": "The Data Link Layer is responsible for ensuring reliable data transfer between directly connected nodes. Framing encapsulates network-layer packets into frames. Error detection and correction techniques verify frame integrity during transmission. Flow control helps maintain balanced communication speeds. MAC addressing uniquely identifies network devices within a LAN. Switching concepts allow network switches to forward frames efficiently using MAC address information.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "packets",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "and correction techniques verify",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frame",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "efficiently using",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "mac address",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9940000176429749
+            },
+            {
+                "entity": "MAC",
+                "label": "CONCEPT",
+                "score": 0.6200000047683716
+            }
+        ]
+    },
+    {
+        "text": "The Data Link Layer manages reliable frame transmission in networking environments. Framing converts the continuous stream of bits into frames with defined boundaries. Error detection and correction techniques maintain communication reliability. Flow control regulates the rate of frame transmission. MAC addressing uniquely identifies network interfaces. Switching concepts allow switches to maintain MAC address tables and forward frames accurately.",
+        "entities": [
+            {
+                "entity": "the",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "data link layer",
+                "label": "TOPIC",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "manages reliable",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "frame",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "error detection",
+                "label": "CONCEPT",
+                "score": 0.9980000257492065
+            },
+            {
+                "entity": "mac address",
+                "label": "CONCEPT",
+                "score": 0.9990000128746033
+            },
+            {
+                "entity": "tables and forward",
+                "label": "OTHER",
+                "score": 1.0
+            },
+            {
+                "entity": "The",
+                "label": "OTHER",
+                "score": 0.9950000047683716
+            },
+            {
+                "entity": "Data Link Layer",
+                "label": "TOPIC",
+                "score": 0.9959999918937683
+            },
+            {
+                "entity": "MAC address",
+                "label": "CONCEPT",
+                "score": 0.7319999933242798
+            }
+        ]
+    },
+    {
+        "text": "Transmission media refers to the physical or wireless communication channel used to carry data signals from one device to another within a computer network. It forms the fundamental pathway through which information is transmitted, ensuring connectivity between networked devices. The selection of a transmission medium depends on factors such as: Transmission distance Data transfer speed (bandwidth) Susceptibility to interference and noise Cost and installation requirements",
+        "entities": []
+    }
+]
