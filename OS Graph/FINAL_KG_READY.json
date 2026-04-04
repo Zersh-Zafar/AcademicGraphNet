@@ -1,0 +1,2834 @@
+[
+    {
+        "text": "virtual memory while base and limit registers can be used to create the abstraction of address spaces there is another problem that has to be solved managing bloatware while memory sizes are increasing rapidly software sizes are increasing much faster in the 1980s many universities ran a timesharing system with dozens of more-or-less satisfied users running simultaneously on a 4-mb vax now microsoft recommends having at least 2 gb for 64-bit windows 8 the trend toward multimedia puts even more demands on memory no memory abstraction the simplest memory abstraction is to have no abstraction at all early mainframe computers before 1960 early minicomputers before 1970 and early personal computers before 1980 had no memory abstraction every program simply aw the physical memory when a program executed an instruction like mov register11000 the computer just moved the contents of physical memory location 1000 to register1 thus the model of memory presented to the programmer was simply physical memory a set of addresses from 0 to some maximum each address corresponding to a cell containing some number of bits commonly eight",
+        "entities": [
+            {
+                "entity": "virtual memory",
+                "label": "TOPIC",
+                "score": 0.989
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.997
+            }
+        ]
+    },
+    {
+        "text": "acyclic graph directory when the same files need to be accessed in more than one place in the directory structure  eg because they are being shared by more than one user  process  it can be useful to provide an acyclic-graph structure  note the directed arcs from parent to child  unix provides two types of links for implementing the acyclic-graph structure  see man ln for more details  a hard link  usually just called a link  involves multiple directory entries that both refer to the same file hard links are only valid for ordinary files in the same filesystem a symbolic link that involves a special file containing information about where to find the linked file symbolic links may be used to link directories andor files in other filesystems as well as ordinary files in the current filesystem windows only supports symbolic links termed shortcuts hard links require a reference count or link count for each file keeping track of how many directory entries are currently referring to this file whenever one of the references is removed the link count is reduced and when it reaches zero the disk space can be reclaimed for symbolic links there is some question as to what to do with the symbolic links when the original file is moved or deleted one option is to find all the symbolic links and adjust them also another is to leave the symbolic links dangling and discover that they are no longer valid the next time they are used",
+        "entities": [
+            {
+                "entity": "directory",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "directory structure",
+                "label": "CONCEPT",
+                "score": 0.98
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "uni",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "##x",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "scheduling",
+                "label": "METHOD",
+                "score": 0.813
+            },
+            {
+                "entity": "load balancing",
+                "label": "METHOD",
+                "score": 0.971
+            },
+            {
+                "entity": "file systems",
+                "label": "TOPIC",
+                "score": 0.988
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "distributed systems",
+                "label": "TOPIC",
+                "score": 0.994
+            },
+            {
+                "entity": "dead",
+                "label": "CONCEPT",
+                "score": 0.803
+            },
+            {
+                "entity": "lock detection",
+                "label": "CONCEPT",
+                "score": 0.808
+            }
+        ]
+    },
+    {
+        "text": "resource preemption to eliminate deadlocks using resource preemption we successively preempt some resources from processes and give these resources to other processes until the deadlock cycle is broken if preemption is required to deal with deadlocks then three issues need to be addressed 1 selecting a victim which resources and which processes are to be preempted as in process termination we must determine the order of preemption to minimize cost cost factors may include such parameters as the number of resources a deadlocked process is holding and the amount of time the process has thus far consumed 2 rollback if we preempt a resource from a process what should be done with that process clearly it cannot continue with its normal execution it is missing some needed resource we must roll back the process to some safe state and restart it from that state since in general it is difficult to determine what a safe state is the simplest solution is a total rollback abort the process and then restart it although it is more effective to roll back the process only as far as necessary to break the deadlock this method requires the system to keep more information about the state of all running processes 3 starvation how do we ensure that starvation will not occur that is how can we guarantee that resources will not always be preempted from the same process in a system where victim selection is based primarily on cost factors it may happen that the same process is always picked as a victim as a result this process never completes its designated task a starvation situation any practical system must address",
+        "entities": [
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "safe state",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "resource preemption",
+                "label": "CONCEPT",
+                "score": 0.882
+            },
+            {
+                "entity": "dead",
+                "label": "TOPIC",
+                "score": 0.996
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.994
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.793
+            },
+            {
+                "entity": "state",
+                "label": "CONCEPT",
+                "score": 0.921
+            }
+        ]
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "circular wait",
+                "label": "CONCEPT",
+                "score": 0.872
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.877
+            }
+        ]
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 1.0
+            },
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "process states",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "pcb",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "scheduling",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "mut",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "##ex",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "monitors",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "dead",
+                "label": "TOPIC",
+                "score": 0.985
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.972
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.993
+            }
+        ]
+    },
+    {
+        "text": "synchronization in real-time operating systems must guarantee predictable execution times blocking must be bounded so deadlines are not missed protocols like priority inheritance prevent high-priority tasks from being delayed by lower-priority ones holding locks",
+        "entities": [
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "syn",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "chron",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "ization",
+                "label": "TOPIC",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "kerrisk explains context switching from a linux user-space and kernel interaction perspective he describes how system calls signals and blocking io operations trigger transitions from user mode to kernel mode leading to possible context switches subtopics include process descriptors task_struct scheduler classes preemption and signal handling the book also discusses how linux differentiates between process and thread switching since both are represented as tasks it explains performance implications such as scheduler latency and how completely fair scheduler cfs decisions influence switching frequency practical examples show how excessive switching impacts throughput and responsiveness",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "system calls",
+                "label": "TOPIC",
+                "score": 0.983
+            },
+            {
+                "entity": "signals",
+                "label": "CONCEPT",
+                "score": 0.976
+            },
+            {
+                "entity": "user mode",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "kernel mode",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "signal",
+                "label": "CONCEPT",
+                "score": 0.912
+            },
+            {
+                "entity": "thread",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "process descriptors",
+                "label": "CONCEPT",
+                "score": 0.967
+            },
+            {
+                "entity": "sched",
+                "label": "CONCEPT",
+                "score": 0.954
+            },
+            {
+                "entity": "uler",
+                "label": "CONCEPT",
+                "score": 0.982
+            }
+        ]
+    },
+    {
+        "text": "segmentation segmentation is another non-contiguous memory allocation technique where space is allocated to processes in the units of logical blocks or segments from a users perspective any program can be considered as a collection of logical segments for example a c- implementation of quicksort algorithm may have the following logical sections functions main read quicksort partition swap etc and data section each of the functions and data sections can be considered as a segment and they can be independently loaded onto the memory fig 517a each segment is assigned a number numbering is not done by the os but by either the compiler linker or loader and any memory reference in the logical space is done relative to the beginning of a segment hence logical addresses have the form where segid represents segmentation id and offset is the location of the address from the base-address of the segment base-addresses of all the segments are maintained in a segment table by the os paged segmentation in paged segmentation each segment is allocated space independently in the units of pages each segment gets a variable number of pages based on its length the segment table provides a list of baseaddresses of the page tables for all the segments address resolution is done in two steps first from the segment table the appropriate page table is identified from the field and its based-address is located second the appropriate page-id is operating systems  160 obtained from the msbs of the field the rest of the offset lsbs provide offset within a page",
+        "entities": [
+            {
+                "entity": "segmentation",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "memory allocation",
+                "label": "CONCEPT",
+                "score": 0.99
+            },
+            {
+                "entity": "pages",
+                "label": "CONCEPT",
+                "score": 0.99
+            },
+            {
+                "entity": "page tables",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "page table",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "page",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "gment",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "ation",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "segment",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "logical addresses",
+                "label": "CONCEPT",
+                "score": 0.89
+            },
+            {
+                "entity": "segment table",
+                "label": "CONCEPT",
+                "score": 0.764
+            },
+            {
+                "entity": "table",
+                "label": "CONCEPT",
+                "score": 0.858
+            }
+        ]
+    },
+    {
+        "text": "the dispatcher is the module that gives control of the cpu to the process selected by the scheduler this function involves switching context switching to user mode jumping to the proper location in the newly loaded program the dispatcher needs to be as fast as possible as it is run on every context switch the time consumed by the dispatcher is known as dispatch latency",
+        "entities": [
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.987
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "user mode",
+                "label": "CONCEPT",
+                "score": 0.956
+            }
+        ]
+    },
+    {
+        "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+        "entities": [
+            {
+                "entity": "external",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "fragmentation",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "file systems",
+                "label": "TOPIC",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "deadlock avoidance in order to avoid deadlock each request for a resource will be granted as long as the resulting state of the system does not cause stalemate in the system it is planned to perform ongoing monitoring of the systems state during which they will search for both safe and hazardous circumstances it is necessary for the process to tell the operating system of the maximum amount of resources it is able to demand in order for its execution to be finished in order to avoid deadlocks the most easy and useful technique is that the process announce the maximum quantity of resources of each type that it can potentially demand at any given moment in time this strategy is recommended since it is the most straightforward and helpful strategy the approach for avoiding deadlocks explores the allocation of resources in order to ensure that there will never be an instance in which there is a situation in which there is a never-ending cycle of waiting it is possible to characterize the resource allocation state of a system by the instances of accessible resources the instances of assigned resources and the maximum instance of the resources that are being required by the processes this may be done by counting the number of accessible resources assigned resources and maximum instances of necessary resources",
+        "entities": [
+            {
+                "entity": "deadlock avoidance",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "dead",
+                "label": "CONCEPT",
+                "score": 0.99
+            },
+            {
+                "entity": "lock avoidance",
+                "label": "CONCEPT",
+                "score": 0.983
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.847
+            }
+        ]
+    },
+    {
+        "text": "although broader than os this book explains concurrency control at system level it discusses atomic operations and thread synchronization in multiprocessor systems",
+        "entities": [
+            {
+                "entity": "atomic operations",
+                "label": "CONCEPT",
+                "score": 0.989
+            },
+            {
+                "entity": "thread",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "conc",
+                "label": "CONCEPT",
+                "score": 0.82
+            }
+        ]
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "uni",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##x",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process states",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "wait",
+                "label": "METHOD",
+                "score": 0.972
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.948
+            }
+        ]
+    },
+    {
+        "text": "stallings provides a detailed explanation of the dispatchers role in context switching the dispatcher is responsible for stopping one process and starting another this involves saving general-purpose registers updating process states and loading memory management information stallings emphasizes that context switching time is overhead and should be minimized he discusses how different scheduling strategies influence the frequency of switches in systems with short time slices switching occurs frequently improving responsiveness but increasing overhead in contrast longer time slices reduce overhead but may decrease interactive performance",
+        "entities": [
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##ers",
+                "label": "CONCEPT",
+                "score": 0.987
+            },
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "process states",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "memory management",
+                "label": "TOPIC",
+                "score": 0.997
+            }
+        ]
+    },
+    {
+        "text": "io devices io devices can be used for various purposes however they can be clubbed into two broad categories according to their purpose of uses as follows 1 communication data is taken in or sent out through communication devices 2 storage data is persistently stored in storage devices communication devices these devices transmit data from or to processors and do not store data persistently they can be used for user interaction in this category there are strictly input devices like keyboard mouse scanner joystick etc strictly output devices like monitor printer etc or both input-output devices like touchscreen again there are purely communication devices or network devices like nic or ethernet cards",
+        "entities": [
+            {
+                "entity": "printer",
+                "label": "CONCEPT",
+                "score": 0.854
+            }
+        ]
+    },
+    {
+        "text": "file systems are a crucial part of any operating system providing a structured way to store organize and manage data on storage devices such as hard drives ssds and usb drives user application the programs or software that request file operations like read write or delete logical file system manages metadata file names directories and access permissions virtual file system vfs acts as a bridge allowing different file systems to work under a single interface physical file system handles the actual storage of data blocks on the disk partition 1 partition 2 partition 3 divisions of the storage device where files are stored physically",
+        "entities": [
+            {
+                "entity": "file systems",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "read",
+                "label": "METHOD",
+                "score": 0.992
+            },
+            {
+                "entity": "write",
+                "label": "METHOD",
+                "score": 0.982
+            }
+        ]
+    },
+    {
+        "text": "encryption and integrity encryption protects data at rest using tools like bitlocker windows full-disk efs file-level ntfs or gpg linux public-key rendering stolen files unreadable without keys integrity mechanisms employ hashing sha-256md5 digital signatures and file integrity monitoring fim to detect tampering alerting on unauthorized changes",
+        "entities": [
+            {
+                "entity": "encryption",
+                "label": "CONCEPT",
+                "score": 0.992
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "enc",
+                "label": "CONCEPT",
+                "score": 0.961
+            },
+            {
+                "entity": "ryption",
+                "label": "CONCEPT",
+                "score": 0.979
+            }
+        ]
+    },
+    {
+        "text": "segmentation as weve already seen the users view of memory is not the same as the actual physical memory this is equally true of the programmers view of memory indeed dealing with memory in terms of its physical properties is inconvenient to both the operating system and the programmer what if the hardware could provide a memory mechanism that mapped the programmers view to the actual physical memory the system would have more freedom to manage memory while the programmer would have a more natural programming environment segmentation provides such a mechanism segmentation is a memory-management scheme that supports this programmer view of memory a logical address space is a collection of segments each segment has a name and a length the addresses specify both the segment name and the offset within the segment the programmer therefore specifies each address by two quantities a segment name and an offset for simplicity of implementation segments are numbered and are referred to by a segment number rather than by a segment name thus a logical address consists of a two tuple",
+        "entities": [
+            {
+                "entity": "segmentation",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "logical address",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "gment",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "ation",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "segment",
+                "label": "CONCEPT",
+                "score": 0.972
+            }
+        ]
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "system calls",
+                "label": "TOPIC",
+                "score": 0.976
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "binding of instructions and data to memory compile time if memory location is known a priori absolute code can be generated must recompile code if starting location changes load time must generate relocatable code if memory location is not known at compile time execution time binding delayed until run time if the process can be moved during its execution from one memory segment to another need hardware support for address maps eg base and limit registers",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "context switching in unix systems is handled by the kernel to support multiple processes the os saves the process state before switching execution bach explains that context switching enables effective cpu sharing however it introduces execution delay unix kernels aim to perform fast context switches",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "uni",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##x",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "process state",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "kernels",
+                "label": "CONCEPT",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "synchronization coordinates concurrent execution using semaphores and monitors the system must avoid deadlock while maintaining data consistencysynchronization ensures correct sequencing of operations among interacting processes mutual exclusion prevents overlapping critical sections and signaling mechanisms coordinate dependent tasks",
+        "entities": [
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "monitors",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "mutual exclusion",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "critical sections",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "syn",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "chron",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "ization",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.81
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.848
+            }
+        ]
+    },
+    {
+        "text": "the critical section is the part of the code where shared resources are accessed synchronization ensures that only one thread or process enters its critical section at a time if mutual exclusion is not enforced here data corruption and unpredictable behaviour can occur because threads may read and write shared data simultaneously without coordination",
+        "entities": [
+            {
+                "entity": "critical section",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "thread",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "mutual exclusion",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "threads",
+                "label": "CONCEPT",
+                "score": 0.995
+            }
+        ]
+    },
+    {
+        "text": "application programs this is the topmost layer where users interact with files through applications it provides the user interface for file operations like creating deleting reading writing and modifying files examples include text editors file browsers and command-line interfaces",
+        "entities": []
+    },
+    {
+        "text": "conditions for resource deadlocks coffman et al 1971 showed that four conditions must hold for there to be a resource deadlock 1 mutual exclusion condition each resource is either currently assigned to exactly one process or is available 2 hold-and-wait condition processes currently holding resources that were granted earlier can request new resources 3 no-preemption condition resources previously granted cannot be forcibly taken away from a process they must be explicitly released by the process holding them 4 circular wait condition there must be a circular list of two or more processes each of which is waiting for a resource held by the next member of the chain all four of these conditions must be present for a resource deadlock to occur if one of them is absent no resource deadlock is possible it is worth noting that each condition relates to a policy that a system can have or not have",
+        "entities": [
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.994
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.99
+            },
+            {
+                "entity": "mutual exclusion",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "circular wait",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "resource deadlocks",
+                "label": "CONCEPT",
+                "score": 0.864
+            },
+            {
+                "entity": "resource deadlock",
+                "label": "CONCEPT",
+                "score": 0.805
+            }
+        ]
+    },
+    {
+        "text": "context switching allows sharing of cpu resources among competing processes the operating system stores and restores process context dhamdhere explains that this mechanism is required for multiprogramming however frequent switching wastes cpu cycles proper scheduling policies reduce overhead",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "several algorithms are used for cpu scheduling first-come first-served fcfs executes processes in the order they arrive but it can lead to long waiting times if a large process arrives first shortest job first sjf selects the process with the smallest burst time which minimizes average waiting time but risks starvation for longer processes shortest remaining time first srtf is the preemptive version of sjf where the process with the least remaining time is always chosen round robin rr gives each process a fixed time slice in rotation ensuring fairness but potentially causing frequent context switches priority scheduling assigns cpu based on process priority which is good for critical tasks but can starve lower-priority processes more advanced methods like multilevel queue scheduling divide processes into categories eg foreground vs background and apply different scheduling strategies to each",
+        "entities": [
+            {
+                "entity": "cpu scheduling",
+                "label": "TOPIC",
+                "score": 0.911
+            },
+            {
+                "entity": "##fs",
+                "label": "ALGORITHM",
+                "score": 0.997
+            },
+            {
+                "entity": "waiting times",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "shortest job first",
+                "label": "ALGORITHM",
+                "score": 0.994
+            },
+            {
+                "entity": "##f",
+                "label": "ALGORITHM",
+                "score": 0.996
+            },
+            {
+                "entity": "waiting time",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "shortest remaining time first",
+                "label": "ALGORITHM",
+                "score": 0.989
+            },
+            {
+                "entity": "##tf",
+                "label": "ALGORITHM",
+                "score": 0.983
+            },
+            {
+                "entity": "round robin",
+                "label": "ALGORITHM",
+                "score": 0.993
+            },
+            {
+                "entity": "priority scheduling",
+                "label": "ALGORITHM",
+                "score": 0.992
+            },
+            {
+                "entity": "multilevel queue",
+                "label": "ALGORITHM",
+                "score": 0.988
+            }
+        ]
+    },
+    {
+        "text": "file attributes in operating systems are metadata associated with each file stored in structures like file control blocks fcbs or inodes describing properties beyond the actual data content to enable management access control and efficient handling by the os",
+        "entities": [
+            {
+                "entity": "file control blocks",
+                "label": "CONCEPT",
+                "score": 0.91
+            },
+            {
+                "entity": "ino",
+                "label": "CONCEPT",
+                "score": 0.978
+            },
+            {
+                "entity": "##des",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "access control",
+                "label": "TOPIC",
+                "score": 0.937
+            }
+        ]
+    },
+    {
+        "text": "in shared memory mechanism the os establishes and maintains a part of memory shared by all cooperating processes the peer processes can exchange messages by reading and writing the data into a shared region it requires sharing some variables which entirely depends on the programmers implementation",
+        "entities": [
+            {
+                "entity": "shared memory",
+                "label": "CONCEPT",
+                "score": 0.884
+            }
+        ]
+    },
+    {
+        "text": "message passing is a method where processes communicate by sending and receiving messages to exchange data one process sends a message and the other process receives it allowing them to share information message passing can be achieved through different methods like sockets message queues or pipes",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.976
+            }
+        ]
+    },
+    {
+        "text": "the long-term scheduler or admission scheduler decides which jobs or processes are to be admitted to the ready queue in main memory that is when an attempt is made to execute a program its admission to the set of currently executing processes is either authorized or delayed by the long-term scheduler thus this scheduler dictates what processes are to run on a system the degree of concurrency to be supported at any one time - whether many or few processes are to be executed concurrently and how the split between io-intensive and cpu-intensive processes is to be handled the long-term scheduler is responsible for controlling the degree of multiprogramming",
+        "entities": [
+            {
+                "entity": "long",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "term",
+                "label": "CONCEPT",
+                "score": 0.992
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "ready queue",
+                "label": "CONCEPT",
+                "score": 0.966
+            },
+            {
+                "entity": "degree of multiprogramming",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "sched",
+                "label": "CONCEPT",
+                "score": 0.968
+            },
+            {
+                "entity": "uler",
+                "label": "CONCEPT",
+                "score": 0.93
+            }
+        ]
+    },
+    {
+        "text": "process management ensures fair cpu scheduling and smooth execution of multiple programs the operating system monitors processes using scheduling queues and control structures deadlock is a severe problem that occurs when processes are unable to proceed due to resource dependency cycles deitel describes deadlock as a major challenge in concurrent process execution operating systems must implement deadlock handling mechanisms to maintain efficiency and reliability",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "scheduling",
+                "label": "TOPIC",
+                "score": 0.974
+            }
+        ]
+    },
+    {
+        "text": "for a computer to start running-for instance when it is powered up or rebooted -it must have an initial program to run this initial bootstrap program tends to be simple it initializes all aspects of the system from cpu registers to device controllers and the contents of main memory and then starts the operating system to do its job the bootstrap program finds the operating-system kernel on disk loads that kernel into memory and jumps to an initial address to begin the operating-system execution",
+        "entities": [
+            {
+                "entity": "cpu registers",
+                "label": "CONCEPT",
+                "score": 0.96
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "signals",
+                "label": "CONCEPT",
+                "score": 0.988
+            },
+            {
+                "entity": "virtual memory",
+                "label": "TOPIC",
+                "score": 0.973
+            },
+            {
+                "entity": "fork",
+                "label": "METHOD",
+                "score": 0.994
+            },
+            {
+                "entity": "exec",
+                "label": "METHOD",
+                "score": 0.986
+            },
+            {
+                "entity": "wait",
+                "label": "METHOD",
+                "score": 0.997
+            },
+            {
+                "entity": "system calls",
+                "label": "TOPIC",
+                "score": 0.977
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "race conditions",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "caching",
+                "label": "METHOD",
+                "score": 0.941
+            }
+        ]
+    },
+    {
+        "text": "this edition explains process scheduling and resource management in structured form it discusses process hierarchies state transitions and synchronization mechanisms deadlock handling strategies are presented with formal models the author emphasizes system efficiency and fairness in cpu allocation",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+        "entities": [
+            {
+                "entity": "preem",
+                "label": "METHOD",
+                "score": 0.979
+            },
+            {
+                "entity": "##ptive scheduling",
+                "label": "METHOD",
+                "score": 0.951
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.571
+            },
+            {
+                "entity": "cpu burst",
+                "label": "CONCEPT",
+                "score": 0.989
+            },
+            {
+                "entity": "empt",
+                "label": "METHOD",
+                "score": 0.8
+            }
+        ]
+    },
+    {
+        "text": "recovery from deadlock when a detection algorithm determines that a deadlock exists then the system or operator is responsible for handling deadlock problem there are two options for breaking a deadlock 1 process termination 2 resource preemption 3 process termination there are two method to eliminate deadlocks by terminating a process as follows 1 abort all deadlocked processes this method will break the deadlock cycle clearly by terminating all process this method is cost effective and it removes the partial computations completed by the processes 2 abort one process at a time until the deadlock cycle is eliminated this method terminates one process at a time and invokes a deadlock-detection algorithm to determine whether any processes are still deadlocked resource preemption in resource preemption the operator or system preempts some resources from processes and give these resources to other processes until the deadlock cycle is broken if preemption is required to deal with deadlocks then three issues need to be addressed 1 selecting a victim the system or operator selects which resources and which processes are to be preempted based on cost factor 2 rollback the system or operator must roll back the process to some safe state and restart it from that state 3 starvation the system or operator should ensure that resources will not always be preempted from the same process",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "safe state",
+                "label": "CONCEPT",
+                "score": 0.973
+            },
+            {
+                "entity": "process termination",
+                "label": "CONCEPT",
+                "score": 0.957
+            },
+            {
+                "entity": "resource preemption",
+                "label": "CONCEPT",
+                "score": 0.944
+            },
+            {
+                "entity": "dead",
+                "label": "TOPIC",
+                "score": 0.989
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.977
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.971
+            }
+        ]
+    },
+    {
+        "text": "kernel synchronization includes spinlocks and reader-writer locks to ensure safe parallel execution inside the ossynchronization solves classical concurrency problems such as producer-consumer using semaphores and monitorsthread synchronization ensures memory consistency in multicore processors through atomic instructions",
+        "entities": [
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "spin",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##lock",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "##s",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "producer",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "consumer",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "kernel synchronization",
+                "label": "CONCEPT",
+                "score": 0.921
+            },
+            {
+                "entity": "spinlocks",
+                "label": "CONCEPT",
+                "score": 0.84
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.905
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.858
+            }
+        ]
+    },
+    {
+        "text": "a mutex is another synchronization primitive used to prevent race conditions unlike a semaphore a mutex can only be owned by one process at a time if a process attempts to acquire a mutex already owned by another process it will block until the mutex is released in unix-like operating systems mutexes are implemented using the pthread_mutexh library heres an example of how to use mutexes in c",
+        "entities": [
+            {
+                "entity": "mut",
+                "label": "CONCEPT",
+                "score": 0.616
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "race conditions",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "##ore",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.958
+            },
+            {
+                "entity": "ore",
+                "label": "CONCEPT",
+                "score": 0.946
+            }
+        ]
+    },
+    {
+        "text": "synchronization ensures safe data sharing among threads the book explains how locking enforces mutual exclusion and why naive implementations fail in multicore systems condition variables are introduced to allow threads to sleep efficiently until a condition becomes true scalability is a key concern in synchronization design",
+        "entities": [
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "threads",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "mutual exclusion",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "condition variables",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "syn",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "chron",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "ization",
+                "label": "TOPIC",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "dynamic loading _ routine is not loaded until it is called _ better memory-space utilization unused routine is never loaded _ useful when large amounts of code are needed to handle infrequently occurring cases no special support from the operating system is required implemented through program design overlays dynamic linking linking postponed until execution time _ small piece of code stub placed instead of the real procedure call - used to locate the appropriate memory resident library routine _ stub replaces itself with the address of the routine and executes the routine _ operating system support needed to check if the routine is in memory and addressable by the process _ dynamic linking is particularly useful for libraries",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.997
+            }
+        ]
+    },
+    {
+        "text": "this book explains process management in embedded systems it discusses lightweight processes task scheduling and memory constraints real-time performance and resource efficiency are emphasized",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue balancing criteria like cpu utilization throughput turnaround time submission to completion waiting time ready queue time and response time first output delay to ensure fairness and efficiency",
+        "entities": [
+            {
+                "entity": "cpu scheduling",
+                "label": "TOPIC",
+                "score": 0.977
+            },
+            {
+                "entity": "ready queue",
+                "label": "CONCEPT",
+                "score": 0.933
+            },
+            {
+                "entity": "cpu utilization",
+                "label": "CONCEPT",
+                "score": 0.948
+            },
+            {
+                "entity": "throughput",
+                "label": "CONCEPT",
+                "score": 0.905
+            },
+            {
+                "entity": "turn",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##around time",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "waiting time",
+                "label": "CONCEPT",
+                "score": 0.947
+            },
+            {
+                "entity": "response time",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.946
+            }
+        ]
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.992
+            },
+            {
+                "entity": "process states",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "data structures",
+                "label": "TOPIC",
+                "score": 0.878
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "thread",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "threads",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "process creation",
+                "label": "CONCEPT",
+                "score": 0.898
+            },
+            {
+                "entity": "thread dispatcher",
+                "label": "CONCEPT",
+                "score": 0.965
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.901
+            }
+        ]
+    },
+    {
+        "text": "ordinary files these are the files that contain user information these may have text databases or executable programs the user can apply various operations on such files like add modify delete or even remove the entire file directory files these files contain list of file names and other information related to these files special files these files are also known as device files these files represent physical device like disks terminals printers networks tape drive",
+        "entities": [
+            {
+                "entity": "directory",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##s",
+                "label": "CONCEPT",
+                "score": 0.899
+            },
+            {
+                "entity": "tape drive",
+                "label": "CONCEPT",
+                "score": 0.962
+            }
+        ]
+    },
+    {
+        "text": "xfs xfs originally developed by silicon graphics for the irix operating system was later made compatible for linux this is a high-performance file system that caters for high scalability and performance it supports large files and large storage volumes along with journaling which protects against data loss and corruption xfs provides faster recovery after system crashes enterprise applications involving servers and databases prefer xfs as their preferred file system",
+        "entities": [
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "journal",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##ing",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "swapping a process must be in memory to be executed a process however can be swapped temporarily out of memory to a backing store and then brought back into memory for continued execution figure 85 swapping makes it possible for the total physical address space of all processes to exceed the real physical memory of the system thus increasing the degree of multiprogramming in a system 821 standard swapping standard swapping involves moving processes between main memory and a backing store the backing store is commonly a fast disk it must be large enough to accommodate copies of all memory images for all users and it must provide direct access to these memory images the system maintains a ready queue consisting of all processes whose memory images are on the backing store or in memory and are ready to run whenever the cpu scheduler decides to execute a process it calls the dispatcher the dispatcher checks to see whether the next process in the queue is in memory if it is not and if there is no free memory region the dispatcher swaps out a process currently in memory and swaps in the desired process it then reloads registers and transfers control to the selected process",
+        "entities": [
+            {
+                "entity": "swap",
+                "label": "CONCEPT",
+                "score": 0.991
+            },
+            {
+                "entity": "##ping",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "physical address",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "degree of multiprogramming",
+                "label": "CONCEPT",
+                "score": 0.98
+            },
+            {
+                "entity": "ready queue",
+                "label": "CONCEPT",
+                "score": 0.89
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "apping",
+                "label": "CONCEPT",
+                "score": 0.959
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.969
+            }
+        ]
+    },
+    {
+        "text": "context switching connects hardware and operating system scheduling the cpu switches execution between processes by saving and restoring context tanenbaum explains that context switching is essential for multitasking however it impacts system performance hardware support helps reduce switching cost",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "process management is presented as a core os service responsible for tracking process execution and allocating cpu resources stallings describes processes in terms of execution states and emphasizes the role of scheduling algorithms in achieving performance objectives such as throughput and response time the book highlights how modern operating systems support both user-level and kernel-level threads and explains how process switching overhead impacts system efficiency a different approach is to allow user programs to create and manage their own processes this has fostered a blizzard of innovation today programs that create and manage processes include window managers web servers web browsers shell command line interpreters source code control systems databases compilers and document preparation systems we could go on but you get the idea if creating a process is something a process can do then anyone can build a new version of any of these applications without recompiling the kernel or forcing anyone else to use itan early motivation for user-level process management was to allow developers to write their own shell command line interpreters a shell is a job control system both windows and unix have a shell many tasks involve a sequence of steps to do something unix fork creates a complete copy of the parent process with one key exception we need some way to distinguish between which copy is the parent and which is the child the child process sets up privileges priorities and io for the program that is about to be started eg by closing some files opening others reducing its priority if it is to run in the background etc because the child runs exactly the same code as the parent it can be trusted to set up the context for the new program correctly once the context is set the child process calls unix exec unix exec brings the new executable image into memory and starts it running it may seem wasteful to make a complete copy of the parent process just to overwrite that copy when we bring in the new executable image into memory using exec",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "response time",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "threads",
+                "label": "CONCEPT",
+                "score": 0.992
+            },
+            {
+                "entity": "process switching",
+                "label": "CONCEPT",
+                "score": 0.978
+            },
+            {
+                "entity": "window",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "shell",
+                "label": "CONCEPT",
+                "score": 0.758
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "uni",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##x",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "fork",
+                "label": "METHOD",
+                "score": 0.99
+            },
+            {
+                "entity": "parent",
+                "label": "CONCEPT",
+                "score": 0.865
+            },
+            {
+                "entity": "child",
+                "label": "CONCEPT",
+                "score": 0.852
+            },
+            {
+                "entity": "process execution",
+                "label": "CONCEPT",
+                "score": 0.843
+            },
+            {
+                "entity": "operating systems",
+                "label": "TOPIC",
+                "score": 0.941
+            }
+        ]
+    },
+    {
+        "text": "synchronization ensures orderly execution among cooperating processes stallings explains that without coordination concurrent programs produce unpredictable outputs due to timing variations the text thoroughly analyzes critical sections and introduces semaphores as a fundamental solution it also connects synchronization with deadlock conditions and resource allocation graphs hardware-level instructions such as test-and-set and compare-and-swap are explained as building blocks for synchronization primitives",
+        "entities": [
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "critical sections",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "resource allocation graphs",
+                "label": "CONCEPT",
+                "score": 0.987
+            },
+            {
+                "entity": "syn",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "chron",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "ization",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.988
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.982
+            }
+        ]
+    },
+    {
+        "text": "throughput measures the rate of process completions per unit time eg processeshour maximized by algorithms favoring short jobs like sjf while balancing with response time higher throughput reflects efficient cpu utilization across the system",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##f",
+                "label": "ALGORITHM",
+                "score": 0.998
+            },
+            {
+                "entity": "response time",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.948
+            }
+        ]
+    },
+    {
+        "text": "methods for handling deadlocks generally speaking we can deal with the deadlock problem in one of three ways  we can use a protocol to prevent or avoid deadlocks ensuring that the system will never enter a deadlocked state  we can allow the system to enter a deadlocked state detect it and recover  we can ignore the problem altogether and pretend that deadlocks never occur in the system",
+        "entities": [
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "dead",
+                "label": "TOPIC",
+                "score": 0.995
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.99
+            }
+        ]
+    },
+    {
+        "text": "the dispatcher is a special module in the operating system that gives control of the cpu to the process selected by the scheduler it performs tasks like switching context from one process to another switching to user mode and jumping to the correct location in the program to start execution in short the dispatcher is responsible for the actual handover of the cpu to the chosen process",
+        "entities": [
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.715
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "user mode",
+                "label": "CONCEPT",
+                "score": 0.837
+            }
+        ]
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entities": [
+            {
+                "entity": "mutual exclusion",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "wait",
+                "label": "METHOD",
+                "score": 0.846
+            },
+            {
+                "entity": "no preemption",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "circular wait",
+                "label": "CONCEPT",
+                "score": 0.983
+            }
+        ]
+    },
+    {
+        "text": "this procedure is a particular instance of the general dynamic storageallocation problem which concerns how to satisfy a request of size n from a list of free holes there are many solutions to this problem the first-fit best-fit and worst-fit strategies are the ones most commonly used to select a free hole from the set of available holes first fit allocate the first hole that is big enough searching can start either at the beginning of the set of holes or at the location where the previous first-fit search ended we can stop searching as soon as we find a free hole that is large enough best fit allocate the smallest hole that is big enough we must search the entire list unless the list is ordered by size this strategy produces the smallest leftover hole worst fit allocate the largest hole again we must search the entire list unless it is sorted by size this strategy produces the largest leftover hole which may be more useful than the smaller leftover hole from a best-fit approach",
+        "entities": []
+    },
+    {
+        "text": "apfs is the default file system used by modern versions of macos ios and other apple devices it is very optimized for solid-state drives ssds and flash storage apfs supports advanced features like file cloning snapshots encryption and space sharing it is the main reason behind the smooth ecosystem of apple devices",
+        "entities": [
+            {
+                "entity": "mac",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##os",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "encryption",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "file cloning",
+                "label": "CONCEPT",
+                "score": 0.887
+            }
+        ]
+    },
+    {
+        "text": "this text explains fundamental process concepts including states scheduling and synchronization it describes multiprogramming and time-sharing techniques that allow multiple processes to share cpu resources efficiently classical scheduling algorithms are compared in terms of fairness and performance the book also explains deadlock conditions and prevention strategies practical examples illustrate process coordination and concurrency challenges in modern systems",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.998
+            }
+        ]
+    },
+    {
+        "text": "abstraction levels in ipc range from low-level kernel support such as kernel-handled message buffers and semaphores to high-level application programming interfaces apis and middleware that insulate application software from communication details and provide portability intra-process communication uses function or procedure calls to communicate between logically separated components or objects these calls can be synchronous blocking or asynchronous non-blocking and are analogous to ipc paradigms such as message passing and rpc",
+        "entities": [
+            {
+                "entity": "ipc",
+                "label": "TOPIC",
+                "score": 0.972
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "##c",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "buffers",
+                "label": "CONCEPT",
+                "score": 0.928
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.986
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.986
+            }
+        ]
+    },
+    {
+        "text": "interprocess communication or ipc provides a mechanism to exachange data and information across multiple processes which might be on single or multiple computers connected by a network this is essential for many tasks such as sharing data coordinating activities managing resources achieving modularity",
+        "entities": []
+    },
+    {
+        "text": "turnaround time imagine a relay race turnaround time is when the baton is passed to when the runner finishes the race similarly in cpu scheduling its the time taken from the submission of a task to its completion lower turnaround time means faster execution waiting time consider it time spent in a queue when a task waits for its turn to execute it accumulates waiting time lower waiting time translates to jobs getting served more promptly",
+        "entities": [
+            {
+                "entity": "turn",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##around time",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "cpu scheduling",
+                "label": "TOPIC",
+                "score": 0.918
+            },
+            {
+                "entity": "waiting time",
+                "label": "CONCEPT",
+                "score": 0.995
+            }
+        ]
+    },
+    {
+        "text": "describes switching as a mechanism enabling time sharing and fairness among processes while noting overhead trade-offsexplains thread-based context switching in windows nt architectureprovides kernel-level explanation of process state saving and scheduler invocationdiscusses context switching as part of scheduling and multitasking with performance considerations",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process state",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "scheduler",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "sched",
+                "label": "CONCEPT",
+                "score": 0.985
+            },
+            {
+                "entity": "uler",
+                "label": "CONCEPT",
+                "score": 0.987
+            }
+        ]
+    },
+    {
+        "text": "ipc is mainly required for data sharing resource sharing synchronization and coordination between processes for example in a client-server system the client process sends a request and the server process responds without ipc mechanisms processes would run independently and could not cooperate",
+        "entities": [
+            {
+                "entity": "ipc",
+                "label": "TOPIC",
+                "score": 0.968
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "inter-process communication or ipc is a mechanism that allows processes to communicate and share data with each other while they are running since each process has its own memory space ipc provides controlled methods for exchanging information and coordinating actions it helps processes work together efficiently and safely in an operating system it helps processes synchronize their activities share information and avoid conflicts while accessing shared resources there are two method of ipc shared memory and message passing an operating system can implement both methods of communication",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "shared memory",
+                "label": "CONCEPT",
+                "score": 0.931
+            }
+        ]
+    },
+    {
+        "text": "this book explains context switching in an accessible yet technically accurate manner when multiple processes share a single cpu the operating system alternates execution among them each switch requires saving the current processs execution environment and restoring anothers the authors explain how interrupts scheduling decisions and synchronization events trigger switching they also emphasize that although context switching enables multitasking it consumes cpu time and may affect performance due to cache and memory effects efficient process management helps reduce unnecessary switching",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cache",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.997
+            }
+        ]
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.997
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "deadlock",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "##s",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.831
+            },
+            {
+                "entity": "dead",
+                "label": "TOPIC",
+                "score": 0.917
+            },
+            {
+                "entity": "locks",
+                "label": "TOPIC",
+                "score": 0.855
+            }
+        ]
+    },
+    {
+        "text": "partition allocation methods in memory management in the world of computer operating system there are four common memory management techniques they are 1 single contiguous allocation simplest allocation method used by ms-dos all memory except some reserved for os is available to a process 2 partitioned allocation memory is divided into different blocks or partitions each process is allocated according to the requirement 3 paged memory management memory is divided into fixed-sized units called page frames used in a virtual memory environment 4 segmented memory management memory is divided into different segments a segment is a logical grouping of the process data or codein this management allocated memory doesnt have to be contiguous most of the operating systems for example windows and linux use segmentation with paging a process is divided into segments and individual segments have pages in partition allocation when there is more than one partition freely available to accommodate a processs request a partition must be selected to choose a particular partition a partition allocation method is needed a partition allocation method is considered better if it avoids internal fragmentation",
+        "entities": [
+            {
+                "entity": "memory management",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "page",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "frames",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "virtual memory",
+                "label": "TOPIC",
+                "score": 0.996
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "segmentation",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "pag",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##ing",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "pages",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "internal",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "fragmentation",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "aging",
+                "label": "CONCEPT",
+                "score": 0.98
+            },
+            {
+                "entity": "partition allocation",
+                "label": "CONCEPT",
+                "score": 0.918
+            }
+        ]
+    },
+    {
+        "text": "a barrier does not permit separate processes to continue until every process reaches it barriers can be imposed by different parallel languages  collective routines a barrier means that the processes should stop at the barrier  cannot be allowed to continue until all processes from the group arrive at the barrier once the final process arrives at the barrier then all processes can restart execution  carry on from the barrier",
+        "entities": [
+            {
+                "entity": "barrier",
+                "label": "CONCEPT",
+                "score": 0.942
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "shared pages shared code  one copy of read-only reentrant code shared among processes ie text editors compilers window systems shared code must appear in same location in the logical address space of all processes private code and data  each process keeps a separate copy of the code and data the pages for the private code and data can appear anywhere in the logical address space",
+        "entities": [
+            {
+                "entity": "pages",
+                "label": "CONCEPT",
+                "score": 0.963
+            },
+            {
+                "entity": "logical address",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "text": "synchronization ensures orderly resource sharing in multitasking environments the book explains that when processes execute concurrently shared data must be protected to avoid inconsistent states mutex locks enforce exclusive access while semaphores manage resource availability synchronization mechanisms also prevent starvation and ensure fairness efficient coordination enhances system stability",
+        "entities": [
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "mut",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "##ex",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "sem",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##aph",
+                "label": "CONCEPT",
+                "score": 0.994
+            },
+            {
+                "entity": "##ores",
+                "label": "CONCEPT",
+                "score": 0.992
+            },
+            {
+                "entity": "syn",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "chron",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "ization",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "aph",
+                "label": "CONCEPT",
+                "score": 0.985
+            },
+            {
+                "entity": "ores",
+                "label": "CONCEPT",
+                "score": 0.983
+            }
+        ]
+    },
+    {
+        "text": "deadlock detection if a system does not employ either a deadlock-prevention or a deadlockavoidance algorithm then a deadlock situation may occur in this environment the system may provide an algorithm that examines the state of the system to determine whether a deadlock has occurred an algorithm to recover from the deadlock single instance of each resource type if all resources have only a single instance then we can define a deadlockdetection algorithm that uses a variant of the resource-allocation graph called a wait-for graph we obtain this graph from the resource-allocation graph by removing the resource nodes and collapsing the appropriate edges more precisely an edge from pi to pj in a wait-for graph implies that process pi is waiting for process pj to release a resource that pi needs an edge pi  pj exists in a wait-for graph if and only if the corresponding resourceallocation graph contains two edges pi  rq and rq  pj for some resource rq  we present a resource-allocation graph and the corresponding wait-for graph several instances of a resource type the wait-for graph scheme is not applicable to a resource-allocation system with multiple instances of each resource type we turn now to a deadlock detection algorithm that is applicable to such a system the algorithm employs several time-varying data structures that are similar to those used in the bankers algorithm  available a vector of length m indicates the number of available resources of each type allocation an n  m matrix defines the number of resources of each type currently allocated to each process request an n  m matrix indicates the current request of each process if requestij equals k then process pi is requesting k more instances ofresource type rj ",
+        "entities": [
+            {
+                "entity": "deadlock detection",
+                "label": "CONCEPT",
+                "score": 0.979
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "deadlock detection algorithm",
+                "label": "ALGORITHM",
+                "score": 0.959
+            },
+            {
+                "entity": "bank",
+                "label": "ALGORITHM",
+                "score": 0.967
+            },
+            {
+                "entity": "##ers algorithm",
+                "label": "ALGORITHM",
+                "score": 0.92
+            },
+            {
+                "entity": "dead",
+                "label": "CONCEPT",
+                "score": 0.995
+            },
+            {
+                "entity": "lock detection",
+                "label": "CONCEPT",
+                "score": 0.993
+            },
+            {
+                "entity": "lockavoidance",
+                "label": "CONCEPT",
+                "score": 0.988
+            },
+            {
+                "entity": "resourceallocation graph",
+                "label": "CONCEPT",
+                "score": 0.96
+            }
+        ]
+    },
+    {
+        "text": "a directory in the filesystem is a structure that contains references to other files and possibly other directories files could be arranged by storing related files in the same directory directories are supported by both windows as well as unix-based operating systems",
+        "entities": [
+            {
+                "entity": "directory",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "windows",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "cpu scheduling is the method used by the operating system to decide which ready process gets to use the cpu next when multiple processes are in the ready queue it aims to maximize cpu utilization by allocating time efficiently especially in multiprogramming systems where the cpu is kept busy by switching between processes as others wait eg for io",
+        "entities": [
+            {
+                "entity": "cpu scheduling",
+                "label": "TOPIC",
+                "score": 0.905
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu utilization",
+                "label": "CONCEPT",
+                "score": 0.811
+            },
+            {
+                "entity": "multi",
+                "label": "TOPIC",
+                "score": 0.843
+            },
+            {
+                "entity": "##ing",
+                "label": "TOPIC",
+                "score": 0.946
+            },
+            {
+                "entity": "wait",
+                "label": "METHOD",
+                "score": 0.922
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.856
+            },
+            {
+                "entity": "multip",
+                "label": "TOPIC",
+                "score": 0.892
+            }
+        ]
+    },
+    {
+        "text": "turnaround time tat is a vital scheduling metric that represents the total amount of time taken from the moment a process is submitted to the system until the moment it is completely finished think of it as the wall-clock duration of a tasks life cycle it doesnt just measure how long the cpu spent working on the process it includes every second the process spent waiting in the ready queue executing on the processor and performing io operations like reading a file or waiting for user input",
+        "entities": [
+            {
+                "entity": "turn",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##around time",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.916
+            },
+            {
+                "entity": "around time",
+                "label": "CONCEPT",
+                "score": 0.937
+            }
+        ]
+    },
+    {
+        "text": "message passing has the advantage of being a flexible and reliable ipc mechanism that can be used for both synchronous and asynchronous communication between processes however it has some disadvantages such as the overhead of copying data between processes and the need for synchronization to prevent race conditions when multiple processes access the message queue simultaneously",
+        "entities": [
+            {
+                "entity": "ipc",
+                "label": "TOPIC",
+                "score": 0.966
+            },
+            {
+                "entity": "synchronization",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "race conditions",
+                "label": "CONCEPT",
+                "score": 0.999
+            }
+        ]
+    },
+    {
+        "text": "process management is responsible for managing the lifecycle of processes and coordinating their access to shared resources the operating system schedules processes to maximize cpu utilization deadlock arises when processes wait indefinitely for resources held by others nutt highlights that deadlock is a direct consequence of concurrent execution the os must use prevention or detection techniques to maintain system efficiency",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "management",
+                "label": "TOPIC",
+                "score": 0.999
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "wait",
+                "label": "METHOD",
+                "score": 0.978
+            },
+            {
+                "entity": "processes",
+                "label": "CONCEPT",
+                "score": 0.933
+            }
+        ]
+    },
+    {
+        "text": "provide a detailed analysis of context switching in linux emphasizing memory management and kernel efficiency the book explains how the kernel saves cpu registers stack pointers and page tables during a switch and restores the next tasks context subtopics include tlb invalidation cache effects interrupt handling and preemption lightweight thread switching is compared to full process switching showing reduced overhead when the address space remains constant multiprocessor considerations are also discussed including load balancing processor affinity and minimizing cache disruption the authors highlight how kernel optimization can reduce dispatcher latency and improve system responsiveness in cpu-bound workloads",
+        "entities": [
+            {
+                "entity": "context switching",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "linux",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "memory management",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "kernel",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "cpu registers",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "stack pointers",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "page tables",
+                "label": "CONCEPT",
+                "score": 0.997
+            },
+            {
+                "entity": "##b",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "cache",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "interrupt handling",
+                "label": "TOPIC",
+                "score": 0.998
+            },
+            {
+                "entity": "thread",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "load balancing",
+                "label": "METHOD",
+                "score": 0.978
+            },
+            {
+                "entity": "dispatch",
+                "label": "CONCEPT",
+                "score": 0.999
+            },
+            {
+                "entity": "##er",
+                "label": "CONCEPT",
+                "score": 0.998
+            },
+            {
+                "entity": "cpu",
+                "label": "CONCEPT",
+                "score": 0.885
+            }
+        ]
+    },
+    {
+        "text": "a segment is a logical entity in a program eg a function a data structure or an object hence a segment is a logical entity in a program eg a function a data structure or an object hence it is meaningful to manage it as a unit-load it into memory for execution or share it with other programs in the logical view a process consists of a collection of segments in the physical view segments of a process exist in nonadjacent areas of memory a process q consists of five logical entities with the symbolic names main database search update and stack while coding the program the programmer declares these five as segments in q this information is used by the compiler or assembler to generate logical addresses while translating the program each logical address used in q has the form si bi where si and bi are the ids of a segment and a byte within a segment for example the instruction corresponding to a statement call get_sample where get_sample is a procedure in segment update may use the operand address update get_sample alternatively it may use a numeric representation in which si and bi are the segment number and byte number within a segment respectively for simplicity we assume such a representation",
+        "entities": [
+            {
+                "entity": "process",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "stack",
+                "label": "CONCEPT",
+                "score": 0.996
+            },
+            {
+                "entity": "logical address",
+                "label": "CONCEPT",
+                "score": 1.0
+            },
+            {
+                "entity": "compiler",
+                "label": "CONCEPT",
+                "score": 0.938
+            },
+            {
+                "entity": "assemb",
+                "label": "CONCEPT",
+                "score": 0.899
+            },
+            {
+                "entity": "ler",
+                "label": "CONCEPT",
+                "score": 0.958
+            },
+            {
+                "entity": "logical addresses",
+                "label": "CONCEPT",
+                "score": 0.868
+            }
+        ]
+    }
+]
