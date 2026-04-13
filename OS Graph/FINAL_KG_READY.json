@@ -1266,11 +1266,11 @@
     {
         "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
         "entities": [
-            {
-                "entity": "preem",
-                "label": "METHOD",
-                "score": 0.979
-            },
+          {
+            "entity": "preemptive scheduling",
+            "label": "METHOD",
+            "score": 0.979
+          },
             {
                 "entity": "##ptive scheduling",
                 "label": "METHOD",
@@ -1290,11 +1290,6 @@
                 "entity": "cpu burst",
                 "label": "CONCEPT",
                 "score": 0.989
-            },
-            {
-                "entity": "empt",
-                "label": "METHOD",
-                "score": 0.8
             }
         ]
     },

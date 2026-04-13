@@ -17,43 +17,8 @@
         "entity2_type": "METHOD",
         "confidence": 0.888
     },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data preprocessing",
-        "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "normal",
-        "entity2_type": "METHOD",
-        "confidence": 0.867
-    },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "normalization",
-        "entity2_type": "METHOD",
-        "confidence": 0.971
-    },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data modeling",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.903
-    },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "normal",
-        "entity2_type": "METHOD",
-        "confidence": 0.967
-    },
-    {
+
+        {
         "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
         "entity1": "data modeling",
         "entity1_type": "TOPIC",
@@ -62,15 +27,7 @@
         "entity2_type": "METHOD",
         "confidence": 0.835
     },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data modeling",
-        "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "normal",
-        "entity2_type": "METHOD",
-        "confidence": 0.82
-    },
+   
     {
         "text": "long short-term memory lstm networks are a type of rnn that can learn long-term dependencies they use memory cells and gating mechanisms to control the flow of information these gates decide what information to keep forget or output lstms are widely used in natural language processing tasks such as translation sentiment analysis and text generation their ability to retain information over long sequences makes them superior to traditional rnns",
         "entity1": "natural language processing",
@@ -270,15 +227,7 @@
         "entity2_type": "TOPIC",
         "confidence": 0.862
     },
-    {
-        "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
-        "entity1": "gener",
-        "entity1_type": "TOPIC",
-        "relation": "used_for",
-        "entity2": "generative models",
-        "entity2_type": "TOPIC",
-        "confidence": 0.868
-    },
+    
     {
         "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
         "entity1": "ative models",
@@ -288,24 +237,16 @@
         "entity2_type": "TOPIC",
         "confidence": 0.862
     },
-    {
-        "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
-        "entity1": "reinforcement learning",
-        "entity1_type": "TOPIC",
-        "relation": "used_for",
-        "entity2": "gener",
-        "entity2_type": "TOPIC",
-        "confidence": 0.826
-    },
-    {
-        "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
-        "entity1": "gener",
-        "entity1_type": "TOPIC",
-        "relation": "used_for",
-        "entity2": "ative models",
-        "entity2_type": "TOPIC",
-        "confidence": 0.865
-    },
+  {
+    "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
+    "entity1": "reinforcement learning",
+    "entity1_type": "TOPIC",
+    "relation": "used_for",
+    "entity2": "generative models",
+    "entity2_type": "TOPIC",
+    "confidence": 0.826
+  },
+  
     {
         "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
         "entity1": "feature",
@@ -324,15 +265,7 @@
         "entity2_type": "TOPIC",
         "confidence": 0.967
     },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "features",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "feature",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.873
-    },
+   
     {
         "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
         "entity1": "feature space",
@@ -387,15 +320,7 @@
         "entity2_type": "TOPIC",
         "confidence": 0.97
     },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "feature space",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "features",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.884
-    },
+   
     {
         "text": "feature engineering enhances machine learning performance feature selection reduces noise feature extraction creates useful features dimensionality reduction improves efficiency handling imbalanced data ensures accurate predictions",
         "entity1": "noise",
@@ -477,33 +402,33 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.887
     },
-    {
-        "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
-        "entity1": "##erated learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.84
-    },
-    {
-        "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
-        "entity1": "eder",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.839
-    },
-    {
-        "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
-        "entity1": "feder",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.823
-    },
+  {
+    "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
+    "entity1": "federated learning",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "training",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.84
+  },
+  {
+    "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
+    "entity1": "federated",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "training",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.839
+  },
+  {
+    "text": "federated deep learning enables privacy-preserving model training across multiple devices techniques include secure aggregation differential privacy and client selection by keeping data local and sharing model updates federated learning is suitable for healthcare finance and mobile applications where sensitive data cannot be centralized",
+    "entity1": "federated",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "training",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.823
+  },
     {
         "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
         "entity1": "deep learning",
@@ -533,7 +458,7 @@
     },
     {
         "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embed",
+        "entity1": "embeddingd",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "deep learning",
@@ -558,15 +483,15 @@
         "entity2_type": "METHOD",
         "confidence": 0.962
     },
-    {
-        "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embed",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "feature extraction",
-        "entity2_type": "METHOD",
-        "confidence": 0.964
-    },
+  {
+    "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
+    "entity1": "embeddings ",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "feature extraction",
+    "entity2_type": "METHOD",
+    "confidence": 0.964
+  },
     {
         "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
         "entity1": "transformer models",
@@ -576,24 +501,16 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.941
     },
-    {
-        "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embed",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "transformer models",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.941
-    },
-    {
-        "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embed",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "embeddings",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.914
-    },
+  {
+    "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
+    "entity1": "embeddings ",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "transformer models",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.941
+  },
+ 
     {
         "text": "nlp systems use prompt engineering for better results preprocessing prepares data few-shot prompting improves accuracy chain-of-thought enhances reasoning hallucination remains a challenge ethical concerns include bias deployment pipelines include monitoring and evaluation",
         "entity1": "accuracy",
@@ -711,24 +628,24 @@
         "entity2_type": "METHOD",
         "confidence": 0.916
     },
-    {
-        "text": "overfitting occurs when a generative model memorizes training data instead of learning patterns a key subtopic is generalization which ensures the model can generate new and diverse samples techniques like dropout batch normalization and data augmentation are used to prevent overfitting",
-        "entity1": "over",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "overfitting",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.821
-    },
-    {
-        "text": "overfitting occurs when a generative model memorizes training data instead of learning patterns a key subtopic is generalization which ensures the model can generate new and diverse samples techniques like dropout batch normalization and data augmentation are used to prevent overfitting",
-        "entity1": "over",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "generalization",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.868
-    },
+  {
+    "text": "overfitting occurs when a generative model memorizes training data instead of learning patterns a key subtopic is generalization which ensures the model can generate new and diverse samples techniques like dropout batch normalization and data augmentation are used to prevent overfitting",
+    "entity1": "overfitting",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "overfitting",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.821
+  },
+  {
+    "text": "overfitting occurs when a generative model memorizes training data instead of learning patterns a key subtopic is generalization which ensures the model can generate new and diverse samples techniques like dropout batch normalization and data augmentation are used to prevent overfitting",
+    "entity1": "overfitting",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "generalization",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.868
+  },
     {
         "text": "overfitting occurs when a generative model memorizes training data instead of learning patterns a key subtopic is generalization which ensures the model can generate new and diverse samples techniques like dropout batch normalization and data augmentation are used to prevent overfitting",
         "entity1": "overfitting",
@@ -981,24 +898,16 @@
         "entity2_type": "METHOD",
         "confidence": 0.876
     },
-    {
-        "text": "classification-based predictive modeling tasks are distinguished from each other based on the number of categories and the degree to which the categories are exclusive binary classification sorts data into two exclusive categories multiclass classification sorts data into more than two exclusive categories multilabel classification sorts data into nonexclusive categories imbalanced classification has an unequal distribution of data points across categories",
-        "entity1": "predictive modeling",
-        "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "ification",
-        "entity2_type": "METHOD",
-        "confidence": 0.873
-    },
-    {
-        "text": "natural language processing involves analyzing and understanding human language text preprocessing is the first step in nlp pipelines tf-idf helps identify important words in documents word embeddings represent words in vector form sentiment analysis detects emotions in text named entity recognition identifies entities like names and locations",
-        "entity1": "natural language processing",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "ings",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.824
-    },
+
+  {
+    "text": "natural language processing involves analyzing and understanding human language text preprocessing is the first step in nlp pipelines tf-idf helps identify important words in documents word embeddings represent words in vector form sentiment analysis detects emotions in text named entity recognition identifies entities like names and locations",
+    "entity1": "natural language processing",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "embeddings",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.824
+  },
     {
         "text": "in machine learning feature engineering plays a vital role in extracting meaningful insights from data it involves selecting relevant features creating new features and transforming existing ones techniques like normalization and standardization ensure consistent data scales feature selection methods reduce noise and improve model efficiency dimensionality reduction helps manage large datasets handling imbalanced data through techniques like smote ensures balanced learning feature engineering requires continuous refinement to achieve optimal results",
         "entity1": "machine learning",
@@ -1049,7 +958,7 @@
         "entity1": "machine learning",
         "entity1_type": "TOPIC",
         "relation": "improves",
-        "entity2": "##bo",
+        "entity2": "xgboost",
         "entity2_type": "CONCEPT",
         "confidence": 0.981
     },
@@ -1067,7 +976,7 @@
         "entity1": "variance",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "##bo",
+        "entity2": "xgboost",
         "entity2_type": "CONCEPT",
         "confidence": 0.984
     },
@@ -1085,31 +994,31 @@
         "entity1": "bias",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "##bo",
+        "entity2": "xgboost",
         "entity2_type": "CONCEPT",
         "confidence": 0.984
     },
-    {
-        "text": "ensemble learning is a powerful machine learning approach bagging reduces variance boosting reduces bias gradient boosting optimizes loss and xgboost enhances speed and accuracy",
-        "entity1": "gradient",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "##bo",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.984
-    },
+  {
+    "text": "ensemble learning is a powerful machine learning approach bagging reduces variance boosting reduces bias gradient boosting optimizes loss and xgboost enhances speed and accuracy",
+    "entity1": "gradient",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "xgboost",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.984
+  },
+  {
+    "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
+    "entity1": "accuracy",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "overfitting",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.982
+  },
     {
         "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "accuracy",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "over",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.982
-    },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "##fitting",
+        "entity1": "overfitting",
         "entity1_type": "CONCEPT",
         "relation": "improves",
         "entity2": "accuracy",
@@ -1134,51 +1043,35 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.98
     },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "##fitting",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "over",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.982
-    },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "gradient",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "over",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.983
-    },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "gradient descent",
-        "entity1_type": "METHOD",
-        "relation": "improves",
-        "entity2": "over",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.981
-    },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "##fitting",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "gradient",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.983
-    },
-    {
-        "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
-        "entity1": "gradient descent",
-        "entity1_type": "METHOD",
-        "relation": "improves",
-        "entity2": "##fitting",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.981
-    },
+
+
+  {
+    "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
+    "entity1": "gradient descent",
+    "entity1_type": "METHOD",
+    "relation": "improves",
+    "entity2": "overfitting",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.981
+  },
+  {
+    "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
+    "entity1": "overfitting",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "gradient",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.983
+  },
+  {
+    "text": "ensemble learning combines multiple models to achieve better accuracy bagging reduces overfitting boosting improves predictions gradient boosting uses gradient descent and xgboost enhances efficiency and performance",
+    "entity1": "gradient descent",
+    "entity1_type": "METHOD",
+    "relation": "improves",
+    "entity2": "overfitting",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.981
+  },
     {
         "text": "diffusion models generate data by learning to reverse a noise process a key subtopic is noise modeling where random noise is gradually added to data the reverse process removes noise step by step to reconstruct data these models produce highly realistic outputs",
         "entity1": "diffusion models",
@@ -1199,7 +1092,7 @@
     },
     {
         "text": "diffusion models generate data by learning to reverse a noise process a key subtopic is noise modeling where random noise is gradually added to data the reverse process removes noise step by step to reconstruct data these models produce highly realistic outputs",
-        "entity1": "usion models",
+        "entity1": "diffusion models",
         "entity1_type": "TOPIC",
         "relation": "part_of",
         "entity2": "noise",
@@ -1233,21 +1126,21 @@
         "entity2_type": "TOPIC",
         "confidence": 0.928
     },
+  {
+    "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
+    "entity1": "deep learning",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "tensorflow",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.924
+  },
     {
         "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
         "entity1": "deep learning",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "##flow",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.924
-    },
-    {
-        "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
-        "entity1": "deep learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "##ch",
+        "entity2": "pytorch",
         "entity2_type": "CONCEPT",
         "confidence": 0.921
     },
@@ -1256,19 +1149,19 @@
         "entity1": "neural networks",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "##flow",
+        "entity2": "tensorflow",
         "entity2_type": "CONCEPT",
         "confidence": 0.915
     },
-    {
-        "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
-        "entity1": "neural networks",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "##ch",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.9
-    },
+  {
+    "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
+    "entity1": "neural networks",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "pytorch",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.9
+  },
     {
         "text": "deep learning frameworks like tensorflow and pytorch provide tools for building and training neural networks they offer automatic differentiation gpu support and pre-built layers these frameworks simplify complex computations and allow researchers to experiment quickly pytorch is known for its flexibility while tensorflow excels in production deployment",
         "entity1": "neural networks",
@@ -1283,28 +1176,11 @@
         "entity1": "generalization",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "##ms",
+        "entity2": "systems",
         "entity2_type": "TOPIC",
         "confidence": 0.953
     },
-    {
-        "text": "advanced nlp systems integrate text with other modalities preprocessing ensures data quality multimodal models combine text and images llms improve performance future trends include more scalable systems and better generalization",
-        "entity1": "##ms",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "general",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.943
-    },
-    {
-        "text": "advanced nlp systems integrate text with other modalities preprocessing ensures data quality multimodal models combine text and images llms improve performance future trends include more scalable systems and better generalization",
-        "entity1": "ization",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "##ms",
-        "entity2_type": "TOPIC",
-        "confidence": 0.939
-    },
+ 
     {
         "text": "nlp models are evaluated using various metrics to ensure accuracy preprocessing prepares data tf-idf highlights important words precision and recall are key metrics in classification tasks challenges include bias in data and handling multiple meanings of words transformer-based models improve performance future trends include llms and multimodal ai systems",
         "entity1": "recall",

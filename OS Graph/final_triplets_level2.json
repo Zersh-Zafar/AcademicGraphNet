@@ -116,24 +116,16 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.876
     },
-    {
-        "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
-        "entity1": "file systems",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "external",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.931
-    },
-    {
-        "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
-        "entity1": "fragmentation",
-        "entity1_type": "CONCEPT",
-        "relation": "part_of",
-        "entity2": "file systems",
-        "entity2_type": "TOPIC",
-        "confidence": 0.927
-    },
+  {
+    "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+    "entity1": "file systems",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "external fragmentation",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.931
+  },
+
     {
         "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
         "entity1": "process",
@@ -359,24 +351,7 @@
     "entity2_type": "METHOD",
     "confidence": 0.959
   },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "empt",
-        "entity2_type": "METHOD",
-        "confidence": 0.971
-    },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "cpu burst",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "empt",
-        "entity2_type": "METHOD",
-        "confidence": 0.967
-    },
+    
     {
         "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue balancing criteria like cpu utilization throughput turnaround time submission to completion waiting time ready queue time and response time first output delay to ensure fairness and efficiency",
         "entity1": "ready queue",
@@ -647,15 +622,15 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.876
     },
-    {
-        "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
-        "entity1": "file systems",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "external",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.931
-    },
+  {
+    "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+    "entity1": "file systems",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "external fragmentation",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.931
+  },
     {
         "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
         "entity1": "fragmentation",
@@ -863,15 +838,15 @@
         "entity2_type": "METHOD",
         "confidence": 0.951
     },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "preem",
-        "entity2_type": "METHOD",
-        "confidence": 0.968
-    },
+  {
+    "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+    "entity1": "process",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "preemptive scheduling",
+    "entity2_type": "METHOD",
+    "confidence": 0.968
+  },
     {
         "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
         "entity1": "process",
@@ -890,24 +865,7 @@
     "entity2_type": "METHOD",
     "confidence": 0.959
   },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "empt",
-        "entity2_type": "METHOD",
-        "confidence": 0.971
-    },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "cpu burst",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "empt",
-        "entity2_type": "METHOD",
-        "confidence": 0.967
-    },
+   
     {
         "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue balancing criteria like cpu utilization throughput turnaround time submission to completion waiting time ready queue time and response time first output delay to ensure fairness and efficiency",
         "entity1": "ready queue",

@@ -38,7 +38,7 @@
                 "score": 0.996
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 0.998
             },
@@ -48,7 +48,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##4",
+                "entity": "ipv4",
                 "label": "CONCEPT",
                 "score": 0.998
             },
@@ -108,11 +108,6 @@
                 "score": 0.999
             },
             {
-                "entity": "##ap",
-                "label": "CONCEPT",
-                "score": 0.994
-            },
-            {
                 "entity": "routers",
                 "label": "CONCEPT",
                 "score": 0.999
@@ -123,7 +118,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##ms",
+                "entity": "modems",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -148,7 +143,7 @@
         "text": "tftp is a more basic version of ftp and works similarly but provides fewer services using nfs we can share files remotely over the internet lpd helps in printing jobs between unix systems and remote servers x window defines a protocol for writing gui applications the smtp protocol builds a communication network between two email servers",
         "entities": [
             {
-                "entity": "##p",
+                "entity": "tftp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -158,7 +153,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##tp",
+                "entity": "ftp",
                 "label": "CONCEPT",
                 "score": 0.999
             }
@@ -178,7 +173,7 @@
                 "score": 0.993
             },
             {
-                "entity": "##p",
+                "entity": "ftp",
                 "label": "CONCEPT",
                 "score": 0.998
             }
@@ -193,7 +188,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##i model",
+                "entity": "osi model",
                 "label": "TOPIC",
                 "score": 0.999
             },
@@ -268,16 +263,6 @@
                 "score": 1.0
             },
             {
-                "entity": "##p",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
-            {
-                "entity": "##tp",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
-            {
                 "entity": "dns",
                 "label": "CONCEPT",
                 "score": 1.0
@@ -293,7 +278,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##ip model",
+                "entity": "tcpip model",
                 "label": "TOPIC",
                 "score": 0.999
             },
@@ -303,7 +288,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##i model",
+                "entity": "osi model",
                 "label": "TOPIC",
                 "score": 0.999
             },
@@ -349,16 +334,6 @@
             },
             {
                 "entity": "http",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
-            {
-                "entity": "##p",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
-            {
-                "entity": "##tp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -423,22 +398,18 @@
         "text": "the modem connects to a cablewire from the outside bringing in internet data email youtube videos google search results files from all over the world a different wire that goes from your modem to your computer delivers your internet requests and activity to your computer and monitor",
         "entities": [
             {
-                "entity": "mode",
+                "entity": "modem",
                 "label": "CONCEPT",
                 "score": 0.998
             },
-            {
-                "entity": "##m",
-                "label": "CONCEPT",
-                "score": 0.998
-            }
+            
         ]
     },
     {
         "text": "ftp is a standard application layer protocol used to transfer files between a client and a server over a tcpip network it enables users to upload download rename delete or list files and directories on a remote system ftp uses two separate tcp connections port 21 for control commands like login file list etc port 20 for actual data transfer file uploaddownload these port numbers are added by the transport layer after the ftp request is generated at the application layer",
         "entities": [
             {
-                "entity": "##p",
+                "entity": "ftp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -572,26 +543,18 @@
                 "label": "CONCEPT",
                 "score": 0.997
             },
-            {
-                "entity": "dem",
-                "label": "CONCEPT",
-                "score": 0.996
-            },
-            {
-                "entity": "##ulti",
-                "label": "CONCEPT",
-                "score": 0.994
-            },
-            {
-                "entity": "##plex",
-                "label": "CONCEPT",
-                "score": 0.988
-            },
-            {
-                "entity": "##ing",
-                "label": "CONCEPT",
-                "score": 0.838
-            },
+          {
+            "entity": "demultiplexing",
+            "label": "CONCEPT",
+            "score": 0.996
+          },
+
+          {
+            "entity": "multiplex",
+            "label": "CONCEPT",
+            "score": 0.988
+          },
+            
             {
                 "entity": "protocol",
                 "label": "CONCEPT",
@@ -648,7 +611,7 @@
                 "score": 0.998
             },
             {
-                "entity": "##cp",
+                "entity": "ahcp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -747,7 +710,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##um",
+                "entity": "checksum",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -767,15 +730,15 @@
                 "score": 0.997
             },
             {
-                "entity": "##m",
+                "entity": "modem",
                 "label": "CONCEPT",
                 "score": 0.997
             },
-            {
-                "entity": "##ms",
-                "label": "CONCEPT",
-                "score": 0.994
-            },
+          {
+            "entity": "mediumms",
+            "label": "CONCEPT",
+            "score": 0.994
+          },
             {
                 "entity": "modem",
                 "label": "CONCEPT",
@@ -862,7 +825,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##p",
+                "entity": "ftp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -967,7 +930,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##p",
+                "entity": "tcp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -1122,7 +1085,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 1.0
             },
@@ -1162,7 +1125,7 @@
                 "score": 0.998
             },
             {
-                "entity": "##wall",
+                "entity": "firewall",
                 "label": "CONCEPT",
                 "score": 0.999
             }
@@ -1207,7 +1170,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##4",
+                "entity": "ipv4",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -1221,16 +1184,7 @@
                 "label": "CONCEPT",
                 "score": 0.998
             },
-            {
-                "entity": "##em",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
-            {
-                "entity": "##bly",
-                "label": "CONCEPT",
-                "score": 0.998
-            },
+           
             {
                 "entity": "protocol",
                 "label": "CONCEPT",
@@ -1241,11 +1195,7 @@
                 "label": "CONCEPT",
                 "score": 0.999
             },
-            {
-                "entity": "##um",
-                "label": "CONCEPT",
-                "score": 0.995
-            },
+           
             {
                 "entity": "error detection",
                 "label": "CONCEPT",
@@ -1267,7 +1217,7 @@
                 "score": 0.967
             },
             {
-                "entity": "tl expiration",
+                "entity": "ttl expiration",
                 "label": "CONCEPT",
                 "score": 0.814
             }
@@ -1302,7 +1252,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 1.0
             },
@@ -1352,7 +1302,7 @@
         "text": "guided media guided media which are those that provide a conduit from one device to another include twisted-pair cable coaxial cable and fiber-optic cable a signal traveling along any of these media is directed and contained by the physical limits of the medium twisted-pair and coaxial cable use metallic copper conductors that accept and transport signals in the form of electric current optical fiber is a cable that accepts and transports signals in the form of light 1 twisted-pair cable a twisted pair consists of two conductors normally copper each with its own plastic insulation twisted together as shown below figure one of the wires is used to carry signals to the receiver and the other is used only as a ground reference the receiver uses the difference between the two in addition to the signal sent by the sender on one of the wires interference noise and crosstalk may affect both wires and create unwanted signals if the two wires are parallel the effect of these unwanted signals is not the same in both wires because they are at different locations relative to the noise or crosstalk sources eg one is closer and the other is farther this results in a difference at the receiver by twisting the pairs a balance is maintained for example suppose in one twist one wire is closer to the noise source and the other is farther in the next twist the reverse is true twisting makes it probable that both wires are equally affected by external influences noise or crosstalk this means that the receiver which calculates the difference between the two receives no unwanted signals the unwanted signals are mostly canceled out from the above discussion it is clear that the number of twists per unit of length eg inch has some effect on the quality of the cable",
         "entities": [
             {
-                "entity": "##axial cable",
+                "entity": "coaxial cable",
                 "label": "CONCEPT",
                 "score": 0.998
             },
@@ -1411,11 +1361,7 @@
                 "label": "CONCEPT",
                 "score": 0.998
             },
-            {
-                "entity": "##s",
-                "label": "CONCEPT",
-                "score": 0.995
-            },
+            
             {
                 "entity": "storage",
                 "label": "CONCEPT",
@@ -1572,12 +1518,12 @@
                 "score": 0.999
             },
             {
-                "entity": "##p",
+                "entity": "ftp",
                 "label": "CONCEPT",
                 "score": 0.999
             },
             {
-                "entity": "##tp",
+                "entity": "http",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -1652,7 +1598,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##4",
+                "entity": "ipv4",
                 "label": "CONCEPT",
                 "score": 1.0
             },
@@ -1841,11 +1787,7 @@
                 "label": "CONCEPT",
                 "score": 0.998
             },
-            {
-                "entity": "##s",
-                "label": "CONCEPT",
-                "score": 0.998
-            },
+         
             {
                 "entity": "gateway",
                 "label": "CONCEPT",
@@ -1892,7 +1834,7 @@
                 "score": 0.998
             },
             {
-                "entity": "##ip model",
+                "entity": "tcpip model",
                 "label": "TOPIC",
                 "score": 0.998
             },
@@ -1991,11 +1933,7 @@
                 "label": "CONCEPT",
                 "score": 0.988
             },
-            {
-                "entity": "##mp",
-                "label": "CONCEPT",
-                "score": 0.998
-            },
+           
             {
                 "entity": "ether",
                 "label": "CONCEPT",
@@ -2036,11 +1974,7 @@
                 "label": "CONCEPT",
                 "score": 0.999
             },
-            {
-                "entity": "##um",
-                "label": "CONCEPT",
-                "score": 0.999
-            },
+         
             {
                 "entity": "segment",
                 "label": "CONCEPT",
@@ -2120,12 +2054,12 @@
                 "score": 0.999
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 1.0
             },
             {
-                "entity": "##4",
+                "entity": "ipv4",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -2170,7 +2104,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 0.999
             },
@@ -2264,7 +2198,7 @@
                 "score": 0.999
             },
             {
-                "entity": "##6",
+                "entity": "ipv6",
                 "label": "CONCEPT",
                 "score": 1.0
             },
@@ -2328,11 +2262,7 @@
                 "label": "CONCEPT",
                 "score": 0.999
             },
-            {
-                "entity": "##mp",
-                "label": "CONCEPT",
-                "score": 1.0
-            }
+     
         ]
     },
     {
