@@ -17,15 +17,15 @@
         "entity2_type": "TOPIC",
         "confidence": 0.828
     },
-    {
-        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "load balancing",
-        "entity2_type": "METHOD",
-        "confidence": 0.838
-    },
+  {
+    "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+    "entity1": "load balancing",
+    "entity1_type": "CONCEPT",
+    "relation": "part_of",
+    "entity2": "distributed systems",
+    "entity2_type": "METHOD",
+    "confidence": 0.838
+  },
     {
         "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
         "entity1": "process",
@@ -37,10 +37,10 @@
     },
     {
         "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
-        "entity1": "management",
+        "entity1": "process",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "process",
+        "entity2": "process management",
         "entity2_type": "CONCEPT",
         "confidence": 0.855
     },
@@ -297,15 +297,7 @@
         "entity2_type": "TOPIC",
         "confidence": 0.954
     },
-    {
-        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
-        "entity1": "fork",
-        "entity1_type": "METHOD",
-        "relation": "part_of",
-        "entity2": "management",
-        "entity2_type": "TOPIC",
-        "confidence": 0.88
-    },
+    
     {
         "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
         "entity1": "signals",
@@ -315,33 +307,25 @@
         "entity2_type": "TOPIC",
         "confidence": 0.941
     },
-    {
-        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
-        "entity1": "signals",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "fork",
-        "entity2_type": "METHOD",
-        "confidence": 0.951
-    },
+  {
+    "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+    "entity1": "fork",
+    "entity1_type": "CONCEPT",
+    "relation": "part_of",
+    "entity2": "process management",
+    "entity2_type": "METHOD",
+    "confidence": 0.951
+  },
   {
     "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-    "entity1": "process",
+    "entity1": "peemptive scheduling",
     "entity1_type": "CONCEPT",
-    "relation": "used_for",
-    "entity2": "preemptive scheduling",
+    "relation": "part_of",
+    "entity2": "process management",
     "entity2_type": "METHOD",
     "confidence": 0.968
   },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "preemptive scheduling",
-        "entity2_type": "METHOD",
-        "confidence": 0.961
-    },
+    
   {
     "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
     "entity1": "cpu burst",
@@ -838,24 +822,17 @@
         "entity2_type": "METHOD",
         "confidence": 0.951
     },
+  
+
   {
     "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-    "entity1": "process",
+    "entity1": "preemptive scheduling",
     "entity1_type": "CONCEPT",
     "relation": "used_for",
-    "entity2": "preemptive scheduling",
+    "entity2": "process",
     "entity2_type": "METHOD",
-    "confidence": 0.968
+    "confidence": 0.961
   },
-    {
-        "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
-        "entity1": "process",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "preemptive scheduling",
-        "entity2_type": "METHOD",
-        "confidence": 0.961
-    },
   {
     "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
     "entity1": "cpu burst",
@@ -974,15 +951,7 @@
         "entity2_type": "TOPIC",
         "confidence": 0.942
     },
-    {
-        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
-        "entity1": "dead",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "process",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.941
-    },
+   
     {
         "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
         "entity1": "deadlock",

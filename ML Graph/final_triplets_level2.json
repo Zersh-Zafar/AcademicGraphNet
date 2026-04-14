@@ -1,60 +1,44 @@
 [
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data preprocessing",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.916
-    },
-    {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data preprocessing",
-        "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "normalization",
-        "entity2_type": "METHOD",
-        "confidence": 0.888
-    },
 
-        {
-        "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
-        "entity1": "data modeling",
-        "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "normalization",
-        "entity2_type": "METHOD",
-        "confidence": 0.835
-    },
-   
-    {
-        "text": "long short-term memory lstm networks are a type of rnn that can learn long-term dependencies they use memory cells and gating mechanisms to control the flow of information these gates decide what information to keep forget or output lstms are widely used in natural language processing tasks such as translation sentiment analysis and text generation their ability to retain information over long sequences makes them superior to traditional rnns",
-        "entity1": "natural language processing",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "rnns",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.906
-    },
-    {
-        "text": "exploration strategies are crucial in reinforcement learning without sufficient exploration an agent may converge to suboptimal solutions common strategies include \u03b5-greedy where the agent randomly explores with a small probability and upper confidence bound ucb which considers uncertainty in action values more advanced approaches involve entropy regularization and intrinsic motivation encouraging agents to seek novel states effective exploration improves learning efficiency and ensures better long-term outcomes especially in environments with sparse rewards",
-        "entity1": "reinforcement learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "entropy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.804
-    },
-    {
-        "text": "exploration strategies are crucial in reinforcement learning without sufficient exploration an agent may converge to suboptimal solutions common strategies include \u03b5-greedy where the agent randomly explores with a small probability and upper confidence bound ucb which considers uncertainty in action values more advanced approaches involve entropy regularization and intrinsic motivation encouraging agents to seek novel states effective exploration improves learning efficiency and ensures better long-term outcomes especially in environments with sparse rewards",
-        "entity1": "reinforcement learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "regularization",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.81
-    },
+  {
+    "text": "the final step of data preprocessing is transforming the data into a form appropriate for data modeling strategies that enable data transformation include smoothing eliminating noise in the data to see more data patterns attributefeature construction new attributes are constructed from the given set of attributes aggregation summary and aggregation operations are applied on the given set of attributes to come up with new attributes normalization the data in each attribute is scaled between a smaller range for example 0 to 1 or -1 to 1 discretization raw values of the numeric attributes are replaced by discrete or conceptual intervals which can be further organized into higher-level intervals concept hierarchy generation for nominal data values for nominal data are generalized to higherorder concepts",
+    "entity1": "normalization",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "data preprocessing",
+    "entity2_type": "METHOD",
+    "confidence": 0.888
+  },
+
+
+
+  {
+    "text": "long short-term memory lstm networks are a type of rnn that can learn long-term dependencies they use memory cells and gating mechanisms to control the flow of information these gates decide what information to keep forget or output lstms are widely used in natural language processing tasks such as translation sentiment analysis and text generation their ability to retain information over long sequences makes them superior to traditional rnns",
+    "entity1": "rnns",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "natural language processing",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.906
+  },
+  {
+    "text": "exploration strategies are crucial in reinforcement learning without sufficient exploration an agent may converge to suboptimal solutions common strategies include \u03b5-greedy where the agent randomly explores with a small probability and upper confidence bound ucb which considers uncertainty in action values more advanced approaches involve entropy regularization and intrinsic motivation encouraging agents to seek novel states effective exploration improves learning efficiency and ensures better long-term outcomes especially in environments with sparse rewards",
+    "entity1": "entropy",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "reinforcement learning",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.804
+  },
+  {
+    "text": "exploration strategies are crucial in reinforcement learning without sufficient exploration an agent may converge to suboptimal solutions common strategies include \u03b5-greedy where the agent randomly explores with a small probability and upper confidence bound ucb which considers uncertainty in action values more advanced approaches involve entropy regularization and intrinsic motivation encouraging agents to seek novel states effective exploration improves learning efficiency and ensures better long-term outcomes especially in environments with sparse rewards",
+    "entity1": "regularization",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "reinforcement learning",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.81
+  },
     {
         "text": "classification has traditionally been a type of supervised machine learning which means it uses labeled data to train models in supervised learning each data point in the training data contains input variables also known as independent variables or features and an output variable or label",
         "entity1": "machine learning",
@@ -84,7 +68,7 @@
     },
     {
         "text": "classification has traditionally been a type of supervised machine learning which means it uses labeled data to train models in supervised learning each data point in the training data contains input variables also known as independent variables or features and an output variable or label",
-        "entity1": "features",
+        "entity1": "feature",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "classification",
@@ -105,7 +89,7 @@
         "entity1": "machine learning",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.961
     },
@@ -118,15 +102,15 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.939
     },
-    {
-        "text": "classification has traditionally been a type of supervised machine learning which means it uses labeled data to train models in supervised learning each data point in the training data contains input variables also known as independent variables or features and an output variable or label",
-        "entity1": "supervised learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "features",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.945
-    },
+  {
+    "text": "classification has traditionally been a type of supervised machine learning which means it uses labeled data to train models in supervised learning each data point in the training data contains input variables also known as independent variables or features and an output variable or label",
+    "entity1": "supervised learning",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "machine learning",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.945
+  },
     {
         "text": "offline reinforcement learning learns policies from pre-collected datasets without interacting with the environment subtopics included batch learning distribution shift safety constraints it is useful when real-world interaction is costly or risky however it faces challenges like extrapolation errors",
         "entity1": "reinforcement learning",
@@ -154,34 +138,10 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.875
     },
-    {
-        "text": "ensemble learning improves predictions by combining models bagging reduces variance boosting focuses on errors gradient boosting uses gradient descent and xgboost improves performance",
-        "entity1": "variance",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "gradient",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.982
-    },
-    {
-        "text": "ensemble learning improves predictions by combining models bagging reduces variance boosting focuses on errors gradient boosting uses gradient descent and xgboost improves performance",
-        "entity1": "gradient descent",
-        "entity1_type": "METHOD",
-        "relation": "improves",
-        "entity2": "variance",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.983
-    },
    
-    {
-        "text": "feature engineering is a critical step in building effective machine learning systems as it directly influences model performance feature selection focuses on choosing the most relevant variables using techniques such as filter methods correlation chi-square wrapper methods recursive feature elimination and embedded methods lasso this reduces noise and improves interpretability feature extraction involves transforming raw data into new features such as encoding categorical variables creating interaction terms or applying mathematical transformations dimensionality reduction through techniques like principal component analysis pca reduces the number of features while preserving important variance improving efficiency and reducing overfitting handling imbalanced datasets is essential because models can become biased toward majority classes methods such as smote undersampling and cost-sensitive learning ensure fair and balanced predictions",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "engineering",
-        "entity2_type": "TOPIC",
-        "confidence": 0.818
-    },
+  
+   
+  
     {
         "text": "model evaluation involves both numerical metrics and visual analysis tools the confusion matrix provides a detailed understanding of classification results enabling the calculation of accuracy precision recall and f1-score while accuracy is useful for balanced datasets precision and recall are more informative in imbalanced scenarios roc curves and auc values further assist in evaluating classifier performance across thresholds additionally understanding the bias-variance tradeoff helps in designing models that neither overfit nor underfit a comprehensive evaluation approach ensures better decision-making in model selection and deployment",
         "entity1": "classification",
@@ -228,15 +188,7 @@
         "confidence": 0.862
     },
     
-    {
-        "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
-        "entity1": "ative models",
-        "entity1_type": "TOPIC",
-        "relation": "used_for",
-        "entity2": "generative models",
-        "entity2_type": "TOPIC",
-        "confidence": 0.862
-    },
+   
   {
     "text": "generative models are integrated with reinforcement learning to simulate environments a key subtopic is scenario generation where models create possible future states this helps agents learn optimal strategies more effectively",
     "entity1": "reinforcement learning",
@@ -247,70 +199,29 @@
     "confidence": 0.826
   },
   
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "feature",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "engineering",
-        "entity2_type": "TOPIC",
-        "confidence": 0.967
-    },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "feature",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "machine learning",
-        "entity2_type": "TOPIC",
-        "confidence": 0.967
-    },
+   
    
     {
         "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "feature space",
+        "entity1": "feature",
         "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "feature",
+        "relation": "part of",
+        "entity2": "feature space",
         "entity2_type": "CONCEPT",
         "confidence": 0.891
     },
     {
         "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "engineering",
+        "entity1": "feature engineering",
         "entity1_type": "TOPIC",
         "relation": "improves",
         "entity2": "machine learning",
         "entity2_type": "TOPIC",
         "confidence": 0.941
     },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "features",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "engineering",
-        "entity2_type": "TOPIC",
-        "confidence": 0.969
-    },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "feature space",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "engineering",
-        "entity2_type": "TOPIC",
-        "confidence": 0.971
-    },
-    {
-        "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
-        "entity1": "features",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "machine learning",
-        "entity2_type": "TOPIC",
-        "confidence": 0.969
-    },
+   
+   
+   
     {
         "text": "feature engineering improves machine learning models by transforming data feature selection removes redundant variables feature extraction creates meaningful features dimensionality reduction reduces feature space handling imbalanced datasets ensures accurate predictions",
         "entity1": "feature space",
@@ -322,38 +233,11 @@
     },
    
     {
-        "text": "feature engineering enhances machine learning performance feature selection reduces noise feature extraction creates useful features dimensionality reduction improves efficiency handling imbalanced data ensures accurate predictions",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "feature",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.968
-    },
-    {
-        "text": "feature engineering enhances machine learning performance feature selection reduces noise feature extraction creates useful features dimensionality reduction improves efficiency handling imbalanced data ensures accurate predictions",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "machine learning",
-        "entity2_type": "TOPIC",
-        "confidence": 0.979
-    },
-    {
-        "text": "feature engineering enhances machine learning performance feature selection reduces noise feature extraction creates useful features dimensionality reduction improves efficiency handling imbalanced data ensures accurate predictions",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "features",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.968
-    },
-    {
         "text": "an end-to-end nlp pipeline begins with data collection from sources such as text files apis or databases preprocessing includes cleaning tokenization and normalization feature extraction may involve tf-idf or embeddings the model is then trained using machine learning or deep learning algorithms evaluation is performed using metrics like precision and recall deployment involves serving the model through apis monitoring ensures performance stability mlops practices automate these steps enabling continuous integration and deployment challenges include data drift scalability and maintaining model accuracy over time",
-        "entity1": "embeddings",
+        "entity1": "feature extraction",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "normalization",
+        "relation": "part_of",
+        "entity2": "nlp",
         "entity2_type": "METHOD",
         "confidence": 0.802
     },
@@ -361,8 +245,8 @@
         "text": "an end-to-end nlp pipeline begins with data collection from sources such as text files apis or databases preprocessing includes cleaning tokenization and normalization feature extraction may involve tf-idf or embeddings the model is then trained using machine learning or deep learning algorithms evaluation is performed using metrics like precision and recall deployment involves serving the model through apis monitoring ensures performance stability mlops practices automate these steps enabling continuous integration and deployment challenges include data drift scalability and maintaining model accuracy over time",
         "entity1": "embeddings",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "feature",
+        "relation": "part_of",
+        "entity2": "feature extraction",
         "entity2_type": "METHOD",
         "confidence": 0.802
     },
@@ -389,7 +273,7 @@
         "entity1": "engineering",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.841
     },
@@ -458,7 +342,7 @@
     },
     {
         "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embeddingd",
+        "entity1": "embeddings",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "deep learning",
@@ -474,15 +358,7 @@
         "entity2_type": "METHOD",
         "confidence": 0.965
     },
-    {
-        "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
-        "entity1": "embeddings",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "feature extraction",
-        "entity2_type": "METHOD",
-        "confidence": 0.962
-    },
+   
   {
     "text": "nlp systems use deep learning for text analysis preprocessing prepares data tf-idf is used for feature extraction attention mechanisms improve understanding transformer models generate contextual embeddings sentiment analysis identifies emotions and named entity recognition extracts entities",
     "entity1": "embeddings ",
@@ -510,16 +386,16 @@
     "entity2_type": "CONCEPT",
     "confidence": 0.941
   },
- 
-    {
-        "text": "nlp systems use prompt engineering for better results preprocessing prepares data few-shot prompting improves accuracy chain-of-thought enhances reasoning hallucination remains a challenge ethical concerns include bias deployment pipelines include monitoring and evaluation",
-        "entity1": "accuracy",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "bias",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.938
-    },
+
+  {
+    "text": "nlp systems use prompt engineering for better results preprocessing prepares data few-shot prompting improves accuracy chain-of-thought enhances reasoning hallucination remains a challenge ethical concerns include bias deployment pipelines include monitoring and evaluation",
+    "entity1": "few-shot prompting",
+    "entity1_type": "CONCEPT",
+    "relation": "improves",
+    "entity2": "accuracy",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.938
+  },
     {
         "text": "a key concept in model evaluation is the bias-variance tradeoff bias refers to errors due to overly simplistic models while variance refers to errors caused by excessive model complexity balancing these two is crucial for achieving optimal performance evaluation methods help detect whether a model is suffering from high bias or high variance guiding improvements in model design and training",
         "entity1": "model evaluation",
@@ -561,16 +437,16 @@
         "entity1": "unsupervised learning",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.967
     },
     {
         "text": "unsupervised learning is foundational in computer science for tasks such as exploratory data analysis and data preprocessing typical tasks include clustering which groups similar data points into clusters dimensionality reduction which minimizes the number of features while preserving essential information and anomaly detection which identifies unusual or rare patterns in the data the absence of ground truth or labeled data presents challenges in evaluating the performance and interpretability of unsupervised learning algorithms",
-        "entity1": "data preprocessing",
+        "entity1": "clustering",
         "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "clustering",
+        "relation": "part_of",
+        "entity2": "unsupervised learning",
         "entity2_type": "METHOD",
         "confidence": 0.929
     },
@@ -579,13 +455,13 @@
         "entity1": "data preprocessing",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.968
     },
     {
         "text": "unsupervised learning is foundational in computer science for tasks such as exploratory data analysis and data preprocessing typical tasks include clustering which groups similar data points into clusters dimensionality reduction which minimizes the number of features while preserving essential information and anomaly detection which identifies unusual or rare patterns in the data the absence of ground truth or labeled data presents challenges in evaluating the performance and interpretability of unsupervised learning algorithms",
-        "entity1": "features",
+        "entity1": "feature",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "clustering",
@@ -594,10 +470,10 @@
     },
     {
         "text": "unsupervised learning is foundational in computer science for tasks such as exploratory data analysis and data preprocessing typical tasks include clustering which groups similar data points into clusters dimensionality reduction which minimizes the number of features while preserving essential information and anomaly detection which identifies unusual or rare patterns in the data the absence of ground truth or labeled data presents challenges in evaluating the performance and interpretability of unsupervised learning algorithms",
-        "entity1": "anomaly detection",
+        "entity1": "clustering",
         "entity1_type": "TOPIC",
-        "relation": "implements",
-        "entity2": "clustering",
+        "relation": "part_of",
+        "entity2": "unsupervised learning",
         "entity2_type": "METHOD",
         "confidence": 0.937
     },
@@ -606,7 +482,7 @@
         "entity1": "anomaly detection",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.966
     },
@@ -615,7 +491,7 @@
         "entity1": "accuracy",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
-        "entity2": "logistic",
+        "entity2": "logistic regression",
         "entity2_type": "METHOD",
         "confidence": 0.869
     },
@@ -624,7 +500,7 @@
         "entity1": "accuracy",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
-        "entity2": "regression",
+        "entity2": "logistic regression",
         "entity2_type": "METHOD",
         "confidence": 0.916
     },
@@ -666,7 +542,7 @@
     },
     {
         "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "bias",
+        "entity1": "bagging",
         "entity1_type": "CONCEPT",
         "relation": "improves",
         "entity2": "variance",
@@ -675,63 +551,21 @@
     },
     {
         "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "gradient",
+        "entity1": "bossting",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "variance",
+        "entity2": "bias",
         "entity2_type": "CONCEPT",
         "confidence": 0.969
     },
-    {
-        "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "loss function",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "variance",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.974
-    },
-    {
-        "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "bias",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "gradient",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.97
-    },
-    {
-        "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "loss function",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "bias",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.974
-    },
+  
+   
+   
     {
         "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
         "entity1": "gradient descent",
         "entity1_type": "METHOD",
-        "relation": "improves",
-        "entity2": "bias",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.97
-    },
-    {
-        "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "loss function",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "gradient",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.967
-    },
-    {
-        "text": "ensemble learning combines multiple models to produce better predictions bagging uses bootstrap sampling to reduce variance boosting trains models sequentially to reduce bias gradient boosting optimizes the loss function using gradient descent xgboost improves performance through optimization and regularization",
-        "entity1": "gradient descent",
-        "entity1_type": "METHOD",
-        "relation": "improves",
+        "relation": "used for",
         "entity2": "loss function",
         "entity2_type": "CONCEPT",
         "confidence": 0.966
@@ -740,7 +574,7 @@
         "text": "in holdout validation method typically 50 data is used for training and 50 for testing making it simple and quick to apply the major drawback of this method is that only 50 data is used for training the model may miss important patterns in the other half which leads to high bias",
         "entity1": "training",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "validation",
         "entity2_type": "CONCEPT",
         "confidence": 0.949
@@ -749,7 +583,7 @@
         "text": "in holdout validation method typically 50 data is used for training and 50 for testing making it simple and quick to apply the major drawback of this method is that only 50 data is used for training the model may miss important patterns in the other half which leads to high bias",
         "entity1": "testing",
         "entity1_type": "CONCEPT",
-        "relation": "used_for",
+        "relation": "part_of",
         "entity2": "validation",
         "entity2_type": "CONCEPT",
         "confidence": 0.948
@@ -763,15 +597,7 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.942
     },
-    {
-        "text": "in holdout validation method typically 50 data is used for training and 50 for testing making it simple and quick to apply the major drawback of this method is that only 50 data is used for training the model may miss important patterns in the other half which leads to high bias",
-        "entity1": "testing",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.944
-    },
+ 
     {
         "text": "in holdout validation method typically 50 data is used for training and 50 for testing making it simple and quick to apply the major drawback of this method is that only 50 data is used for training the model may miss important patterns in the other half which leads to high bias",
         "entity1": "bias",
@@ -876,7 +702,7 @@
         "entity1": "datasets",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "features",
+        "entity2": "feature",
         "entity2_type": "CONCEPT",
         "confidence": 0.93
     },
@@ -1072,33 +898,7 @@
     "entity2_type": "CONCEPT",
     "confidence": 0.981
   },
-    {
-        "text": "diffusion models generate data by learning to reverse a noise process a key subtopic is noise modeling where random noise is gradually added to data the reverse process removes noise step by step to reconstruct data these models produce highly realistic outputs",
-        "entity1": "diffusion models",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.808
-    },
-    {
-        "text": "diffusion models generate data by learning to reverse a noise process a key subtopic is noise modeling where random noise is gradually added to data the reverse process removes noise step by step to reconstruct data these models produce highly realistic outputs",
-        "entity1": "diff",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.846
-    },
-    {
-        "text": "diffusion models generate data by learning to reverse a noise process a key subtopic is noise modeling where random noise is gradually added to data the reverse process removes noise step by step to reconstruct data these models produce highly realistic outputs",
-        "entity1": "diffusion models",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.845
-    },
+   
     {
         "text": "variational inference is used to approximate complex probability distributions that are difficult to compute directly a key subtopic is kl divergence which measures the difference between true and approximate distributions this technique is essential in models like variational autoencoders enabling efficient training",
         "entity1": "probability distributions",
@@ -1122,7 +922,7 @@
         "entity1": "training",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
-        "entity2": "ational inference",
+        "entity2": "variational inference",
         "entity2_type": "TOPIC",
         "confidence": 0.928
     },
@@ -1199,24 +999,7 @@
         "entity2_type": "METHOD",
         "confidence": 0.804
     },
-    {
-        "text": "preprocessing is the process by which unstructured data is transformed into intelligible representations suitable for machine-learning models this phase of model deals with noise in order to arrive at better and improved results from the original data set which was noisy this dataset also has some level of missing value present in it",
-        "entity1": "processing",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.913
-    },
-    {
-        "text": "preprocessing is the process by which unstructured data is transformed into intelligible representations suitable for machine-learning models this phase of model deals with noise in order to arrive at better and improved results from the original data set which was noisy this dataset also has some level of missing value present in it",
-        "entity1": "machine-learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.958
-    },
+   
     {
         "text": "preprocessing is the process by which unstructured data is transformed into intelligible representations suitable for machine-learning models this phase of model deals with noise in order to arrive at better and improved results from the original data set which was noisy this dataset also has some level of missing value present in it",
         "entity1": "processing",
@@ -1235,24 +1018,7 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.951
     },
-    {
-        "text": "pca is useful for data visualization noise reduction and feature extraction in machine learning however it can make features less interpretable since the new components are combinations of the original ones",
-        "entity1": "noise",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "feature extraction",
-        "entity2_type": "METHOD",
-        "confidence": 0.98
-    },
-    {
-        "text": "pca is useful for data visualization noise reduction and feature extraction in machine learning however it can make features less interpretable since the new components are combinations of the original ones",
-        "entity1": "machine learning",
-        "entity1_type": "TOPIC",
-        "relation": "part_of",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.96
-    },
+   
     {
         "text": "pca is useful for data visualization noise reduction and feature extraction in machine learning however it can make features less interpretable since the new components are combinations of the original ones",
         "entity1": "machine learning",
@@ -1264,7 +1030,7 @@
     },
     {
         "text": "pca is useful for data visualization noise reduction and feature extraction in machine learning however it can make features less interpretable since the new components are combinations of the original ones",
-        "entity1": "features",
+        "entity1": "feature",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "feature extraction",

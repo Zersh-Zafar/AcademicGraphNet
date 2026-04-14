@@ -82,7 +82,7 @@
     },
     {
         "text": "telnet is vulnerable to network-based cyberattacks such as packet sniffing sensitive information including passwords and fingerprinting telnet services can be exploited to leak information about the server such as hostnames ip addresses and brand by packet sniffing the banner this information can then be searched to determine if a telnet service accepts a connection without authentication telnet is frequently exploited by malware due to being improperly configured telnet is targeted by attackers more frequently than other common protocols especially when compared to upnp coap mqtt amqp and xmpp common devices targeted are internet of things devices routers and modems",
-        "entity1": "protocols",
+        "entity1": "protocol",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "authentication",
@@ -100,7 +100,7 @@
     },
     {
         "text": "telnet is vulnerable to network-based cyberattacks such as packet sniffing sensitive information including passwords and fingerprinting telnet services can be exploited to leak information about the server such as hostnames ip addresses and brand by packet sniffing the banner this information can then be searched to determine if a telnet service accepts a connection without authentication telnet is frequently exploited by malware due to being improperly configured telnet is targeted by attackers more frequently than other common protocols especially when compared to upnp coap mqtt amqp and xmpp common devices targeted are internet of things devices routers and modems",
-        "entity1": "routers",
+        "entity1": "router",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "authentication",
@@ -209,16 +209,16 @@
     },
     {
         "text": "lan edge combining switching and wi-fi access points ap lan edge integrates connectivity and security allowing devices connected to the internal network switching ensures adequate security at the network edge by facilitating traffic filtering and access control at the port level allowing administrators to enforce policies on granular network segments and wireless access points implement encryption protocols and authentication mechanisms protecting data in transit they also support access control lists acls restricting unauthorized devices from connecting to the network",
-        "entity1": "encryption",
+        "entity1": "access points",
         "entity1_type": "METHOD",
         "relation": "used_for",
-        "entity2": "access points",
+        "entity2": "encryption",
         "entity2_type": "CONCEPT",
         "confidence": 0.915
     },
     {
         "text": "lan edge combining switching and wi-fi access points ap lan edge integrates connectivity and security allowing devices connected to the internal network switching ensures adequate security at the network edge by facilitating traffic filtering and access control at the port level allowing administrators to enforce policies on granular network segments and wireless access points implement encryption protocols and authentication mechanisms protecting data in transit they also support access control lists acls restricting unauthorized devices from connecting to the network",
-        "entity1": "protocols",
+        "entity1": "protocol",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "access points",
@@ -257,7 +257,7 @@
         "entity1": "encryption",
         "entity1_type": "METHOD",
         "relation": "used_for",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.91
     },
@@ -266,7 +266,7 @@
         "entity1": "authentication",
         "entity1_type": "METHOD",
         "relation": "used_for",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.909
     },
@@ -293,16 +293,16 @@
         "entity1": "transport layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.981
     },
     {
         "text": "telnet is a client-server application protocol that provides access to virtual terminals of remote systems on local area networks or the internetit is a protocol for bidirectional 8-bit communications its main goal was to connect terminal devices and terminal-oriented processes the name telnet refers to two things a protocol specifying how two parties are to communicate and a software application that implements the protocol as a serviceuser data is interspersed in-band with telnet control information in an 8-bit byte oriented data connection over the transmission control protocol tcp telnet transmits all information including usernames and passwords in plaintext so it is not recommended for security-sensitive applications such as remote management of routerstelnets use for this purpose has waned significantly in favor of ssh some extensions to telnet which would provide encryption have been proposed",
-        "entity1": "encryption",
+        "entity1": "protocol",
         "entity1_type": "METHOD",
         "relation": "used_for",
-        "entity2": "protocol",
+        "entity2": "encryption",
         "entity2_type": "CONCEPT",
         "confidence": 0.905
     },
@@ -329,7 +329,7 @@
         "entity1": "computer networks",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.979
     },
@@ -362,7 +362,7 @@
     },
     {
         "text": "in computer networks the transport layer is responsible for providing communication services directly to application processes two main protocols used at this layer are transmission control protocol and user datagram protocol tcp is a connection-oriented protocol meaning that it establishes a connection between sender and receiver before transmitting data it ensures reliable delivery through acknowledgments sequence numbers and retransmission of lost packets tcp is widely used in applications such as http https and ftp where reliable communication is required",
-        "entity1": "protocols",
+        "entity1": "protocol",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "protocol",
@@ -371,7 +371,7 @@
     },
     {
         "text": "in computer networks the transport layer is responsible for providing communication services directly to application processes two main protocols used at this layer are transmission control protocol and user datagram protocol tcp is a connection-oriented protocol meaning that it establishes a connection between sender and receiver before transmitting data it ensures reliable delivery through acknowledgments sequence numbers and retransmission of lost packets tcp is widely used in applications such as http https and ftp where reliable communication is required",
-        "entity1": "protocols",
+        "entity1": "protocol",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
         "entity2": "datagram",
@@ -428,7 +428,7 @@
         "entity1": "physical layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.978
     },
@@ -455,7 +455,7 @@
         "entity1": "network layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "routers",
+        "entity2": "router",
         "entity2_type": "CONCEPT",
         "confidence": 0.98
     },
@@ -468,15 +468,7 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.978
     },
-    {
-        "text": "the network layer enables communication between different networks by providing logical addressing and routing functionality devices are identified through ip addresses assigned using internet protocol version 4 or the more advanced internet protocol version 6 ipv6 introduces a large address space and improved routing efficiency subnetting is used to create smaller subnetworks from a large address block improving network performance and management routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost routing protocols such as routing information protocol operate using a distance-vector algorithm while open shortest path first uses a link-state approach the global internet relies on border gateway protocol to exchange routing information between autonomous systems",
-        "entity1": "protocol",
-        "entity1_type": "CONCEPT",
-        "relation": "used_for",
-        "entity2": "routers",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.875
-    },
+  
     {
         "text": "the network layer enables communication between different networks by providing logical addressing and routing functionality devices are identified through ip addresses assigned using internet protocol version 4 or the more advanced internet protocol version 6 ipv6 introduces a large address space and improved routing efficiency subnetting is used to create smaller subnetworks from a large address block improving network performance and management routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost routing protocols such as routing information protocol operate using a distance-vector algorithm while open shortest path first uses a link-state approach the global internet relies on border gateway protocol to exchange routing information between autonomous systems",
         "entity1": "bandwidth",
@@ -491,7 +483,7 @@
         "entity1": "network performance",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "routers",
+        "entity2": "router",
         "entity2_type": "CONCEPT",
         "confidence": 0.979
     },
@@ -500,7 +492,7 @@
         "entity1": "bandwidth",
         "entity1_type": "CONCEPT",
         "relation": "used_for",
-        "entity2": "routers",
+        "entity2": "router",
         "entity2_type": "CONCEPT",
         "confidence": 0.847
     },
@@ -590,7 +582,7 @@
     "entity1": "transport layer",
     "entity1_type": "TOPIC",
     "relation": "part_of",
-    "entity2": "protocols",
+    "entity2": "protocol",
     "entity2_type": "CONCEPT",
     "confidence": 0.983
   },
@@ -599,7 +591,7 @@
         "entity1": "port layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.983
     },
@@ -617,7 +609,7 @@
         "entity1": "network layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.966
     },
@@ -626,7 +618,7 @@
         "entity1": "application layer",
         "entity1_type": "TOPIC",
         "relation": "part_of",
-        "entity2": "protocols",
+        "entity2": "protocol",
         "entity2_type": "CONCEPT",
         "confidence": 0.976
     },
