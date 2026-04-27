@@ -1,0 +1,991 @@
+[
+    {
+        "text": "virtual memory while base and limit registers can be used to create the abstraction of address spaces there is another problem that has to be solved managing bloatware while memory sizes are increasing rapidly software sizes are increasing much faster in the 1980s many universities ran a timesharing system with dozens of more-or-less satisfied users running simultaneously on a 4-mb vax now microsoft recommends having at least 2 gb for 64-bit windows 8 the trend toward multimedia puts even more demands on memory no memory abstraction the simplest memory abstraction is to have no abstraction at all early mainframe computers before 1960 early minicomputers before 1970 and early personal computers before 1980 had no memory abstraction every program simply aw the physical memory when a program executed an instruction like mov register11000 the computer just moved the contents of physical memory location 1000 to register1 thus the model of memory presented to the programmer was simply physical memory a set of addresses from 0 to some maximum each address corresponding to a cell containing some number of bits commonly eight",
+        "entity1": "windows",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.809
+    },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "synchronization",
+        "entity2_type": "TOPIC",
+        "confidence": 0.828
+    },
+  {
+    "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+    "entity1": "load balancing",
+    "entity1_type": "CONCEPT",
+    "relation": "part_of",
+    "entity2": "distributed systems",
+    "entity2_type": "METHOD",
+    "confidence": 0.838
+  },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.899
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "process",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process management",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.855
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "circular wait",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.819
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.862
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.867
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.884
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.884
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.863
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.874
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.876
+    },
+  {
+    "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+    "entity1": "file systems",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "external fragmentation",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.931
+  },
+
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.966
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.936
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "context switching",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.912
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.962
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "context switching",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.95
+    },
+    {
+        "text": "file systems are a crucial part of any operating system providing a structured way to store organize and manage data on storage devices such as hard drives ssds and usb drives user application the programs or software that request file operations like read write or delete logical file system manages metadata file names directories and access permissions virtual file system vfs acts as a bridge allowing different file systems to work under a single interface physical file system handles the actual storage of data blocks on the disk partition 1 partition 2 partition 3 divisions of the storage device where files are stored physically",
+        "entity1": "read",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.935
+    },
+    {
+        "text": "file systems are a crucial part of any operating system providing a structured way to store organize and manage data on storage devices such as hard drives ssds and usb drives user application the programs or software that request file operations like read write or delete logical file system manages metadata file names directories and access permissions virtual file system vfs acts as a bridge allowing different file systems to work under a single interface physical file system handles the actual storage of data blocks on the disk partition 1 partition 2 partition 3 divisions of the storage device where files are stored physically",
+        "entity1": "write",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.928
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.926
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "linux",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.941
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "kernel",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.936
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "linux",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.925
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "kernel",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.92
+    },
+    {
+        "text": "conditions for resource deadlocks coffman et al 1971 showed that four conditions must hold for there to be a resource deadlock 1 mutual exclusion condition each resource is either currently assigned to exactly one process or is available 2 hold-and-wait condition processes currently holding resources that were granted earlier can request new resources 3 no-preemption condition resources previously granted cannot be forcibly taken away from a process they must be explicitly released by the process holding them 4 circular wait condition there must be a circular list of two or more processes each of which is waiting for a resource held by the next member of the chain all four of these conditions must be present for a resource deadlock to occur if one of them is absent no resource deadlock is possible it is worth noting that each condition relates to a policy that a system can have or not have",
+        "entity1": "mutual exclusion",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.803
+    },
+    {
+        "text": "conditions for resource deadlocks coffman et al 1971 showed that four conditions must hold for there to be a resource deadlock 1 mutual exclusion condition each resource is either currently assigned to exactly one process or is available 2 hold-and-wait condition processes currently holding resources that were granted earlier can request new resources 3 no-preemption condition resources previously granted cannot be forcibly taken away from a process they must be explicitly released by the process holding them 4 circular wait condition there must be a circular list of two or more processes each of which is waiting for a resource held by the next member of the chain all four of these conditions must be present for a resource deadlock to occur if one of them is absent no resource deadlock is possible it is worth noting that each condition relates to a policy that a system can have or not have",
+        "entity1": "resource deadlocks",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.839
+    },
+    {
+        "text": "file attributes in operating systems are metadata associated with each file stored in structures like file control blocks fcbs or inodes describing properties beyond the actual data content to enable management access control and efficient handling by the os",
+        "entity1": "access control",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "file control blocks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.957
+    },
+    {
+        "text": "file attributes in operating systems are metadata associated with each file stored in structures like file control blocks fcbs or inodes describing properties beyond the actual data content to enable management access control and efficient handling by the os",
+        "entity1": "inodes",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "access control",
+        "entity2_type": "TOPIC",
+        "confidence": 0.953
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.952
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD",
+        "confidence": 0.961
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "signals",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.954
+    },
+    
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "signals",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.941
+    },
+  {
+    "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+    "entity1": "fork",
+    "entity1_type": "CONCEPT",
+    "relation": "part_of",
+    "entity2": "process management",
+    "entity2_type": "METHOD",
+    "confidence": 0.951
+  },
+  {
+    "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+    "entity1": "peemptive scheduling",
+    "entity1_type": "CONCEPT",
+    "relation": "part_of",
+    "entity2": "process management",
+    "entity2_type": "METHOD",
+    "confidence": 0.968
+  },
+    
+  {
+    "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+    "entity1": "cpu burst",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "preemptive scheduling",
+    "entity2_type": "METHOD",
+    "confidence": 0.959
+  },
+    
+    {
+        "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue balancing criteria like cpu utilization throughput turnaround time submission to completion waiting time ready queue time and response time first output delay to ensure fairness and efficiency",
+        "entity1": "ready queue",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "cpu scheduling",
+        "entity2_type": "TOPIC",
+        "confidence": 0.823
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.907
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "process states",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.895
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "linux",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.931
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "linux",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "synchronization",
+        "entity2_type": "TOPIC",
+        "confidence": 0.853
+    },
+    {
+        "text": "process management is presented as a core os service responsible for tracking process execution and allocating cpu resources stallings describes processes in terms of execution states and emphasizes the role of scheduling algorithms in achieving performance objectives such as throughput and response time the book highlights how modern operating systems support both user-level and kernel-level threads and explains how process switching overhead impacts system efficiency a different approach is to allow user programs to create and manage their own processes this has fostered a blizzard of innovation today programs that create and manage processes include window managers web servers web browsers shell command line interpreters source code control systems databases compilers and document preparation systems we could go on but you get the idea if creating a process is something a process can do then anyone can build a new version of any of these applications without recompiling the kernel or forcing anyone else to use itan early motivation for user-level process management was to allow developers to write their own shell command line interpreters a shell is a job control system both windows and unix have a shell many tasks involve a sequence of steps to do something unix fork creates a complete copy of the parent process with one key exception we need some way to distinguish between which copy is the parent and which is the child the child process sets up privileges priorities and io for the program that is about to be started eg by closing some files opening others reducing its priority if it is to run in the background etc because the child runs exactly the same code as the parent it can be trusted to set up the context for the new program correctly once the context is set the child process calls unix exec unix exec brings the new executable image into memory and starts it running it may seem wasteful to make a complete copy of the parent process just to overwrite that copy when we bring in the new executable image into memory using exec",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "response time",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.85
+    },
+    {
+        "text": "process management is presented as a core os service responsible for tracking process execution and allocating cpu resources stallings describes processes in terms of execution states and emphasizes the role of scheduling algorithms in achieving performance objectives such as throughput and response time the book highlights how modern operating systems support both user-level and kernel-level threads and explains how process switching overhead impacts system efficiency a different approach is to allow user programs to create and manage their own processes this has fostered a blizzard of innovation today programs that create and manage processes include window managers web servers web browsers shell command line interpreters source code control systems databases compilers and document preparation systems we could go on but you get the idea if creating a process is something a process can do then anyone can build a new version of any of these applications without recompiling the kernel or forcing anyone else to use itan early motivation for user-level process management was to allow developers to write their own shell command line interpreters a shell is a job control system both windows and unix have a shell many tasks involve a sequence of steps to do something unix fork creates a complete copy of the parent process with one key exception we need some way to distinguish between which copy is the parent and which is the child the child process sets up privileges priorities and io for the program that is about to be started eg by closing some files opening others reducing its priority if it is to run in the background etc because the child runs exactly the same code as the parent it can be trusted to set up the context for the new program correctly once the context is set the child process calls unix exec unix exec brings the new executable image into memory and starts it running it may seem wasteful to make a complete copy of the parent process just to overwrite that copy when we bring in the new executable image into memory using exec",
+        "entity1": "threads",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.861
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "mutual exclusion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "no preemption",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "circular wait",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.969
+    },
+    {
+        "text": "this book explains context switching in an accessible yet technically accurate manner when multiple processes share a single cpu the operating system alternates execution among them each switch requires saving the current processs execution environment and restoring anothers the authors explain how interrupts scheduling decisions and synchronization events trigger switching they also emphasize that although context switching enables multitasking it consumes cpu time and may affect performance due to cache and memory effects efficient process management helps reduce unnecessary switching",
+        "entity1": "cache",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.841
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.942
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "dead",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.941
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.943
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "dead",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.943
+    },
+    {
+        "text": "process management is responsible for managing the lifecycle of processes and coordinating their access to shared resources the operating system schedules processes to maximize cpu utilization deadlock arises when processes wait indefinitely for resources held by others nutt highlights that deadlock is a direct consequence of concurrent execution the os must use prevention or detection techniques to maintain system efficiency",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.971
+    },
+    {
+        "text": "process management is responsible for managing the lifecycle of processes and coordinating their access to shared resources the operating system schedules processes to maximize cpu utilization deadlock arises when processes wait indefinitely for resources held by others nutt highlights that deadlock is a direct consequence of concurrent execution the os must use prevention or detection techniques to maintain system efficiency",
+        "entity1": "processes",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.97
+    },
+    {
+        "text": "virtual memory while base and limit registers can be used to create the abstraction of address spaces there is another problem that has to be solved managing bloatware while memory sizes are increasing rapidly software sizes are increasing much faster in the 1980s many universities ran a timesharing system with dozens of more-or-less satisfied users running simultaneously on a 4-mb vax now microsoft recommends having at least 2 gb for 64-bit windows 8 the trend toward multimedia puts even more demands on memory no memory abstraction the simplest memory abstraction is to have no abstraction at all early mainframe computers before 1960 early minicomputers before 1970 and early personal computers before 1980 had no memory abstraction every program simply aw the physical memory when a program executed an instruction like mov register11000 the computer just moved the contents of physical memory location 1000 to register1 thus the model of memory presented to the programmer was simply physical memory a set of addresses from 0 to some maximum each address corresponding to a cell containing some number of bits commonly eight",
+        "entity1": "windows",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.809
+    },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "synchronization",
+        "entity2_type": "TOPIC",
+        "confidence": 0.828
+    },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "load balancing",
+        "entity2_type": "METHOD",
+        "confidence": 0.838
+    },
+    {
+        "text": "this classic book focuses specifically on how operating systems manage processes in distributed environments it discusses process creation migration communication and synchronization across networked systems the book explains message-passing systems client-server models and microkernel-based distributed os design tanenbaum explores distributed scheduling load balancing and distributed deadlock detection algorithms he also discusses naming systems file systems and fault tolerance mechanisms the process management discussion highlights transparency and consistency across machines practical examples and architectural models help readers understand how distributed systems coordinate multiple concurrent processes efficiently and reliably in real-world computing environments",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.899
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.855
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "circular wait",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.819
+    },
+    {
+        "text": "process management is responsible for managing active processes and coordinating their access to shared resources the os uses scheduling algorithms to optimize cpu utilization deadlock arises when processes enter a circular wait condition the book emphasizes that deadlock handling is essential in multiprogramming environments techniques such as prevention and detection are used to ensure smooth execution",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.862
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.867
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.884
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.884
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "synchronization",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.863
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.874
+    },
+    {
+        "text": "this edition provides comprehensive coverage of process abstraction scheduling synchronization and deadlocks it explains process states and pcb structure clearly cpu scheduling algorithms are evaluated using standard performance metrics synchronization tools such as mutex locks semaphores and monitors are described the book includes classical problems and practical solutions multicore and parallel processing considerations are also introduced",
+        "entity1": "scheduling",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.876
+    },
+  {
+    "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+    "entity1": "file systems",
+    "entity1_type": "TOPIC",
+    "relation": "part_of",
+    "entity2": "external fragmentation",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.931
+  },
+    {
+        "text": "the third method is indexed allocation in this method each file has an index block that stores the addresses of all its data blocks the index acts like a table that points directly to the files blocks this method supports both sequential and direct access efficiently and avoids external fragmentation it is widely used in modern file systems",
+        "entity1": "fragmentation",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.927
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.966
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.936
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "context switching",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.912
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "process states",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.962
+    },
+    {
+        "text": "process management is a central function of the unix operating system handling multiple concurrent processes the os manages process states and context switching deadlock occurs when processes wait indefinitely for system resources bach highlights that deadlock can reduce system throughput unix systems rely on careful resource management to minimize deadlock risks",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "context switching",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.95
+    },
+    {
+        "text": "file systems are a crucial part of any operating system providing a structured way to store organize and manage data on storage devices such as hard drives ssds and usb drives user application the programs or software that request file operations like read write or delete logical file system manages metadata file names directories and access permissions virtual file system vfs acts as a bridge allowing different file systems to work under a single interface physical file system handles the actual storage of data blocks on the disk partition 1 partition 2 partition 3 divisions of the storage device where files are stored physically",
+        "entity1": "read",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.935
+    },
+    {
+        "text": "file systems are a crucial part of any operating system providing a structured way to store organize and manage data on storage devices such as hard drives ssds and usb drives user application the programs or software that request file operations like read write or delete logical file system manages metadata file names directories and access permissions virtual file system vfs acts as a bridge allowing different file systems to work under a single interface physical file system handles the actual storage of data blocks on the disk partition 1 partition 2 partition 3 divisions of the storage device where files are stored physically",
+        "entity1": "write",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "file systems",
+        "entity2_type": "TOPIC",
+        "confidence": 0.928
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.926
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "linux",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.941
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "kernel",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.936
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "linux",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.925
+    },
+    {
+        "text": "process management in linux involves managing process creation execution and termination using system calls the kernel schedules processes to ensure fair cpu usage deadlock can occur when processes compete for kernel-managed resources kerrisk explains that improper synchronization can lead to deadlock conditions efficient process control mechanisms are required to avoid such situations",
+        "entity1": "system calls",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "kernel",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.92
+    },
+    {
+        "text": "conditions for resource deadlocks coffman et al 1971 showed that four conditions must hold for there to be a resource deadlock 1 mutual exclusion condition each resource is either currently assigned to exactly one process or is available 2 hold-and-wait condition processes currently holding resources that were granted earlier can request new resources 3 no-preemption condition resources previously granted cannot be forcibly taken away from a process they must be explicitly released by the process holding them 4 circular wait condition there must be a circular list of two or more processes each of which is waiting for a resource held by the next member of the chain all four of these conditions must be present for a resource deadlock to occur if one of them is absent no resource deadlock is possible it is worth noting that each condition relates to a policy that a system can have or not have",
+        "entity1": "mutual exclusion",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.803
+    },
+    {
+        "text": "conditions for resource deadlocks coffman et al 1971 showed that four conditions must hold for there to be a resource deadlock 1 mutual exclusion condition each resource is either currently assigned to exactly one process or is available 2 hold-and-wait condition processes currently holding resources that were granted earlier can request new resources 3 no-preemption condition resources previously granted cannot be forcibly taken away from a process they must be explicitly released by the process holding them 4 circular wait condition there must be a circular list of two or more processes each of which is waiting for a resource held by the next member of the chain all four of these conditions must be present for a resource deadlock to occur if one of them is absent no resource deadlock is possible it is worth noting that each condition relates to a policy that a system can have or not have",
+        "entity1": "resource deadlocks",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.839
+    },
+    {
+        "text": "file attributes in operating systems are metadata associated with each file stored in structures like file control blocks fcbs or inodes describing properties beyond the actual data content to enable management access control and efficient handling by the os",
+        "entity1": "access control",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "file control blocks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.957
+    },
+    {
+        "text": "file attributes in operating systems are metadata associated with each file stored in structures like file control blocks fcbs or inodes describing properties beyond the actual data content to enable management access control and efficient handling by the os",
+        "entity1": "inodes",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "access control",
+        "entity2_type": "TOPIC",
+        "confidence": 0.953
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.952
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD",
+        "confidence": 0.961
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "signals",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.954
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "fork",
+        "entity1_type": "METHOD",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.88
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "signals",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "virtual memory",
+        "entity2_type": "TOPIC",
+        "confidence": 0.941
+    },
+    {
+        "text": "this book explains process management from a systems programming viewpoint it discusses how programs become processes and how the os provides abstractions for execution topics include process creation signals exceptional control flow and virtual memory the authors explain concurrency using fork exec and wait system calls synchronization and race conditions are explored with practical examples the book also describes how caching and memory hierarchy influence process performance it helps readers understand the interaction between application code and os process management mechanisms",
+        "entity1": "signals",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "fork",
+        "entity2_type": "METHOD",
+        "confidence": 0.951
+    },
+  
+
+  {
+    "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+    "entity1": "preemptive scheduling",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "process",
+    "entity2_type": "METHOD",
+    "confidence": 0.961
+  },
+  {
+    "text": "preemptive scheduling is used when a process switches from running state to ready state or from waiting state to ready state the resources mainly cpu cycles are allocated to the process for the limited amount of time and then is taken away and the process is again placed back in the ready queue if that process still has cpu burst time remaining that process stays in ready queue till it gets next chance to execute",
+    "entity1": "cpu burst",
+    "entity1_type": "CONCEPT",
+    "relation": "used_for",
+    "entity2": "preemptive scheduling",
+    "entity2_type": "METHOD",
+    "confidence": 0.959
+  },
+   
+    {
+        "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue balancing criteria like cpu utilization throughput turnaround time submission to completion waiting time ready queue time and response time first output delay to ensure fairness and efficiency",
+        "entity1": "ready queue",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "cpu scheduling",
+        "entity2_type": "TOPIC",
+        "confidence": 0.823
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.907
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "process states",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.895
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "linux",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.931
+    },
+    {
+        "text": "this book approaches process management by integrating theory with system-level performance analysis processes are viewed as dynamic entities competing for limited cpu resources requiring intelligent scheduling strategies the operating system uses process states priority levels and synchronization mechanisms to ensure correct execution and prevent issues such as starvation and deadlock emphasis is placed on real-time and multiprocessor scheduling models process management in linux is implemented through sophisticated kernel data structures such as task descriptors and run queues each process is represented by a task_struct which stores scheduling parameters memory mappings and execution context linux uses preemptive multitasking and supports multiple scheduling classes to optimize responsiveness and throughput this book provides an in-depth explanation of how theoretical process concepts are realized in a real-world operating system windows kernel does process creation termination suspension and communication kernel uses a scheduler called thread dispatcher for cpu time management with pre-emption forceful eviction of threads from cpu windows use objects to manage processes and threads named as eprocess and ethread objects respectively windows also supports fibers sub-thread and jobs a group of processes",
+        "entity1": "linux",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "synchronization",
+        "entity2_type": "TOPIC",
+        "confidence": 0.853
+    },
+    {
+        "text": "process management is presented as a core os service responsible for tracking process execution and allocating cpu resources stallings describes processes in terms of execution states and emphasizes the role of scheduling algorithms in achieving performance objectives such as throughput and response time the book highlights how modern operating systems support both user-level and kernel-level threads and explains how process switching overhead impacts system efficiency a different approach is to allow user programs to create and manage their own processes this has fostered a blizzard of innovation today programs that create and manage processes include window managers web servers web browsers shell command line interpreters source code control systems databases compilers and document preparation systems we could go on but you get the idea if creating a process is something a process can do then anyone can build a new version of any of these applications without recompiling the kernel or forcing anyone else to use itan early motivation for user-level process management was to allow developers to write their own shell command line interpreters a shell is a job control system both windows and unix have a shell many tasks involve a sequence of steps to do something unix fork creates a complete copy of the parent process with one key exception we need some way to distinguish between which copy is the parent and which is the child the child process sets up privileges priorities and io for the program that is about to be started eg by closing some files opening others reducing its priority if it is to run in the background etc because the child runs exactly the same code as the parent it can be trusted to set up the context for the new program correctly once the context is set the child process calls unix exec unix exec brings the new executable image into memory and starts it running it may seem wasteful to make a complete copy of the parent process just to overwrite that copy when we bring in the new executable image into memory using exec",
+        "entity1": "management",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "response time",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.85
+    },
+    {
+        "text": "process management is presented as a core os service responsible for tracking process execution and allocating cpu resources stallings describes processes in terms of execution states and emphasizes the role of scheduling algorithms in achieving performance objectives such as throughput and response time the book highlights how modern operating systems support both user-level and kernel-level threads and explains how process switching overhead impacts system efficiency a different approach is to allow user programs to create and manage their own processes this has fostered a blizzard of innovation today programs that create and manage processes include window managers web servers web browsers shell command line interpreters source code control systems databases compilers and document preparation systems we could go on but you get the idea if creating a process is something a process can do then anyone can build a new version of any of these applications without recompiling the kernel or forcing anyone else to use itan early motivation for user-level process management was to allow developers to write their own shell command line interpreters a shell is a job control system both windows and unix have a shell many tasks involve a sequence of steps to do something unix fork creates a complete copy of the parent process with one key exception we need some way to distinguish between which copy is the parent and which is the child the child process sets up privileges priorities and io for the program that is about to be started eg by closing some files opening others reducing its priority if it is to run in the background etc because the child runs exactly the same code as the parent it can be trusted to set up the context for the new program correctly once the context is set the child process calls unix exec unix exec brings the new executable image into memory and starts it running it may seem wasteful to make a complete copy of the parent process just to overwrite that copy when we bring in the new executable image into memory using exec",
+        "entity1": "threads",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.861
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "mutual exclusion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "no preemption",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "necessary deadlock conditions  mutual exclusion resources cannot be used simultaneously by several processes  hold and wait processes apply for a resource while holding another resource  no preemption resources cannot be preempted only the process itself can release resources  circular wait a circular list of processes exists where every process waits for the release of a resource held by the next process",
+        "entity1": "circular wait",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.969
+    },
+    {
+        "text": "this book explains context switching in an accessible yet technically accurate manner when multiple processes share a single cpu the operating system alternates execution among them each switch requires saving the current processs execution environment and restoring anothers the authors explain how interrupts scheduling decisions and synchronization events trigger switching they also emphasize that although context switching enables multitasking it consumes cpu time and may affect performance due to cache and memory effects efficient process management helps reduce unnecessary switching",
+        "entity1": "cache",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "management",
+        "entity2_type": "TOPIC",
+        "confidence": 0.841
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "process",
+        "entity1_type": "CONCEPT",
+        "relation": "part_of",
+        "entity2": "deadlock",
+        "entity2_type": "TOPIC",
+        "confidence": 0.942
+    },
+   
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "deadlock",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.943
+    },
+    {
+        "text": "process management bridges hardware and software by managing cpu execution the os schedules processes and manages system resources deadlock occurs when processes compete for non-shareable resources tanenbaum explains that deadlock is tied to resource allocation design well-structured process management helps prevent deadlocks",
+        "entity1": "dead",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "processes",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.943
+    },
+    {
+        "text": "process management is responsible for managing the lifecycle of processes and coordinating their access to shared resources the operating system schedules processes to maximize cpu utilization deadlock arises when processes wait indefinitely for resources held by others nutt highlights that deadlock is a direct consequence of concurrent execution the os must use prevention or detection techniques to maintain system efficiency",
+        "entity1": "wait",
+        "entity1_type": "METHOD",
+        "relation": "used_for",
+        "entity2": "process",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.971
+    },
+    {
+        "text": "process management is responsible for managing the lifecycle of processes and coordinating their access to shared resources the operating system schedules processes to maximize cpu utilization deadlock arises when processes wait indefinitely for resources held by others nutt highlights that deadlock is a direct consequence of concurrent execution the os must use prevention or detection techniques to maintain system efficiency",
+        "entity1": "processes",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "wait",
+        "entity2_type": "METHOD",
+        "confidence": 0.97
+    }
+]

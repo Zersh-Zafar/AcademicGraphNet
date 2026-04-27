@@ -1,0 +1,425 @@
+[
+    {
+        "text": "the data link layer is responsible for reliable communication across a physical link between devices. one of its primary functions is framing, where raw bits received from the physical layer are organized into frames. frames contain headers and trailers that include addressing fields and error-checking codes. error detection and correction mechanisms help ensure that frames affected by noise or interference can be identified and retransmitted if necessary. flow control regulates the rate of data transmission between sender and receiver to prevent buffer overflow. mac addressing uniquely identifies each device on the network. switching concepts allow switches to examine mac addresses and forward frames efficiently.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.973
+    },
+    {
+        "text": "network virtualization allows multiple logical networks to operate on the same physical infrastructure. technologies such as vxlan and nvgre encapsulate network layer packets within other packets to create virtual overlays. this approach is widely used in cloud computing and data centers to isolate tenants and provide scalable networking services.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.866
+    },
+    {
+        "text": "in computer network design, the network layer ensures that packets are delivered from the source network to the destination network through multiple intermediate routers. logical addressing is achieved through internet protocol version 4 and internet protocol version 6. ipv4 addresses are limited, which is why subnetting techniques were introduced to efficiently allocate address ranges and reduce network congestion. subnetting also helps in organizing networks into hierarchical structures, improving routing performance. routing algorithms analyze network topology and calculate the best route between nodes. for smaller networks, protocols like routing information protocol may be used, while enterprise networks prefer open shortest path first. on the global internet, border gateway protocol is widely used to exchange routing information between autonomous systems.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.807
+    },
+    {
+        "text": "in computer network design, the network layer ensures that packets are delivered from the source network to the destination network through multiple intermediate routers. logical addressing is achieved through internet protocol version 4 and internet protocol version 6. ipv4 addresses are limited, which is why subnetting techniques were introduced to efficiently allocate address ranges and reduce network congestion. subnetting also helps in organizing networks into hierarchical structures, improving routing performance. routing algorithms analyze network topology and calculate the best route between nodes. for smaller networks, protocols like routing information protocol may be used, while enterprise networks prefer open shortest path first. on the global internet, border gateway protocol is widely used to exchange routing information between autonomous systems.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.85
+    },
+    {
+        "text": "in computer network design, the network layer ensures that packets are delivered from the source network to the destination network through multiple intermediate routers. logical addressing is achieved through internet protocol version 4 and internet protocol version 6. ipv4 addresses are limited, which is why subnetting techniques were introduced to efficiently allocate address ranges and reduce network congestion. subnetting also helps in organizing networks into hierarchical structures, improving routing performance. routing algorithms analyze network topology and calculate the best route between nodes. for smaller networks, protocols like routing information protocol may be used, while enterprise networks prefer open shortest path first. on the global internet, border gateway protocol is widely used to exchange routing information between autonomous systems.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.821
+    },
+    {
+        "text": "the data link layer manages communication across a single physical link. framing groups transmitted bits into frames. error detection and correction methods detect corrupted frames and maintain data integrity. flow control prevents congestion in communication channels. mac addressing uniquely identifies devices in a lan. switching concepts allow frames to be forwarded efficiently between network devices.",
+        "entity1": "congestion",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.911
+    },
+    {
+        "text": "the transport layer is responsible for providing reliable communication between processes running on different hosts. it operates above the network layer and ensures that data is delivered from one application to another correctly. two main protocols operate at this layer: transmission control protocol (tcp) and user datagram protocol (udp). tcp provides reliable, connection-oriented communication, while udp provides faster but unreliable communication. flow control is an important mechanism used to prevent a fast sender from overwhelming a slow receiver. congestion control is also implemented mainly in tcp to manage network traffic and prevent congestion collapse. port numbers are used to identify specific applications or services running on a host, allowing multiple programs to use network services simultaneously.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.959
+    },
+    {
+        "text": "the transport layer is responsible for providing reliable communication between processes running on different hosts. it operates above the network layer and ensures that data is delivered from one application to another correctly. two main protocols operate at this layer: transmission control protocol (tcp) and user datagram protocol (udp). tcp provides reliable, connection-oriented communication, while udp provides faster but unreliable communication. flow control is an important mechanism used to prevent a fast sender from overwhelming a slow receiver. congestion control is also implemented mainly in tcp to manage network traffic and prevent congestion collapse. port numbers are used to identify specific applications or services running on a host, allowing multiple programs to use network services simultaneously.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.958
+    },
+    {
+        "text": "a network protocol is a set of rules and procedures that define how data is transmitted and received between devices in a network. protocols ensure that communication between devices happens correctly, efficiently, and securely. without protocols, devices connected in a network would not be able to understand each other\ufffds messages. tcp (transmission control protocol) is a reliable transport protocol that establishes a connection between sender and receiver before transmitting data. it ensures that data packets arrive in the correct order and without errors. ip (internet protocol) is responsible for addressing and routing data packets so they can travel across different networks and reach the correct destination. http (hypertext transfer protocol) is used for communication between web browsers and web servers. it allows users to access web pages and resources on the internet. ftp (file transfer protocol) is used for transferring files between computers over a network. dns (domain name system) translates human-readable domain names into ip addresses so that computers can locate servers on the internet.",
+        "entity1": "protocol",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.836
+    },
+    {
+        "text": "a network protocol is a set of rules and procedures that define how data is transmitted and received between devices in a network. protocols ensure that communication between devices happens correctly, efficiently, and securely. without protocols, devices connected in a network would not be able to understand each other\ufffds messages. tcp (transmission control protocol) is a reliable transport protocol that establishes a connection between sender and receiver before transmitting data. it ensures that data packets arrive in the correct order and without errors. ip (internet protocol) is responsible for addressing and routing data packets so they can travel across different networks and reach the correct destination. http (hypertext transfer protocol) is used for communication between web browsers and web servers. it allows users to access web pages and resources on the internet. ftp (file transfer protocol) is used for transferring files between computers over a network. dns (domain name system) translates human-readable domain names into ip addresses so that computers can locate servers on the internet.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.841
+    },
+    {
+        "text": "a network protocol is a set of rules and procedures that define how data is transmitted and received between devices in a network. protocols ensure that communication between devices happens correctly, efficiently, and securely. without protocols, devices connected in a network would not be able to understand each other\ufffds messages. tcp (transmission control protocol) is a reliable transport protocol that establishes a connection between sender and receiver before transmitting data. it ensures that data packets arrive in the correct order and without errors. ip (internet protocol) is responsible for addressing and routing data packets so they can travel across different networks and reach the correct destination. http (hypertext transfer protocol) is used for communication between web browsers and web servers. it allows users to access web pages and resources on the internet. ftp (file transfer protocol) is used for transferring files between computers over a network. dns (domain name system) translates human-readable domain names into ip addresses so that computers can locate servers on the internet.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.827
+    },
+    {
+        "text": "dhcp is an application layer protocol used to automatically assign ip addresses and other network configuration settings (like subnet mask, default gateway, dns servers) to devices on a network. instead of manually configuring each device with network settings, dhcp enables a central server to assign and manage them dynamically. this makes networking faster, easier, and less error-prone, especially in environments with many devices (like homes, offices, or schools).",
+        "entity1": "protocol",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "application layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.983
+    },
+    {
+        "text": "data link layer the data link layer ensures reliable communication between two directly connected devices. it organizes data into frames and performs error detection and correction. it also manages access to the physical medium using protocols such as ethernet.",
+        "entity1": "error detection",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.834
+    },
+    {
+        "text": "an ethernet switch operates at the data link layer (layer 2) of the osi model to create a separate collision domain for each switch port. each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere. because broadcasts are still being forwarded to all connected devices by the switch, the newly formed network segment continues to be a broadcast domain. switches may also operate at higher layers of the osi model, including the network layer and above. a switch that also operates at these higher layers is known as a multilayer switch.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "segment",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "an ethernet switch operates at the data link layer (layer 2) of the osi model to create a separate collision domain for each switch port. each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere. because broadcasts are still being forwarded to all connected devices by the switch, the newly formed network segment continues to be a broadcast domain. switches may also operate at higher layers of the osi model, including the network layer and above. a switch that also operates at these higher layers is known as a multilayer switch.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "used_for",
+        "entity2": "network layer",
+        "entity2_type": "TOPIC",
+        "confidence": 0.973
+    },
+    {
+        "text": "an ethernet switch operates at the data link layer (layer 2) of the osi model to create a separate collision domain for each switch port. each device connected to a switch port can transfer data to any of the other ports at any time and the transmissions will not interfere. because broadcasts are still being forwarded to all connected devices by the switch, the newly formed network segment continues to be a broadcast domain. switches may also operate at higher layers of the osi model, including the network layer and above. a switch that also operates at these higher layers is known as a multilayer switch.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "segment",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.969
+    },
+    {
+        "text": "the transport layer provides communication services that allow applications to exchange data over a network. tcp is widely used because it provides reliable and ordered delivery of data. it establishes a connection before data transmission and ensures that lost packets are retransmitted. udp is a simpler protocol that does not establish a connection and does not guarantee reliability. however, it is efficient for applications that require low latency. flow control mechanisms regulate the rate of data transmission to ensure efficient communication. congestion control algorithms detect congestion in the network and adjust the sending rate accordingly. port numbers allow multiple applications to communicate over the network simultaneously without interference.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.961
+    },
+    {
+        "text": "the transport layer provides communication services that allow applications to exchange data over a network. tcp is widely used because it provides reliable and ordered delivery of data. it establishes a connection before data transmission and ensures that lost packets are retransmitted. udp is a simpler protocol that does not establish a connection and does not guarantee reliability. however, it is efficient for applications that require low latency. flow control mechanisms regulate the rate of data transmission to ensure efficient communication. congestion control algorithms detect congestion in the network and adjust the sending rate accordingly. port numbers allow multiple applications to communicate over the network simultaneously without interference.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocol",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.964
+    },
+    {
+        "text": "in networking literature, the data link layer is responsible for providing reliable data transfer over a single link. framing converts the continuous bit stream from the physical layer into manageable units called frames. these frames include control fields that assist with synchronization and addressing. error detection and correction play a vital role because physical transmission is often susceptible to noise. techniques like checksums and crc help ensure data integrity. flow control is implemented to coordinate transmission rates between sender and receiver, preventing buffer overflow. mac addressing assigns unique hardware identifiers to network interface cards. through switching concepts, devices such as ethernet switches maintain forwarding tables that allow efficient frame delivery within local networks.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "checks ##ums",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.953
+    },
+    {
+        "text": "in networking literature, the data link layer is responsible for providing reliable data transfer over a single link. framing converts the continuous bit stream from the physical layer into manageable units called frames. these frames include control fields that assist with synchronization and addressing. error detection and correction play a vital role because physical transmission is often susceptible to noise. techniques like checksums and crc help ensure data integrity. flow control is implemented to coordinate transmission rates between sender and receiver, preventing buffer overflow. mac addressing assigns unique hardware identifiers to network interface cards. through switching concepts, devices such as ethernet switches maintain forwarding tables that allow efficient frame delivery within local networks.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frame",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.965
+    },
+    {
+        "text": "the network layer ensures packet transmission between networks using routing and logical addressing. devices are assigned addresses through internet protocol version 4 and internet protocol version 6. ipv6 supports a larger address space and better routing capabilities. subnetting divides networks into smaller subnetworks that improve performance and management. routing algorithms compute optimal routes based on link costs and topology information. routing protocols such as routing information protocol and open shortest path first allow routers to exchange routing tables. global routing across autonomous systems is performed using border gateway protocol.",
+        "entity1": "packet",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.837
+    },
+    {
+        "text": "a switch is a multi-port device designed to transmit incoming data packets to correct ports or devices based on the destination mac or hardware address. it\ufffds typically more intelligent than a hub as it can improve the network performance with advanced features such as intelligent packet forwarding and full-duplex communication. it can also control access to various parts of the network, thereby enhancing network security. multi-layer switches can operate as a router and thereby known as advanced network devices.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.967
+    },
+    {
+        "text": "a switch is a multi-port device designed to transmit incoming data packets to correct ports or devices based on the destination mac or hardware address. it\ufffds typically more intelligent than a hub as it can improve the network performance with advanced features such as intelligent packet forwarding and full-duplex communication. it can also control access to various parts of the network, thereby enhancing network security. multi-layer switches can operate as a router and thereby known as advanced network devices.",
+        "entity1": "packet",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "packets",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.853
+    },
+    {
+        "text": "a switch is a multi-port device designed to transmit incoming data packets to correct ports or devices based on the destination mac or hardware address. it\ufffds typically more intelligent than a hub as it can improve the network performance with advanced features such as intelligent packet forwarding and full-duplex communication. it can also control access to various parts of the network, thereby enhancing network security. multi-layer switches can operate as a router and thereby known as advanced network devices.",
+        "entity1": "network performance",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packet",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "the transport layer ensures reliable communication between applications by managing data transfer processes. tcp is designed to provide dependable communication by ensuring that data is delivered without errors and in the correct order. it includes mechanisms for flow control and congestion control to maintain efficient network performance. udp, in contrast, provides a connectionless service with minimal overhead. while it does not guarantee reliability, it offers faster transmission and is suitable for time-sensitive applications. flow control prevents the sender from overwhelming the receiver with excessive data. congestion control techniques adjust transmission rates during periods of heavy network traffic. port numbers help identify the destination application for incoming data.",
+        "entity1": "transport layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "congestion",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.968
+    },
+    {
+        "text": "protocols operating at the application layer include hypertext transfer protocol (http) for web browsing, file transfer protocol (ftp) for file transfers, simple mail transfer protocol (smtp) for email services, and domain name system (dns) for resolving domain names to ip addresses. these protocols ensure that user applications can effectively communicate with each other and with servers over a network.",
+        "entity1": "application layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.977
+    },
+    {
+        "text": "the network layer ensures packets are delivered from the source network to the destination network across multiple intermediate routers. logical addressing is performed using internet protocol version 4 and internet protocol version 6. ipv6 significantly expands the available address space and supports advanced networking features. subnetting is an essential technique that allows large networks to be divided into smaller subnetworks, improving efficiency and control over network traffic. routing algorithms determine optimal packet paths using information about network topology and link metrics. routing protocols such as routing information protocol and open shortest path first help routers exchange routing updates. for communication between different autonomous systems on the internet, routers rely on border gateway protocol.",
+        "entity1": "packet",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network topology",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.901
+    },
+    {
+        "text": "the network layer ensures packets are delivered from the source network to the destination network across multiple intermediate routers. logical addressing is performed using internet protocol version 4 and internet protocol version 6. ipv6 significantly expands the available address space and supports advanced networking features. subnetting is an essential technique that allows large networks to be divided into smaller subnetworks, improving efficiency and control over network traffic. routing algorithms determine optimal packet paths using information about network topology and link metrics. routing protocols such as routing information protocol and open shortest path first help routers exchange routing updates. for communication between different autonomous systems on the internet, routers rely on border gateway protocol.",
+        "entity1": "network topology",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.904
+    },
+    {
+        "text": "the data link layer is responsible for establishing reliable communication between devices connected to the same physical medium. one of its fundamental functions is framing, where the raw stream of bits received from the physical layer is divided into frames. these frames contain headers and trailers that include addressing and error-checking information. error detection and correction are implemented using techniques such as parity bits or cyclic redundancy checks to ensure that corrupted frames can be identified and handled properly. flow control regulates the rate of transmission so that the sender does not overwhelm the receiver. mac addressing allows each network interface card to have a unique hardware address, enabling accurate delivery. switching concepts allow switches to forward frames efficiently using mac address tables.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "cyclic",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.945
+    },
+    {
+        "text": "the data link layer is responsible for establishing reliable communication between devices connected to the same physical medium. one of its fundamental functions is framing, where the raw stream of bits received from the physical layer is divided into frames. these frames contain headers and trailers that include addressing and error-checking information. error detection and correction are implemented using techniques such as parity bits or cyclic redundancy checks to ensure that corrupted frames can be identified and handled properly. flow control regulates the rate of transmission so that the sender does not overwhelm the receiver. mac addressing allows each network interface card to have a unique hardware address, enabling accurate delivery. switching concepts allow switches to forward frames efficiently using mac address tables.",
+        "entity1": "physical layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "redundancy checks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.94
+    },
+    {
+        "text": "the data link layer is responsible for establishing reliable communication between devices connected to the same physical medium. one of its fundamental functions is framing, where the raw stream of bits received from the physical layer is divided into frames. these frames contain headers and trailers that include addressing and error-checking information. error detection and correction are implemented using techniques such as parity bits or cyclic redundancy checks to ensure that corrupted frames can be identified and handled properly. flow control regulates the rate of transmission so that the sender does not overwhelm the receiver. mac addressing allows each network interface card to have a unique hardware address, enabling accurate delivery. switching concepts allow switches to forward frames efficiently using mac address tables.",
+        "entity1": "frames",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "cyclic",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.842
+    },
+    {
+        "text": "the data link layer is responsible for establishing reliable communication between devices connected to the same physical medium. one of its fundamental functions is framing, where the raw stream of bits received from the physical layer is divided into frames. these frames contain headers and trailers that include addressing and error-checking information. error detection and correction are implemented using techniques such as parity bits or cyclic redundancy checks to ensure that corrupted frames can be identified and handled properly. flow control regulates the rate of transmission so that the sender does not overwhelm the receiver. mac addressing allows each network interface card to have a unique hardware address, enabling accurate delivery. switching concepts allow switches to forward frames efficiently using mac address tables.",
+        "entity1": "redundancy checks",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.833
+    },
+    {
+        "text": "the data link layer is responsible for establishing reliable communication between devices connected to the same physical medium. one of its fundamental functions is framing, where the raw stream of bits received from the physical layer is divided into frames. these frames contain headers and trailers that include addressing and error-checking information. error detection and correction are implemented using techniques such as parity bits or cyclic redundancy checks to ensure that corrupted frames can be identified and handled properly. flow control regulates the rate of transmission so that the sender does not overwhelm the receiver. mac addressing allows each network interface card to have a unique hardware address, enabling accurate delivery. switching concepts allow switches to forward frames efficiently using mac address tables.",
+        "entity1": "redundancy checks",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "cyclic",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.839
+    },
+    {
+        "text": "segment routing (sr) is an advanced network-layer routing technique designed to simplify traffic engineering and improve scalability. instead of maintaining complex state information for each traffic flow, routers encode the desired path within the packet itself using a sequence of instructions called segments. each segment represents a specific node or function that the packet must traverse. segment routing can operate with both mpls and ipv6 infrastructures, making it flexible for modern service provider networks. it reduces the need for additional signaling protocols while allowing administrators to control traffic paths precisely. this improves network efficiency, enables fast rerouting during failures, and supports high-performance applications such as cloud services and video streaming.",
+        "entity1": "traffic engineering",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "packet",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.875
+    },
+    {
+        "text": "segment routing (sr) is an advanced network-layer routing technique designed to simplify traffic engineering and improve scalability. instead of maintaining complex state information for each traffic flow, routers encode the desired path within the packet itself using a sequence of instructions called segments. each segment represents a specific node or function that the packet must traverse. segment routing can operate with both mpls and ipv6 infrastructures, making it flexible for modern service provider networks. it reduces the need for additional signaling protocols while allowing administrators to control traffic paths precisely. this improves network efficiency, enables fast rerouting during failures, and supports high-performance applications such as cloud services and video streaming.",
+        "entity1": "traffic engineering",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.884
+    },
+    {
+        "text": "the network layer enables communication between different networks by providing logical addressing and routing functionality. devices are identified through ip addresses assigned using internet protocol version 4 or the more advanced internet protocol version 6. ipv6 introduces a large address space and improved routing efficiency. subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. routing protocols such as routing information protocol operate using a distance-vector algorithm, while open shortest path first uses a link-state approach. the global internet relies on border gateway protocol to exchange routing information between autonomous systems.",
+        "entity1": "bandwidth",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network performance",
+        "entity2_type": "TOPIC",
+        "confidence": 0.932
+    },
+    {
+        "text": "the network layer enables communication between different networks by providing logical addressing and routing functionality. devices are identified through ip addresses assigned using internet protocol version 4 or the more advanced internet protocol version 6. ipv6 introduces a large address space and improved routing efficiency. subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. routing protocols such as routing information protocol operate using a distance-vector algorithm, while open shortest path first uses a link-state approach. the global internet relies on border gateway protocol to exchange routing information between autonomous systems.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "network performance",
+        "entity2_type": "TOPIC",
+        "confidence": 0.956
+    },
+    {
+        "text": "the network layer enables communication between different networks by providing logical addressing and routing functionality. devices are identified through ip addresses assigned using internet protocol version 4 or the more advanced internet protocol version 6. ipv6 introduces a large address space and improved routing efficiency. subnetting is used to create smaller subnetworks from a large address block, improving network performance and management. routing algorithms calculate the shortest path between routers using metrics like bandwidth or cost. routing protocols such as routing information protocol operate using a distance-vector algorithm, while open shortest path first uses a link-state approach. the global internet relies on border gateway protocol to exchange routing information between autonomous systems.",
+        "entity1": "protocols",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "bandwidth",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.972
+    },
+    {
+        "text": "the data link layer continues to perform the same essential responsibilities across different networking technologies. these responsibilities include framing, where data from the network layer is encapsulated into frames with clearly defined boundaries so that receivers can interpret the information correctly. error detection and correction methods such as checksums and cyclic redundancy checks are implemented to verify that frames are transmitted accurately across the physical medium. flow control ensures that communication between sender and receiver remains balanced and prevents congestion or buffer overflow. mac addressing uniquely identifies each device connected to the network, allowing frames to reach their correct destination. switching concepts allow network switches to examine mac addresses, maintain forwarding tables, and efficiently deliver frames within local area networks.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "frames",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.966
+    },
+    {
+        "text": "the data link layer continues to perform the same essential responsibilities across different networking technologies. these responsibilities include framing, where data from the network layer is encapsulated into frames with clearly defined boundaries so that receivers can interpret the information correctly. error detection and correction methods such as checksums and cyclic redundancy checks are implemented to verify that frames are transmitted accurately across the physical medium. flow control ensures that communication between sender and receiver remains balanced and prevents congestion or buffer overflow. mac addressing uniquely identifies each device connected to the network, allowing frames to reach their correct destination. switching concepts allow network switches to examine mac addresses, maintain forwarding tables, and efficiently deliver frames within local area networks.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "checks ##ums",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.952
+    },
+    {
+        "text": "the data link layer continues to perform the same essential responsibilities across different networking technologies. these responsibilities include framing, where data from the network layer is encapsulated into frames with clearly defined boundaries so that receivers can interpret the information correctly. error detection and correction methods such as checksums and cyclic redundancy checks are implemented to verify that frames are transmitted accurately across the physical medium. flow control ensures that communication between sender and receiver remains balanced and prevents congestion or buffer overflow. mac addressing uniquely identifies each device connected to the network, allowing frames to reach their correct destination. switching concepts allow network switches to examine mac addresses, maintain forwarding tables, and efficiently deliver frames within local area networks.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "cyclic",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.965
+    },
+    {
+        "text": "the data link layer continues to perform the same essential responsibilities across different networking technologies. these responsibilities include framing, where data from the network layer is encapsulated into frames with clearly defined boundaries so that receivers can interpret the information correctly. error detection and correction methods such as checksums and cyclic redundancy checks are implemented to verify that frames are transmitted accurately across the physical medium. flow control ensures that communication between sender and receiver remains balanced and prevents congestion or buffer overflow. mac addressing uniquely identifies each device connected to the network, allowing frames to reach their correct destination. switching concepts allow network switches to examine mac addresses, maintain forwarding tables, and efficiently deliver frames within local area networks.",
+        "entity1": "network layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "redundancy checks",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.961
+    },
+    {
+        "text": "error detection is another important function of the transport layer. in transmission control protocol, a checksum is used to verify the integrity of transmitted data. the sender calculates a checksum value based on the contents of the segment and includes it in the tcp header. when the receiver receives the segment, it performs the same calculation and compares the result with the transmitted checksum. if the values do not match, the segment is considered corrupted and is discarded. the sender will then retransmit the lost or damaged segment. this process ensures reliable and accurate communication between network hosts.",
+        "entity1": "checks ##um",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "segment",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.867
+    },
+    {
+        "text": "routers maintain queues to temporarily store packets before forwarding them. when network traffic exceeds router capacity, packets wait in these queues. different queuing algorithms such as first-in-first-out (fifo), priority queuing, and weighted fair queuing manage how packets are transmitted. these methods help ensure fair bandwidth allocation and support quality of service requirements.",
+        "entity1": "packets",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "bandwidth",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.885
+    },
+    {
+        "text": "the network layer provides packet forwarding and routing services that allow communication between networks. logical addressing is implemented using internet protocol version 4 and internet protocol version 6. ipv6 was developed to overcome the limitations of ipv4 and to support the rapid growth of internet-connected devices. subnetting divides networks into smaller segments by extending the network portion of an ip address. this improves network organization and reduces unnecessary broadcast traffic. routing algorithms determine optimal packet paths based on link metrics such as hop count or delay. routers exchange route information using protocols like routing information protocol and open shortest path first, while global internet routing between autonomous systems is handled by border gateway protocol.",
+        "entity1": "packet",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "segments",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.888
+    },
+    {
+        "text": "the network layer provides packet forwarding and routing services that allow communication between networks. logical addressing is implemented using internet protocol version 4 and internet protocol version 6. ipv6 was developed to overcome the limitations of ipv4 and to support the rapid growth of internet-connected devices. subnetting divides networks into smaller segments by extending the network portion of an ip address. this improves network organization and reduces unnecessary broadcast traffic. routing algorithms determine optimal packet paths based on link metrics such as hop count or delay. routers exchange route information using protocols like routing information protocol and open shortest path first, while global internet routing between autonomous systems is handled by border gateway protocol.",
+        "entity1": "segments",
+        "entity1_type": "CONCEPT",
+        "relation": "used_for",
+        "entity2": "protocols",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.889
+    },
+    {
+        "text": "the switch serves as a high-speed controller that connects devices within a single local area network (lan). unlike a hub, a switch operates at the data link layer (layer 2) and is \"mac-address aware.\" when a device sends data, the switch learns which physical hardware address is connected to which port and creates a dedicated, temporary path between the sender and the receiver. this process, known as micro-segmentation, eliminates data collisions and ensures that bandwidth isn't wasted on devices that don't need the information. modern \"layer 3\" switches can even perform some routing functions, but their primary strength remains the efficient management of internal traffic, acting as the intelligent traffic cop of an office or home network to keep data flowing smoothly and privately.",
+        "entity1": "data link layer",
+        "entity1_type": "TOPIC",
+        "relation": "part_of",
+        "entity2": "bandwidth",
+        "entity2_type": "CONCEPT",
+        "confidence": 0.977
+    }
+]
