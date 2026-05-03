@@ -1,30 +1,30 @@
 [
   {
     "text": "The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance.",
+    "entity1": "Deep learning",
+    "entity1_type": "TOPIC",
+    "predicted_relation": "improves",
+    "entity2": "accuracy",
+    "entity2_type": "CONCEPT",
+    "confidence": 0.92
+  },
+  {
+    "text": "The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance.",
+    "entity1": "Deep learning",
+    "entity1_type": "TOPIC",
+    "predicted_relation": "implements",
+    "entity2": "feature extraction",
+    "entity2_type": "METHOD",
+    "confidence": 0.90
+  },
+  {
+    "text": "The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance.",
     "entity1": "Computer Vision",
     "entity1_type": "TOPIC",
     "predicted_relation": "used_for",
-    "entity2": "accuracy",
-    "entity2_type": "CONCEPT",
-    "confidence": 0.36
-  },
-  {
-    "text": "The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance.",
-    "entity1": "Deep learning",
-    "entity1_type": "TOPIC",
-    "predicted_relation": "used_for",
-    "entity2": "feature",
-    "entity2_type": "CONCEPT",
-    "confidence": 0.36
-  },
-  {
-    "text": "The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance.",
-    "entity1": "Deep learning",
-    "entity1_type": "TOPIC",
-    "predicted_relation": "used_for",
-    "entity2": "feature extraction",
-    "entity2_type": "METHOD",
-    "confidence": 0.36
+    "entity2": "facial recognition",
+    "entity2_type": "APPLICATION",
+    "confidence": 0.88
   },
   {
     "text": "Sentence: The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance. Entity1: Deep learning (TOPIC). Entity2: accuracy (CONCEPT).",
