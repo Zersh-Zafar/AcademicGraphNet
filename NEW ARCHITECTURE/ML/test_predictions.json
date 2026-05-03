@@ -78,10 +78,6 @@
             {
                 "entity": "noise",
                 "label": "CONCEPT"
-            },
-            {
-                "entity": "feature",
-                "label": "CONCEPT"
             }
         ]
     },
@@ -179,7 +175,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -200,7 +196,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -324,7 +320,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -362,7 +358,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "feature",
+                "entity": "feature-based",
                 "label": "CONCEPT"
             }
         ]
@@ -455,7 +451,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -563,7 +559,7 @@
         "text": "the concept of ensemble learning revolves around combining weak learners to form a strong predictive model. bagging is effective in reducing overfitting by training multiple models in parallel using bootstrapped datasets. boosting, in contrast, trains models sequentially and focuses on correcting previous errors. gradient boosting refines this approach by optimizing a loss function using gradient descent. xgboost is a highly optimized implementation that incorporates advanced features such as regularization, handling sparse data, and efficient computation. these techniques significantly enhance model performance and are widely used in classification and regression tasks.",
         "entities": [
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -630,7 +626,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1081,7 +1077,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1158,11 +1154,11 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1203,7 +1199,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -1323,7 +1319,7 @@
         "text": "overfitting and underfitting are common challenges. metrics and validation techniques help detect and correct them.f1-score balances precision and recall, providing a reliable evaluation metric for imbalanced datasets.",
         "entities": [
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1344,7 +1340,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -1579,7 +1575,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             },
             {

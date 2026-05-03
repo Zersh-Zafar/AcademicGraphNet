@@ -486,7 +486,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##ums",
+                "entity": "checksums",
                 "label": "CONCEPT"
             },
             {
@@ -567,7 +567,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##um",
+                "entity": "checksum",
                 "label": "CONCEPT"
             },
             {
@@ -1066,7 +1066,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##ums",
+                "entity": "checksums",
                 "label": "CONCEPT"
             },
             {
@@ -1099,11 +1099,11 @@
         "text": "error detection is another important function of the transport layer. in transmission control protocol, a checksum is used to verify the integrity of transmitted data. the sender calculates a checksum value based on the contents of the segment and includes it in the tcp header. when the receiver receives the segment, it performs the same calculation and compares the result with the transmitted checksum. if the values do not match, the segment is considered corrupted and is discarded. the sender will then retransmit the lost or damaged segment. this process ensures reliable and accurate communication between network hosts.",
         "entities": [
             {
-                "entity": "checks ##um",
+                "entity": "checksum",
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##um",
+                "entity": "checksum",
                 "label": "CONCEPT"
             },
             {
@@ -1181,12 +1181,7 @@
     },
     {
         "text": "an internet of things (iot) gateway provides the bridge (protocol converter) between iot devices in the field, the cloud, and user equipment such as smartphones. the iot gateway provides a communication link between the field and the cloud, and may provide offline services and real-time control of devices in the field.",
-        "entities": [
-            {
-                "entity": "protocol",
-                "label": "CONCEPT"
-            }
-        ]
+        "entities": []
     },
     {
         "text": "the data link layer is responsible for ensuring reliable data transfer between directly connected nodes. framing encapsulates network-layer packets into frames. error detection and correction techniques verify frame integrity during transmission. flow control helps maintain balanced communication speeds. mac addressing uniquely identifies network devices within a lan. switching concepts allow network switches to forward frames efficiently using mac address information.",
@@ -1272,7 +1267,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##ums",
+                "entity": "checksums",
                 "label": "CONCEPT"
             },
             {
@@ -1423,7 +1418,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "data ##grams",
+                "entity": "datagrams",
                 "label": "CONCEPT"
             }
         ]

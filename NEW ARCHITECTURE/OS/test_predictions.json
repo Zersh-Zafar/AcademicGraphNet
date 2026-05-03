@@ -12,7 +12,7 @@
         "text": "resource preemption to eliminate deadlocks using resource preemption, we successively preempt some resources from processes and give these resources to other processes until the deadlock cycle is broken. if preemption is required to deal with deadlocks, then three issues need to be addressed: 1. selecting a victim. which resources and which processes are to be preempted? as in process termination, we must determine the order of preemption to minimize cost. cost factors may include such parameters as the number of resources a deadlocked process is holding and the amount of time the process has thus far consumed. 2. rollback. if we preempt a resource from a process, what should be done with that process? clearly, it cannot continue with its normal execution; it is missing some needed resource. we must roll back the process to some safe state and restart it from that state. since, in general, it is difficult to determine what a safe state is, the simplest solution is a total rollback: abort the process and then restart it. although it is more effective to roll back the process only as far as necessary to break the deadlock, this method requires the system to keep more information about the state of all running processes. 3. starvation. how do we ensure that starvation will not occur? that is, how can we guarantee that resources will not always be preempted from the same process? in a system where victim selection is based primarily on cost factors, it may happen that the same process is always picked as a victim. as a result, this process never completes its designated task, a starvation situation any practical system must address.",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
@@ -121,7 +121,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "pag ##ing",
+                "entity": "paging",
                 "label": "CONCEPT"
             },
             {
@@ -129,7 +129,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "degree of multi ##programm ##ing",
+                "entity": "degree of multiprogramming",
                 "label": "CONCEPT"
             },
             {
@@ -251,7 +251,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "mut ##ex",
+                "entity": "mutex",
                 "label": "CONCEPT"
             },
             {
@@ -306,10 +306,6 @@
         "text": "a local file system's architecture can be described as layers of abstraction even though a particular file system design may not actually separate the concepts. the logical file system layer provides relatively high-level access via an application programming interface (api) for file operations including open, close, read and write - delegating operations to lower layers. this layer manages open file table entries and per-process file descriptors.[8] it provides file access, directory operations, security and protection.",
         "entities": [
             {
-                "entity": "process",
-                "label": "CONCEPT"
-            },
-            {
                 "entity": "directory",
                 "label": "CONCEPT"
             }
@@ -336,7 +332,7 @@
         "text": "synchronization ensures orderly execution among cooperating processes. stallings explains that without coordination, concurrent programs produce unpredictable outputs due to timing variations. the text thoroughly analyzes critical sections and introduces semaphores as a fundamental solution. it also connects synchronization with deadlock conditions and resource allocation graphs. hardware-level instructions such as test-and-set and compare-and-swap are explained as building blocks for synchronization primitives.",
         "entities": [
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             },
             {
@@ -366,7 +362,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             },
             {
@@ -382,7 +378,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             }
         ]
@@ -391,7 +387,7 @@
         "text": "in contrast, preemptive scheduling allows the operating system to interrupt a currently running process to give cpu time to another task, typically based on priority or a set time limit. this approach is standard in modern operating systems like windows and linux because it ensures that no single process can \"hog\" the cpu, allowing for better multitasking and responsiveness. while this method is far more flexible and fair, it comes with a technical cost: the os must frequently perform a \"context switch,\" which involves saving the exact state of the interrupted process so it can resume later. this adds a layer of complexity and overhead that non-preemptive systems simply don't have to deal with.",
         "entities": [
             {
-                "entity": "preem ##ptive scheduling",
+                "entity": "preemptive scheduling",
                 "label": "METHOD"
             },
             {
@@ -424,7 +420,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "ino ##des",
+                "entity": "inodes",
                 "label": "CONCEPT"
             }
         ]
@@ -433,7 +429,7 @@
         "text": "pipe a pipe is a data channel that is unidirectional. two pipes can be used to create a two-way data channel between two processes. this uses standard input and output methods. pipes are used in all posix systems as well as windows operating systems. socket the socket is the endpoint for sending or receiving data in a network. this is true for data sent between processes on the same computer or data sent between different computers on the same network. most of the operating systems use sockets for interprocess communication.",
         "entities": [
             {
-                "entity": "socket ##s",
+                "entity": "sockets",
                 "label": "METHOD"
             }
         ]
@@ -454,7 +450,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "producer - consumer",
+                "entity": "producer-consumer",
                 "label": "CONCEPT"
             },
             {
@@ -533,10 +529,6 @@
             {
                 "entity": "context switching",
                 "label": "CONCEPT"
-            },
-            {
-                "entity": "context switching",
-                "label": "CONCEPT"
             }
         ]
     },
@@ -608,7 +600,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             }
         ]
@@ -634,7 +626,7 @@
         "text": "general graph directory if cycles are allowed in the graphs, then several problems can arise: search algorithms can go into infinite loops. one solution is to not follow links in search algorithms. ( or not to follow symbolic links, and to only allow symbolic links to refer to directories. ) sub-trees can become disconnected from the rest of the tree and still not have their reference counts reduced to zero. periodic garbage collection is required to detect and resolve this problem. ( chkdsk in dos and fsck in unix search for these problems, among others, even though cycles are not supposed to be allowed in either system. disconnected disk blocks that are not marked as free are added back to the file systems with made-up file names, and can usually be safely deleted. )",
         "entities": [
             {
-                "entity": "gar",
+                "entity": "garbage collection",
                 "label": "CONCEPT"
             }
         ]
@@ -727,11 +719,11 @@
         "text": "the ostrich algorithm the simplest approach is the ostrich algorithm: stick your head in the sand and pretend there is no problem.\u2020 people react to this strategy in different ways. mathematicians find it unacceptable and say that deadlocks must be prevented at all costs. engineers ask how often the problem is expected, how often the system crashes for other reasons, and how serious a deadlock is. if deadlocks occur on the average once every five years, but system crashes due to hardware failures and operating system bugs occur once a week, most engineers would not be willing to pay a large penalty in performance or convenience to eliminate deadlocks.to make this contrast more specific, consider an operating system that blocks the caller when an open system call on a physical device such as a blu-ray driver or a printer cannot be carried out because the device is busy. typically it is up to the device driver to decide what action to take under such circumstances. blocking or returning an error code are two obvious possibilities. if one process successfully opens the blu-ray drive and another successfully opens the printer and then each process tries to open the other one and blocks trying, we have a deadlock. few current systems will detect this.",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             }
         ]
@@ -1117,7 +1109,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "long - term",
+                "entity": "long-term",
                 "label": "CONCEPT"
             },
             {
@@ -1259,7 +1251,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "process",
+                "entity": "process'",
                 "label": "CONCEPT"
             }
         ]
@@ -1326,7 +1318,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "mut ##ex",
+                "entity": "mutex",
                 "label": "CONCEPT"
             },
             {
@@ -1339,7 +1331,7 @@
         "text": "recovery from deadlock when a detection algorithm determines that a deadlock exists, then the system or operator is responsible for handling deadlock problem. there are two options for breaking a deadlock. 1. process termination 2. resource preemption 3. process termination there are two method to eliminate deadlocks by terminating a process as follows: 1. abort all deadlocked processes: this method will break the deadlock cycle clearly by terminating all process. this method is cost effective. and it removes the partial computations completed by the processes. 2. abort one process at a time until the deadlock cycle is eliminated: this method terminates one process at a time, and invokes a deadlock-detection algorithm to determine whether any processes are still deadlocked. resource preemption in resource preemption, the operator or system preempts some resources from processes and give these resources to other processes until the deadlock cycle is broken. if preemption is required to deal with deadlocks, then three issues need to be addressed: 1. selecting a victim: the system or operator selects which resources and which processes are to be preempted based on cost factor. 2. rollback: the system or operator must roll back the process to some safe state and restart it from that state. 3. starvation: the system or operator should ensure that resources will not always be preempted from the same process?",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
@@ -1562,10 +1554,6 @@
             {
                 "entity": "kernel",
                 "label": "CONCEPT"
-            },
-            {
-                "entity": "signal",
-                "label": "METHOD"
             }
         ]
     },
@@ -1593,7 +1581,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "pag",
+                "entity": "paging",
                 "label": "CONCEPT"
             }
         ]
@@ -1753,7 +1741,7 @@
         "text": "synchronization is explained as an architectural requirement in multiprocessor operating systems. the book describes how shared kernel structures must be protected using spinlocks and semaphores. it also examines how scheduling and interrupt management interact with synchronization primitives to maintain system stability.",
         "entities": [
             {
-                "entity": "spin ##lock ##s",
+                "entity": "spinlocks",
                 "label": "CONCEPT"
             },
             {
@@ -1976,15 +1964,15 @@
         "text": "deadlock avoidance deadlock-prevention algorithms, as discussed in section 7.4, prevent deadlocks by limiting how requests can be made. the limits ensure that at least one of the necessary conditions for deadlock cannot occur. possible side effects of preventing deadlocks by this method, however, are low device utilization and reduced system throughput. an alternative method for avoiding deadlocks is to require additional information about how resources are to be requested. for example, in a system with one tape drive and one printer, the system might need to know that process p will request first the tape drive and then the printer before releasing both resources, whereas process q will request first the printer and then the tape drive. with this knowledge of the complete sequence of requests and releases for each process, the system can decide for each request whether or not the process should wait in order to avoid a possible future deadlock. each request requires that in making this decision the system consider the resources currently available, the resources currently allocated to each process, and the future requests and releases of each process.",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {

@@ -33,7 +33,7 @@
                 "label": "METHOD"
             },
             {
-                "entity": "pag ##ing",
+                "entity": "paging",
                 "label": "CONCEPT"
             },
             {
@@ -130,7 +130,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "hyper ##parameter",
+                "entity": "hyperparameter",
                 "label": "CONCEPT"
             }
         ]
@@ -262,7 +262,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -325,7 +325,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "spin ##lock ##s",
+                "entity": "spinlocks",
                 "label": "CONCEPT"
             }
         ]
@@ -592,7 +592,7 @@
         "text": "fat is one of the first file systems. it was introduced by microsoft for ms-dos. fat comes in three major versions: fat12, fat16, and fat32. the numbers next to the name indicate the number of bits used to identify the files. the system is simple and compatible across operating systems. many usb drives, memory cards, and small storage devices have fat file systems. since fat32 cannot support files larger than 4gb, they are used in limited capacity storage devices. fat also lacks the journaling feature, so data corruption can be a problem.",
         "entities": [
             {
-                "entity": "journal ##ing",
+                "entity": "journaling",
                 "label": "CONCEPT"
             }
         ]
@@ -601,7 +601,7 @@
         "text": "synchronization is critical inside the kernel, where multiple interrupts and processes operate simultaneously. spinlocks protect short critical sections, while semaphores manage longer waits. proper synchronization ensures kernel reliability and system stability.",
         "entities": [
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             }
         ]
@@ -623,11 +623,11 @@
         "text": "the bias-variance tradeoff identifies underfitting and overfitting. balancing these factors improves model robustness.overfitting occurs when models memorize data, underfitting when they are too simple. evaluation detects both problems.",
         "entities": [
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             },
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             }
         ]
@@ -683,7 +683,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -833,7 +833,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1130,7 +1130,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -1294,7 +1294,7 @@
         "text": "cpu scheduling algorithms in operating systems manage the allocation of cpu time to processes in the ready queue, balancing criteria like cpu utilization, throughput, turnaround time (submission to completion), waiting time (ready queue time), and response time (first output delay) to ensure fairness and efficiency.",
         "entities": [
             {
-                "entity": "turn ##around time",
+                "entity": "turnaround time",
                 "label": "CONCEPT"
             },
             {
@@ -1315,7 +1315,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph ##ore",
+                "entity": "semaphore",
                 "label": "CONCEPT"
             }
         ]
@@ -1807,7 +1807,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -1919,7 +1919,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "process",
+                "entity": "process'",
                 "label": "CONCEPT"
             }
         ]
@@ -1928,7 +1928,7 @@
         "text": "in contrast to tcp, the user datagram protocol provides a lightweight transport service that does not require connection establishment. udp sends data in the form of datagrams without performing reliability checks such as acknowledgments or retransmissions. because of this minimal overhead, udp is significantly faster than tcp. it is commonly used in applications that require low latency rather than reliability, such as video streaming, voice over ip, and online gaming. udp allows applications to send packets quickly without waiting for confirmation from the receiver. although packet loss may occur, many real-time applications are designed to tolerate such losses. therefore, udp plays an important role in modern network communication where speed and efficiency are critical.",
         "entities": [
             {
-                "entity": "data ##grams",
+                "entity": "datagrams",
                 "label": "CONCEPT"
             },
             {
@@ -2009,11 +2009,11 @@
         "text": "roc and auc are essential for comparing classifiers visually and numerically.bias-variance tradeoff guides understanding of underfitting and overfitting.overfitting memorizes noise; underfitting misses patterns. evaluation detects both.",
         "entities": [
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             },
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             }
         ]
@@ -2026,15 +2026,15 @@
         "text": "deadlock avoidance deadlock-prevention algorithms, as discussed in section 7.4, prevent deadlocks by limiting how requests can be made. the limits ensure that at least one of the necessary conditions for deadlock cannot occur. possible side effects of preventing deadlocks by this method, however, are low device utilization and reduced system throughput. an alternative method for avoiding deadlocks is to require additional information about how resources are to be requested. for example, in a system with one tape drive and one printer, the system might need to know that process p will request first the tape drive and then the printer before releasing both resources, whereas process q will request first the printer and then the tape drive. with this knowledge of the complete sequence of requests and releases for each process, the system can decide for each request whether or not the process should wait in order to avoid a possible future deadlock. each request requires that in making this decision the system consider the resources currently available, the resources currently allocated to each process, and the future requests and releases of each process.",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
@@ -2111,11 +2111,11 @@
         "text": "methods for handling deadlocks the deadlock problem can be handled in one of three ways: 1. use a protocol to prevent or avoid deadlocks, ensuring that the system will never enter a deadlocked state. 2. allow the system to enter a deadlocked state, detect it, and recover. 3. ignore the problem altogether and pretend that deadlocks never occur in the system. to ensure that deadlocks never occur, the system can use either deadlock prevention or a deadlock-avoidance scheme. deadlock prevention provides a set of methods for ensuring that at least one of the necessary conditions cannot hold. these methods prevent deadlocks by constraining how requests for resources can be made. deadlock-avoidance requires that the operating system be given in advance additional information concerning which resources a process will request and use during its lifetime. with this additional knowledge, it can decide for each request whether or not the process should wait. to decide whether the current request can be satisfied or must be delayed, the system must consider the resources currently available, the resources currently allocated to each process, and the future requests and releases of each process. if a system does not employ either a deadlock-prevention or a deadlock avoidance algorithm, then a deadlock situation may arise. in this environment, the system can provide an algorithm that examines the state of the system to determine whether a deadlock has occurred and an algorithm to recover from the deadlock. in the absence of algorithms to detect and recover from deadlocks, then the system is in a deadlock state yet has no way of recognizing what has happened. in this case, the undetected deadlock will result in deterioration of the system's performance, because resources are being held by processes that cannot run and because more and more processes, as they make requests for resources, will enter a deadlocked state. eventually, the system will stop functioning and will need to be restarted manually.",
         "entities": [
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             },
             {
@@ -2127,7 +2127,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             }
         ]
@@ -2298,7 +2298,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -2383,7 +2383,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##ums",
+                "entity": "checksums",
                 "label": "CONCEPT"
             }
         ]
@@ -2507,7 +2507,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             }
         ]
@@ -2516,7 +2516,7 @@
         "text": "ensemble learning techniques improve model performance by combining predictions from multiple models. bagging reduces overfitting by training models on different subsets of data. boosting improves accuracy by focusing on misclassified instances. gradient boosting builds models sequentially and optimizes the loss function. xgboost improves speed and performance through advanced optimization techniques.",
         "entities": [
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -2549,7 +2549,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             },
             {
@@ -2634,7 +2634,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "turn ##around time",
+                "entity": "turnaround time",
                 "label": "CONCEPT"
             },
             {
@@ -2739,7 +2739,7 @@
         "text": "ensemble learning combines multiple models to improve accuracy. bagging reduces overfitting by training models on different subsets of data. boosting improves predictions by focusing on difficult cases. gradient boosting uses gradient descent to optimize loss functions. xgboost improves performance with advanced optimization techniques.",
         "entities": [
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -2765,7 +2765,7 @@
         "text": "natural language processing is widely used in real-world applications such as search engines, chatbots, and recommendation systems. preprocessing remains essential, including tokenization and normalization. traditional techniques like tf-idf are still used in information retrieval systems, especially in search engines. modern nlp systems rely on transformer models that are pre-trained on large datasets and then fine-tuned for specific tasks. transfer learning allows models like bert to adapt to new domains with limited data. sentiment analysis is used in customer feedback systems, while named entity recognition helps extract structured information from documents like resumes and news articles.",
         "entities": [
             {
-                "entity": "token ##ization",
+                "entity": "tokenization",
                 "label": "METHOD"
             },
             {
@@ -2849,7 +2849,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -2862,7 +2862,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "sem ##aph ##ore",
+                "entity": "semaphore",
                 "label": "CONCEPT"
             },
             {
@@ -2870,15 +2870,15 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph ##ore",
+                "entity": "semaphore",
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             }
         ]
@@ -3167,7 +3167,7 @@
         "text": "ensemble learning combines multiple models to improve prediction accuracy. bagging reduces overfitting by training models independently on bootstrapped datasets. boosting improves model performance by focusing on errors and refining predictions sequentially. gradient boosting builds models incrementally, optimizing a loss function using gradient descent. xgboost improves upon this by introducing regularization and efficient computation, making it one of the most popular algorithms in machine learning.",
         "entities": [
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -3415,7 +3415,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "producer - consumer",
+                "entity": "producer-consumer",
                 "label": "CONCEPT"
             },
             {
@@ -3453,7 +3453,7 @@
                 "label": "METHOD"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             },
             {
@@ -3546,7 +3546,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "pag ##ing",
+                "entity": "paging",
                 "label": "CONCEPT"
             }
         ]
@@ -4099,7 +4099,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "checks ##ums",
+                "entity": "checksums",
                 "label": "CONCEPT"
             },
             {
@@ -4309,7 +4309,7 @@
         "text": "information gain tells us how useful a question (or feature) is for splitting data into groups. it measures how much the uncertainty decreases after the split. a good question will create clearer groups and the feature with the highest information gain is chosen to make the decision.",
         "entities": [
             {
-                "entity": "feature",
+                "entity": "feature)",
                 "label": "CONCEPT"
             },
             {
@@ -4326,7 +4326,7 @@
         "text": "there are three main types of schedulers, each performing different tasks in processmanagement: long-term (job) scheduler : moves processes from secondary memory (job pool) to main memory (ready queue). medium-term scheduler : suspends and resumes processes based on system status. short-term (cpu) scheduler : selects one of the ready processes in memory to execute next. starvation (or indefinite blocking) occurs in priority scheduling when a low-priority process keeps waiting indefinitely because higher-priority processes continuously get the cpu. this problem arises in heavily loaded systems where resources are always occupied by higher-priority tasks, leaving some processes starved. to prevent this, operating systems use aging, a technique that gradually increases the priority of waiting processes, ensuring fair execution. causes of starvation not fair scheduling: if there are always higher-priority processes available, then the lowerpriority processes may never be allowed to run. apart from priority, there can be other causes like a scheduling algorithm that randomly picks a process and somehow a victim process is always missed leading to starvation. limited resources : due to limitation of resources one or the other process has to wait. aging is a scheduling technique used to prevent starvation by gradually increasing the priority of processes waiting too long in the system. ensures fairness, as long-waiting processes eventually get cpu time. often combined with algorithms like priority scheduling or round-robin to balance shortterm efficiency with long-term fairness. for example, if priorities range from 127 (low) to 0 (high), a waiting process can move up one level every 15 minutes, ensuring even the lowest-priority process eventually gets executed. cpu scheduling is a core os function that determines which process runs on the cpu, maximizing utilization, throughput, and fairness while minimizing wait/response times. it manages multitasking by switching the cpu between processes in the ready queue, using algorithms like fcfs, round robin, and priority scheduling to balance efficiency and system performance.",
         "entities": [
             {
-                "entity": "process",
+                "entity": "processmanagement:",
                 "label": "CONCEPT"
             },
             {
@@ -4451,7 +4451,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "turn ##around time",
+                "entity": "turnaround time",
                 "label": "CONCEPT"
             },
             {
@@ -4506,7 +4506,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "ino ##des",
+                "entity": "inodes",
                 "label": "CONCEPT"
             },
             {
@@ -4557,7 +4557,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "short",
+                "entity": "short-term",
                 "label": "CONCEPT"
             },
             {
@@ -4616,7 +4616,7 @@
         "text": "i/o systems one of the purposes of an operating system is to hide the peculiarities of specific hardware devices from the user. for example, in unix, the peculiarities of i/o devices are hidden from the bulk of the operating system itself by the i/o subsystem. the i/o subsystem consists of several components: a memory-management component that includes buffering, caching, and spooling a general device-driver interface drivers for specific hardware devices only the device driver knows the peculiarities of the specific device to which it is assigned. we discussed in section 1.2.3 how interrupt handlers and device drivers are used in the construction of efficient i/o subsystems. in chapter 13, we discuss how the i/o subsystem interfaces to the other system components, manages devices, transfers data, and detects i/o completion.",
         "entities": [
             {
-                "entity": "spo ##olin ##g",
+                "entity": "spooling",
                 "label": "METHOD"
             }
         ]
@@ -4667,7 +4667,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "sem ##aph ##ores",
+                "entity": "semaphores",
                 "label": "CONCEPT"
             }
         ]
@@ -4752,7 +4752,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "deadlock ##s",
+                "entity": "deadlocks",
                 "label": "TOPIC"
             }
         ]
@@ -4761,7 +4761,7 @@
         "text": "structure of the page table 1) hierarchical paging 2) hashed page-tables 3) inverted page-tables 3.14.1 hierarchical paging  problem: most computers support a large logical-address space (232 to 264). in these systems, the page-table itself becomes excessively large. solution: divide the page-table into smaller pieces. two level paging algorithm  the page-table itself is also paged (figure 3.22).  this is also known as a forward-mapped page-table because address translation works from the outer page-table inwards.  for example (figure 3.23):  consider the system with a 32-bit logical-address space and a page-size of 4 kb. a logical-address is divided into  20-bit page-number and  12-bit page-offset.  since the page-table is paged, the page-number is further divided into  10-bit page-number and  10-bit page-offset.",
         "entities": [
             {
-                "entity": "pag ##ing",
+                "entity": "paging",
                 "label": "CONCEPT"
             },
             {
@@ -4812,7 +4812,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "memory management",
+                "entity": "memory management.'",
                 "label": "TOPIC"
             }
         ]
@@ -4883,7 +4883,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "pag ##ing",
+                "entity": "paging",
                 "label": "CONCEPT"
             },
             {
@@ -4891,7 +4891,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "degree of multi ##programm ##ing",
+                "entity": "degree of multiprogramming",
                 "label": "CONCEPT"
             },
             {
@@ -4946,7 +4946,7 @@
         "text": "feature engineering enhances data quality. feature selection removes irrelevant attributes. feature extraction creates useful features. dimensionality reduction simplifies datasets. handling imbalanced data ensures balanced learning.",
         "entities": [
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             }
         ]
@@ -5229,7 +5229,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "long - term scheduler",
+                "entity": "long-term scheduler",
                 "label": "CONCEPT"
             }
         ]
@@ -5318,7 +5318,7 @@
         "text": "internet protocol (ip) ip is the primary layer 3 protocol used to forward datagrams across the internet. routing: ip uses routing tables to determine the best path for data. these tables are prepared by routing protocols such as: ospf (open shortest path first) rip (routing information protocol) service type: ip provides a connectionless service. unlike connection-oriented circuits, it does not establish a dedicated path before sending data; instead, each packet is routed independently.",
         "entities": [
             {
-                "entity": "data ##grams",
+                "entity": "datagrams",
                 "label": "CONCEPT"
             },
             {
@@ -5426,7 +5426,7 @@
                 "label": "TOPIC"
             },
             {
-                "entity": "over ##fitting",
+                "entity": "overfitting",
                 "label": "CONCEPT"
             },
             {
@@ -5434,7 +5434,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "under ##fitting",
+                "entity": "underfitting",
                 "label": "CONCEPT"
             },
             {
@@ -5475,7 +5475,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "time slic ##ing",
+                "entity": "time slicing",
                 "label": "METHOD"
             },
             {
@@ -5647,7 +5647,7 @@
                 "label": "CONCEPT"
             },
             {
-                "entity": "imbalance ##d data",
+                "entity": "imbalanced data",
                 "label": "CONCEPT"
             },
             {
@@ -5753,7 +5753,7 @@
         "text": "starvation a problem closely related to deadlock and livelock is starvation. in a dynamic system, requests for resources happen all the time. some policy is needed to make a decision about who gets which resource when. this policy, although seemingly reasonable, may lead to some processes never getting service even though they are not deadlocked.as an example, consider allocation of the printer. imagine that the system uses some algorithm to ensure that allocating the printer does not lead to deadlock. now suppose that several processes all want it at once. who should get it?one possible allocation algorithm is to give it to the process with the smallestfile to print (assuming this information is available). this approach maximizes thenumber of happy customers and seems fair. now consider what happens in a busy system when one process has a huge file to print. every time the printer is free, the system will look around and choose the process with the shortest file. if there is a constant stream of processes with short files, the process with the huge file will never be allocated the printer. it will simply starve to death (be postponed indefinitely, even though it is not blocked). starvation can be avoided by using a first-come, first-served resource allocation policy. with this approach, the process waiting the longest gets served next. in due course of time, any giv en process will eventually become the oldest and thus get the needed resource. it is worth mentioning that some people do not make a distinction between starvation and deadlock because in both cases there is no forward progress. others feel that they are fundamentally different because a process could easily be programmed to try to do something n times and, if all of them failed, try something else. a blocked process does not have that choice.",
         "entities": [
             {
-                "entity": "live ##lock",
+                "entity": "livelock",
                 "label": "CONCEPT"
             },
             {
