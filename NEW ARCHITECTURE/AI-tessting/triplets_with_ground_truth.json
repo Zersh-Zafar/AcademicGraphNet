@@ -1,66 +1,112 @@
 [
+  
     {
-        "text": "Sentence: The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance. Entity1: Deep learning (TOPIC). Entity2: accuracy (CONCEPT).",
-        "entity1": "Deep learning",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "accuracy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: The goal of Computer Vision is to replicate human vision in machines. It processes pixel data to recognize patterns and structures within images. Techniques such as edge detection, segmentation, and feature extraction are commonly used. Deep learning has replaced many traditional methods due to its superior accuracy. Today, computer vision is widely used in facial recognition and smart surveillance. Entity1: Deep learning (TOPIC). Entity2: accuracy (CONCEPT).",
+      "entity1": "Deep learning",
+      "entity1_type": "TOPIC",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.92
     },
     {
-        "text": "Sentence: In Computer Vision, machines interpret images using algorithms. Object detection identifies objects in images. Deep learning improves performance significantly. It is used in surveillance systems. Entity1: Computer Vision (TOPIC). Entity2: Deep learning (TOPIC).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "Deep learning",
-        "entity2_type": "TOPIC",
-        "confidence": 0.389
+      "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: preprocessing (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "preprocessing",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.89
     },
     {
-        "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: Computer Vision (TOPIC). Entity2: accuracy (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "accuracy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: normalization (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "normalization",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.88
     },
     {
-        "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: Computer Vision (TOPIC). Entity2: Feature (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "Feature",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: feature extraction (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "feature extraction",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.87
     },
     {
-        "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: Computer Vision (TOPIC). Entity2: noise (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: Training a Computer Vision model involves feeding images into a neural network. The model learns by adjusting its weights based on errors. This process is called backpropagation. Optimization algorithms like gradient descent are used. Proper training improves model accuracy. Entity1: training (CONCEPT). Entity2: accuracy (CONCEPT).",
+      "entity1": "training",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.93
     },
     {
-        "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: Computer Vision (TOPIC). Entity2: classification (METHOD).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
+      "text": "Sentence: Training a Computer Vision model involves feeding images into a neural network. The model learns by adjusting its weights based on errors. This process is called backpropagation. Optimization algorithms like gradient descent are used. Proper training improves model accuracy. Entity1: gradient descent (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "gradient descent",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.85
     },
     {
-        "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: Computer Vision (TOPIC). Entity2: normalization (METHOD).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "normalization",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
+      "text": "Sentence: Data augmentation is an important technique in Computer Vision. It increases dataset size by applying transformations like rotation, flipping, and scaling. This helps improve model generalization. Augmentation reduces overfitting. It is commonly used in training deep learning models. Entity1: data augmentation (METHOD). Entity2: generalization (CONCEPT).",
+      "entity1": "data augmentation",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "generalization",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.94
+    },
+    {
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: loss functions (CONCEPT). Entity2: accuracy (CONCEPT).",
+      "entity1": "loss functions",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.91
+    },
+    {
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: cross-entropy (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "cross-entropy",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.88
+    },
+    {
+      "text": "Sentence: Computer Vision models require careful hyperparameter tuning. Parameters like learning rate and batch size affect performance. Choosing the right values is important. Techniques like grid search and random search are used. Good tuning improves model results. Entity1: hyperparameter tuning (METHOD). Entity2: performance (CONCEPT).",
+      "entity1": "hyperparameter tuning",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "performance",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.92
+    },
+    {
+      "text": "Sentence: Computer Vision models require careful hyperparameter tuning. Parameters like learning rate and batch size affect performance. Choosing the right values is important. Techniques like grid search and random search are used. Good tuning improves model results. Entity1: grid search (METHOD). Entity2: performance (CONCEPT).",
+      "entity1": "grid search",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "performance",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.87
+    },
+    {
+      "text": "Sentence: Computer Vision models require careful hyperparameter tuning. Parameters like learning rate and batch size affect performance. Choosing the right values is important. Techniques like grid search and random search are used. Good tuning improves model results. Entity1: random search (METHOD). Entity2: performance (CONCEPT).",
+      "entity1": "random search",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "performance",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.86
     },
     {
         "text": "Sentence: A typical Computer Vision system works in multiple stages. First, images are captured through cameras or sensors. Then, preprocessing techniques like noise reduction and normalization are applied. Feature extraction identifies key patterns such as edges and textures. Finally, classification or detection models produce results. This structured workflow improves accuracy and reliability. Entity1: accuracy (CONCEPT). Entity2: classification (METHOD).",
@@ -118,10 +164,10 @@
     },
     {
         "text": "Sentence: Data augmentation is an important technique in Computer Vision. It increases dataset size by applying transformations like rotation, flipping, and scaling. This helps improve model generalization. Augmentation reduces overfitting. It is commonly used in training deep learning models. Entity1: generalization (CONCEPT). Entity2: dataset (CONCEPT).",
-        "entity1": "generalization",
+        "entity1": "dataset",
         "entity1_type": "CONCEPT",
         "relation": "improves",
-        "entity2": "dataset",
+        "entity2": "generalization",
         "entity2_type": "CONCEPT",
         "confidence": 0.389
     },
@@ -134,140 +180,60 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.389
     },
+  
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Computer Vision (TOPIC). Entity2: Loss functions (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "Loss functions",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: accuracy (CONCEPT).",
+      "entity1": "Loss functions",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Computer Vision (TOPIC). Entity2: training (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: training (CONCEPT). Entity2: accuracy (CONCEPT).",
+      "entity1": "training",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Computer Vision (TOPIC). Entity2: accuracy (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "accuracy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: training (CONCEPT).",
+      "entity1": "Loss functions",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "training",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Computer Vision (TOPIC). Entity2: entropy (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "entropy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: cross-entropy (METHOD). Entity2: classification (METHOD).",
+      "entity1": "cross-entropy",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "classification",
+      "entity2_type": "METHOD",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Computer Vision (TOPIC). Entity2: classification (METHOD).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: cross-entropy (METHOD). Entity2: accuracy (CONCEPT).",
+      "entity1": "cross-entropy",
+      "entity1_type": "METHOD",
+      "relation": "improves",
+      "entity2": "accuracy",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: training (CONCEPT).",
-        "entity1": "Loss functions",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "training",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: accuracy (CONCEPT).",
-        "entity1": "Loss functions",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "accuracy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: entropy (CONCEPT).",
-        "entity1": "Loss functions",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "entropy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: Loss functions (CONCEPT). Entity2: classification (METHOD).",
-        "entity1": "Loss functions",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: training (CONCEPT). Entity2: accuracy (CONCEPT).",
-        "entity1": "training",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "accuracy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: training (CONCEPT). Entity2: entropy (CONCEPT).",
-        "entity1": "training",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "entropy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: training (CONCEPT). Entity2: classification (METHOD).",
-        "entity1": "training",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: accuracy (CONCEPT). Entity2: entropy (CONCEPT).",
-        "entity1": "accuracy",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "entropy",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: accuracy (CONCEPT). Entity2: classification (METHOD).",
-        "entity1": "accuracy",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: entropy (CONCEPT). Entity2: classification (METHOD).",
-        "entity1": "entropy",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "classification",
-        "entity2_type": "METHOD",
-        "confidence": 0.389
+      "text": "Sentence: Loss functions play a key role in training Computer Vision models. They measure the difference between predicted and actual values. Common loss functions include cross-entropy for classification. For detection tasks, more complex loss functions are used. Minimizing loss improves model accuracy. Entity1: training (CONCEPT). Entity2: classification (METHOD).",
+      "entity1": "training",
+      "entity1_type": "CONCEPT",
+      "relation": "improves",
+      "entity2": "classification",
+      "entity2_type": "METHOD",
+      "confidence": 0.389
     },
     {
         "text": "Sentence: Computer Vision models require careful hyperparameter tuning. Parameters like learning rate and batch size affect performance. Choosing the right values is important. Techniques like grid search and random search are used. Good tuning improves model results. Entity1: Computer Vision (TOPIC). Entity2: batch (CONCEPT).",
@@ -467,39 +433,13 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.389
     },
-    {
-        "text": "Sentence: Robustness is essential for reliable Computer Vision systems. Models must handle variations in lighting, noise, and occlusion. Training with diverse data improves robustness. Testing under different conditions is necessary. This ensures consistent performance. Entity1: Computer Vision (TOPIC). Entity2: noise (CONCEPT).",
-        "entity1": "Computer Vision",
-        "entity1_type": "TOPIC",
-        "relation": "improves",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
+  
     {
         "text": "Sentence: Robustness is essential for reliable Computer Vision systems. Models must handle variations in lighting, noise, and occlusion. Training with diverse data improves robustness. Testing under different conditions is necessary. This ensures consistent performance. Entity1: Training (CONCEPT). Entity2: Testing (CONCEPT).",
         "entity1": "Training",
         "entity1_type": "CONCEPT",
         "relation": "improves",
         "entity2": "Testing",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Robustness is essential for reliable Computer Vision systems. Models must handle variations in lighting, noise, and occlusion. Training with diverse data improves robustness. Testing under different conditions is necessary. This ensures consistent performance. Entity1: Training (CONCEPT). Entity2: noise (CONCEPT).",
-        "entity1": "Training",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "noise",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
-    },
-    {
-        "text": "Sentence: Robustness is essential for reliable Computer Vision systems. Models must handle variations in lighting, noise, and occlusion. Training with diverse data improves robustness. Testing under different conditions is necessary. This ensures consistent performance. Entity1: Testing (CONCEPT). Entity2: noise (CONCEPT).",
-        "entity1": "Testing",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "noise",
         "entity2_type": "CONCEPT",
         "confidence": 0.389
     },
@@ -1151,23 +1091,24 @@
         "entity2_type": "CONCEPT",
         "confidence": 0.389
     },
+  
     {
-        "text": "Sentence: PCA reduces high-dimensional data to a two-dimensional or three-dimensional space for easier visualization, helping to reveal data trends, clusters or outliers. PCA is often used before applying machine learning algorithms in order to reduce dimensionality, speed up training and improve model generalization. PCA transforms correlated data features into a smaller set of uncorrelated components, which can help improve model performance and interpretability. Entity1: generalization (CONCEPT). Entity2: features (CONCEPT).",
-        "entity1": "generalization",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "features",
-        "entity2_type": "CONCEPT",
-        "confidence": 0.389
+      "text": "Sentence: PCA reduces high-dimensional data to a two-dimensional or three-dimensional space for easier visualization, helping to reveal data trends, clusters or outliers. PCA is often used before applying machine learning algorithms in order to reduce dimensionality, speed up training and improve model generalization. PCA transforms correlated data features into a smaller set of uncorrelated components, which can help improve model performance and interpretability. Entity1: PCA (ALGORITHM). Entity2: generalization (CONCEPT).",
+      "entity1": "PCA",
+      "entity1_type": "ALGORITHM",
+      "relation": "improves",
+      "entity2": "generalization",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
-        "text": "Sentence: PCA reduces high-dimensional data to a two-dimensional or three-dimensional space for easier visualization, helping to reveal data trends, clusters or outliers. PCA is often used before applying machine learning algorithms in order to reduce dimensionality, speed up training and improve model generalization. PCA transforms correlated data features into a smaller set of uncorrelated components, which can help improve model performance and interpretability. Entity1: generalization (CONCEPT). Entity2: PCA (ALGORITHM).",
-        "entity1": "generalization",
-        "entity1_type": "CONCEPT",
-        "relation": "improves",
-        "entity2": "PCA",
-        "entity2_type": "ALGORITHM",
-        "confidence": 0.389
+      "text": "Sentence: PCA reduces high-dimensional data to a two-dimensional or three-dimensional space for easier visualization, helping to reveal data trends, clusters or outliers. PCA is often used before applying machine learning algorithms in order to reduce dimensionality, speed up training and improve model generalization. PCA transforms correlated data features into a smaller set of uncorrelated components, which can help improve model performance and interpretability. Entity1: PCA (ALGORITHM). Entity2: features (CONCEPT).",
+      "entity1": "PCA",
+      "entity1_type": "ALGORITHM",
+      "relation": "improves",
+      "entity2": "features",
+      "entity2_type": "CONCEPT",
+      "confidence": 0.389
     },
     {
         "text": "Sentence: PCA reduces high-dimensional data to a two-dimensional or three-dimensional space for easier visualization, helping to reveal data trends, clusters or outliers. PCA is often used before applying machine learning algorithms in order to reduce dimensionality, speed up training and improve model generalization. PCA transforms correlated data features into a smaller set of uncorrelated components, which can help improve model performance and interpretability. Entity1: training (CONCEPT). Entity2: outliers (CONCEPT).",
